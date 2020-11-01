@@ -6,7 +6,7 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "npx @11ty/eleventy --output=build",
-		"serve": "npx @11ty/eleventy --serve"
+		"serve": "npx @11ty/eleventy --serve --output=build"
 	},
 	"repository": {
 		"type": "git",
@@ -16,6 +16,7 @@
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
-		"@11ty/eleventy": "^0.11.0"
+		"@11ty/eleventy": "^0.11.0",
+		"eleventy-plugin-sass": "^1.1.1"
 	}
 }
