@@ -7,9 +7,19 @@
 	<meta name="viewport"
 		  content="width=device-width,initial-scale=1.0"/>
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
-	<title><%= pageTitle %> | Christian LeVesque LLC</title>
+	<title><%= pageTitle %> | <%= metadata.title %></title>
 </head>
 <body>
+<nav class="navbar">
+    <a href="/" class="navbar__brand">Christian LeVesque</a>
+    <ul class="navbar__link-container">
+        <% for (let link of metadata.links) { %>
+            <li class="navbar__link">
+                <a href="<%= link.href %>"><%= link.name %></a>
+            </li>
+        <% } %>
+    </ul>
+</nav>
 <%- content %>
 </body>
 </html>
