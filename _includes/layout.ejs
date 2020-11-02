@@ -6,33 +6,37 @@
 		  content="IE=edge"/>
 	<meta name="viewport"
 		  content="width=device-width,initial-scale=1.0"/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
-    <%- include('webpack') %>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+		  rel="stylesheet">
+	<%- include('webpack') %>
 	<title><%= pageTitle %> | <%= metadata.title %></title>
 </head>
 <body>
 <nav class="navbar">
-    <a href="/" class="navbar__brand">Christian LeVesque</a>
-    <ul class="navbar__link-container">
-        <% for (let link of metadata.links) { %>
-            <li class="navbar__link">
-                <a href="<%= link.href %>"><%= link.name %></a>
-            </li>
-        <% } %>
-    </ul>
+	<a href="/"
+	   class="navbar__brand">Christian LeVesque</a>
+	<ul class="navbar__link-container">
+		<% for (let link of metadata.links) { %>
+			<li class="navbar__link">
+				<a href="<%= link.href %>"><%= link.name %></a>
+			</li>
+		<% } %>
+	</ul>
 </nav>
 
 <div class="main-content">
-    <main>
-        <%- content %>
-    </main>
-    <aside>
-
-    </aside>
+	<main>
+		<%- content %>
+	</main>
+	<aside>
+		<div>
+			<a href="https://www.vultr.com/?ref=8506759-6G"><img src="https://www.vultr.com/media/banners/banner_628x628.png"></a>
+		</div>
+	</aside>
 </div>
 
 <footer class="footer footer--primary">
-    &copy;2020 Christian LeVesque. All rights reserved.
+	&copy;2020 Christian LeVesque. All rights reserved.
 </footer>
 </body>
 </html>

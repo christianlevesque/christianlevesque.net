@@ -1,0 +1,19 @@
+@import "variables";
+
+@mixin sm-up {
+	@media (min-width: $breakpoint-sm) {
+		@content;
+	}
+}
+
+@mixin md-up {
+	@media (min-width: $breakpoint-md) {
+		@content;
+	}
+}
+
+@mixin lg-up {
+	@media (min-width: $breakpoint-lg) {
+		@content;
+	}
+}
