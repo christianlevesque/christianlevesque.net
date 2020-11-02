@@ -1,5 +1,5 @@
 ---
-layout: main.ejs
+layout: layout.ejs
 pageTitle: Home
 ---
 
