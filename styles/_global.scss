@@ -7,6 +7,7 @@ html, body {
 	max-width: 100%;
 	overflow-x: hidden;
 	font-family: $font-family;
+	font-size: $font-size-base;
 }
 body {
 	display: flex;
@@ -23,7 +24,7 @@ img {
 	flex-direction: column;
 
 	width: 90%;
-	margin: auto;
+	margin: (2 * $nav-height) auto auto auto;
 
 	@include lg-up {
 		flex-direction: row;
