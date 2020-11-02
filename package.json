@@ -4,9 +4,10 @@
 	"description": "My personal website and blog",
 	"main": "index.js",
 	"scripts": {
+		"clean": "if [ -d \"build\" ]; then rm -r build; fi",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "npx @11ty/eleventy --output=build",
-		"serve": "npx @11ty/eleventy --serve --output=build"
+		"build": "npm run clean && npx webpack && npx @11ty/eleventy --output=build --formats=md,ejs",
+		"serve": "npm run clean && npx webpack && npx @11ty/eleventy --serve --output=build --formats=md,ejs"
 	},
 	"repository": {
 		"type": "git",
@@ -17,7 +18,21 @@
 	"license": "ISC",
 	"devDependencies": {
 		"@11ty/eleventy": "^0.11.0",
-		"eleventy-plugin-sass": "^1.1.1",
-		"normalize.css": "^8.0.1"
+		"@babel/core": "^7.6.0",
+		"@babel/preset-env": "^7.6.0",
+		"autoprefixer": "^9.8.6",
+		"babel-loader": "^8.0.6",
+		"clean-webpack-plugin": "^3.0.0",
+		"copy-webpack-plugin": "^5.0.4",
+		"css-loader": "^5.0.0",
+		"file-loader": "^4.2.0",
+		"html-webpack-plugin": "^4.5.0",
+		"mini-css-extract-plugin": "^1.2.1",
+		"postcss-loader": "^4.0.4",
+		"sass": "^1.28.0",
+		"sass-loader": "^10.0.5",
+		"style-loader": "^2.0.0",
+		"webpack": "^4.40.2",
+		"webpack-cli": "^3.3.9"
 	}
 }
