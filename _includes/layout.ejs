@@ -28,7 +28,8 @@
 		class="navbar__link-container">
 		<% for (let link of metadata.links) { %>
 			<li class="navbar__link">
-				<a href="<%= link.href %>"><%= link.name %></a>
+				<a class="navbar__link-text"
+				   href="<%= link.href %>"><%= link.name %></a>
 			</li>
 		<% } %>
 	</ul>

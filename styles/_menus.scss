@@ -62,8 +62,27 @@
 }
 
 .navbar__link {
-	padding: 0.5 * $spacer;
 	@include lg-up {
 		margin-left: $spacer;
+	}
+}
+
+.navbar__link-text {
+	padding: 0.5 * $spacer;
+	color: $font-color;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+
+	@include lg-up {
+		padding-bottom: 0.25 * $spacer;
+	}
+
+	&.active {
+		border-bottom: 2px solid $primary;
+		&:hover {
+			border-bottom-color: $secondary;
+		}
 	}
 }
