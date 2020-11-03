@@ -11,4 +11,4 @@ The APIs and Microservices Certification currently has 5 projects you need to co
 
 Before we get started, I want to point out real quick that it's a violation of the FreeCodeCamp policies to follow this tutorial, copy the code, and then use this code to get the certificate for yourself. The code you use to get the certificate has to be original. I will take a slightly different approach to each project in the certification so you can see different ways to solve a problem in ASP.NET Core. I recommend that you take the approach you like the best and use it to solve each of the projects for yourself.
 
-Now that that's out of the way, let's move on to our first project in the certification: the Request Header Parser Microservice project.
+Now that that's out of the way, let's make sure we're all set up and ready for the projects.
