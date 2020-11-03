@@ -20,7 +20,7 @@ img {
 	max-width: 100%;
 }
 
-code {
+*:not(pre) > code {
 	background: $gray;
 	font-weight: bold;
 	padding-left: 0.5 * $spacer;
