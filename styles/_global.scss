@@ -20,6 +20,13 @@ img {
 	max-width: 100%;
 }
 
+code {
+	background: $gray;
+	font-weight: bold;
+	padding-left: 0.5 * $spacer;
+	padding-right: 0.5 * $spacer;
+}
+
 a {
 	text-decoration: none;
 	color: $font-color;
