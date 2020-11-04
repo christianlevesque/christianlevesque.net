@@ -17,3 +17,7 @@
 		@content;
 	}
 }
+
+@mixin inset {
+	margin: (3 * $spacer) 0 (3 * $spacer) $spacer;
+}

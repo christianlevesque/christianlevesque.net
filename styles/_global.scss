@@ -25,6 +25,36 @@ img {
 	font-weight: bold;
 	padding-left: 0.5 * $spacer;
 	padding-right: 0.5 * $spacer;
+	word-wrap: break-word;
+}
+
+ul, ol {
+	@include inset;
+}
+
+li {
+	margin-bottom: $spacer;
+}
+
+pre[class*="language-"] {
+	@include inset;
+}
+
+blockquote {
+	@include inset;
+	padding-left: 2 * $spacer;
+	position: relative;
+	width: 100%;
+	background: $light-gray;
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: $spacer;
+		height: 100%;
+		background: $gray;
+	}
 }
 
 a {
