@@ -1,6 +1,8 @@
 @import "reset";
 @import "prism";
+@import "bootstrap-overrides";
+@import "~bootstrap/scss/bootstrap";
 @import "global";
-@import "menus";
-@import "footer";
-@import "fixes";
+//@import "menus";
+//@import "footer";
+//@import "fixes";
