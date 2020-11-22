@@ -12,6 +12,7 @@ Most of the visuals on this site are drab - that's by design! But some of the wo
 
 - Syntax highlighting is provided by [PrismJS](https://prismjs.com).
 - The syntax highlighting theme used on my website is [Prism Material Dark](https://github.com/PrismJS/prism-themes/blob/master/themes/prism-material-dark.css), which was developed by [dutchenkoOleg](https://github.com/dutchenkoOleg).
+- Site design is based on a custom theme for [Bootstrap](https://getbootstrap.com)
 
 ## Build
 
@@ -22,6 +23,7 @@ No one writes unbundled Javascript anymore, do they? This site was built with a 
 - Bundling was done with [Webpack](https://webpack.js.org).
 - JS transpilation was done with [Babel](https://babeljs.io).
 - Sass transpilation was done with [Dart-Sass](https://sass-lang.com/dart-sass)
+- CSS processing was done with [PostCSS](https://postcss.org/)
 
 ## Infrastructure
 
