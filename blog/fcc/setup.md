@@ -18,7 +18,7 @@ You can't interact with APIs the way you can interact with regular web pages (we
 
 You will need a server that is connected to the internet. There are a few different ways to get this, but one of the easiest (and cheapest) ways is to use a [Vultr VPS instance](https://www.vultr.com/?ref=8506759-6G) (full disclosure: that's an affiliate link).
 
-If your internet modem accepts inbound connections, you can also set up a virtual machine on your home network and add port forwarding rules to your router to host the web application from your home. I don't recommend this option because it opens your home network to requests from the outside world, but if you're careful you can make it work.
+If your internet modem accepts inbound connections, you can also set up a virtual machine on your home network and add port forwarding rules to your router to host the web application from your home for free. I don't recommend this option because it opens your home network to requests from the outside world, but if you're careful you can make it work.
 
 In either case, I recommend you install a standard server OS like [Ubuntu](https://ubuntu.com/) (if you install a Linux flavor, be sure to install the server edition and not the desktop edition).
 
