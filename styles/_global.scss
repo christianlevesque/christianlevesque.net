@@ -1,86 +1,22 @@
-@import "variables";
-@import "mixins";
+@import "bootstrap-overrides";
 
 html, body {
 	overflow-x: hidden;
-	font-family: $font-family;
-	font-size: $font-size-base;
-	line-height: 1.6;
+	font-size: 20px;
 }
 
 a.ad {
 	text-decoration: none;
 }
 
-//img {
-//	max-width: 100%;
-//}
-//
-//*:not(pre) > code {
-//	background: $gray;
-//	font-weight: bold;
-//	padding-left: 0.5 * $spacer;
-//	padding-right: 0.5 * $spacer;
-//	word-wrap: break-word;
-//}
-//
-//ul, ol {
-//	@include inset;
-//}
-//
-//li {
-//	margin-bottom: $spacer;
-//}
-//
-//pre[class*="language-"] {
-//	@include inset;
-//}
-//
-//blockquote {
-//	@include inset;
-//	padding-left: 2 * $spacer;
-//	position: relative;
-//	width: 100%;
-//	background: $light-gray;
-//	&:before {
-//		content: "";
-//		position: absolute;
-//		top: 0;
-//		left: 0;
-//		width: $spacer;
-//		height: 100%;
-//		background: $gray;
-//	}
-//}
+.text-decoration-underline {
+	text-decoration: underline;
+}
 
-//.main-content {
-//	flex-grow: 1;
-//	display: flex;
-//	flex-direction: column;
-//
-//	width: 90%;
-//	margin: (2 * $nav-height) auto auto auto;
-//
-//	@include lg-up {
-//		flex-direction: row;
-//		justify-content: space-between;
-//	}
-//
-//	main {
-//		width: 90%;
-//		margin: auto;
-//		@include lg-up {
-//			width: 65%;
-//			margin: 0;
-//		}
-//	}
-//
-//	aside {
-//		width: 90%;
-//		margin: (3 * $spacer) auto;
-//		@include lg-up {
-//			width: 20%;
-//			margin: 0;
-//		}
-//	}
-//}
+.blockquote[class*="border"] {
+	border-width: 4px !important;
+}
+pre[class*="language-"] {
+	margin: ($spacer * 2.5) 15px;
+	width: 100%;
+}

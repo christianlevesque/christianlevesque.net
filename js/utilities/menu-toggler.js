@@ -4,7 +4,7 @@ const togglerIcon = document.getElementById("toggler-icon")
 
 if (toggler) {
 	toggler.addEventListener("click", e => {
-		mainMenu.classList.toggle("open")
+		mainMenu.classList.toggle("collapse")
 		togglerIcon.classList.toggle("fa-bars")
 		togglerIcon.classList.toggle("fa-times")
 	})
