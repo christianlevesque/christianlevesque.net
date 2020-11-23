@@ -1,5 +1,7 @@
 ---
 pageTitle: FCC Project Setup
+tags: fcc
+category: fcc_courses
 ---
 
 ## dotnet

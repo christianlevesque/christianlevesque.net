@@ -1,6 +1,6 @@
 ---
-layout: layout.ejs
 pageTitle: Home
+category: fcc
 ---
 
 # Christian LeVesque

@@ -42,6 +42,9 @@
 	<div class="row">
 		<main class="col-12 col-lg-7">
 			<div class="row">
+				<% if (page.url !== "/") { %>
+				<h1 class="my-4 col-12"><%- pageTitle %></h1>
+				<% } %>
 				<%- content %>
 			</div>
 		</main>
@@ -54,16 +57,9 @@
 						 src="https://www.vultr.com/media/banners/banner_628x628.png">
 				</a>
 			</div>
-			<div>
-				<p>Hi, I'm Christian, and this is an ad.</p>
-
-				<p>I'm not trying to get rich by filling my blog with information people want, then hiding it behind dozens of shady advertisements from God-knows-who. I love sharing my knowledge with the world, and unfortunately, that costs money. Hence this ad.</p>
-
-				<p>But this isn't just any ad - it's the only ad you will see on my site. It's an ad for a product that I love and use every day. It's an ad that leads directly to the product you would be buying (there's no middle man here like Google Ads - go ahead, simply hover over the ad to see where the link goes). Vultr is my web host of choice, and I honestly have never used a better product.</p>
-
-				<p>If you buy web hosting from Vultr through the link above, I will get a small amount of money for my own web hosting at no cost to you. In fact, you will get $100 of free credit to try out Vultr's platform, and I'm sure you'll love it as much as I have - and if you have any questions or need any help, I write about managing VPS instances through Vultr right here on my blog, so read on, enjoy this free content, and consider supporting this blog with a Vultr purchase!</p>
-
-			</div>
+			<ul class="col-12">
+				<li><%- category %></li>
+			</ul>
 		</aside>
 	</div>
 </div>

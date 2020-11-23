@@ -1,5 +1,9 @@
 ---
 pageTitle: Introduction to FreeCodeCamp Microservices Certification in ASP.NET Core
+tags:
+    - fcc_courses
+    - fcc
+category: fcc_courses
 ---
 [FreeCodeCamp](https://www.freecodecamp.org) is a great learning resource. When I first started taking Javascript seriously, FreeCodeCamp was the single greatest resource in my journey - but the biggest problem I have with FreeCodeCamp is that their curriculum is based almost entirely on JavaScript. They are adding more and more non-JavaScript material, but the lion's share of their coursework is JS-centric.
 
