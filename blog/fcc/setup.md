@@ -8,7 +8,7 @@ I'm assuming that you are familiar with C# and .NET Core. That being said, I als
 
 ## Text editor
 
-As a C# developer, you probably already have a text editor or IDE of choice. If not, I recommend you start with [Visual Studio Code](https://code.visualstudio.com/download) for its ease of use (and its free-ness). I personally can't stand Visual Studio, so I use the [Jetbrains](https://www.jetbrains.com) family of IDEs. They're not free, but they're performant and packed with features.
+As a C# developer, you probably already have a text editor or IDE of choice. If not, I recommend you start with [Visual Studio Code](https://code.visualstudio.com/download) for its ease of use (and its free-ness). I personally use the [Jetbrains](https://www.jetbrains.com) family of IDEs. They're not free, but they're performant and packed with features.
 
 ## API testing software
 
