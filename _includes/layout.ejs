@@ -46,6 +46,44 @@
 					<h1 class="my-4 col-12"><%- pageTitle %></h1>
 				<% } %>
 				<%- content %>
+				<% if (category !== "courses") { %>
+					<% const courseList = collections[category] %>
+					<% const currentCourseIndex = courseList.findIndex(c => c.url === page.url) %>
+					<% if (currentCourseIndex > -1) { %>
+						<div class="col-12">
+							<div class="row">
+								<% const isFirstCourse = currentCourseIndex === 0 %>
+								<% const isLastCourse = currentCourseIndex === courseList.length - 1 %>
+								<div class="col-6 px3">
+									<% if (!isFirstCourse) { %>
+										<% const previousCourse = courseList[currentCourseIndex - 1] %>
+										<a href="<%- previousCourse.url %>">
+											<article class="card">
+												<section class="card-body">
+													<h4 class="card-title">Previous</h4>
+													<p class="card-text"><%- previousCourse.data.pageTitle %></p>
+												</section>
+											</article>
+										</a>
+									<% } %>
+								</div>
+								<div class="col-6 px-3">
+									<% if (!isLastCourse) { %>
+										<% const nextCourse = courseList[currentCourseIndex + 1] %>
+										<a href="<%- nextCourse.url %>">
+											<article class="card">
+												<section class="card-body">
+													<h4 class="card-title">Up Next</h4>
+													<p class="card-text"><%- nextCourse.data.pageTitle %></p>
+												</section>
+											</article>
+										</a>
+									<% } %>
+								</div>
+							</div>
+						</div>
+					<% } %>
+				<% } %>
 			</div>
 		</main>
 		<aside class="col-12 col-lg-3 offset-lg-2 mt-5 mt-lg-0">
@@ -59,9 +97,9 @@
 			</div>
 			<h2 class="mb-3">
 				<% if (category === "courses") { %>
-				Courses
+					Courses
 				<% } else { %>
-				Related courses
+					Related courses
 				<% } %>
 			</h2>
 			<ul class="nav flex-column mb-5">
