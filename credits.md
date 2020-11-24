@@ -1,6 +1,6 @@
 ---
 pageTitle: Works I Used
-category: fcc
+category: courses
 ---
 # Works I used
 
