@@ -1,7 +1,7 @@
 ---
 pageTitle: Introduction to FreeCodeCamp Microservices Certification in ASP.NET Core
 tags:
-    - fcc_courses
+    - courses
     - fcc
 category: fcc_courses
 ---
