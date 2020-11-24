@@ -38,18 +38,18 @@
 	</div>
 </nav>
 
-<div class="w-90 container-fluid mx-auto d-flex flex-column flex-grow-1 mt-5">
+<div class="w-90 container-fluid mx-auto d-flex flex-column flex-grow-1 my-5">
 	<div class="row">
 		<main class="col-12 col-lg-7">
 			<div class="row">
 				<% if (page.url !== "/") { %>
-				<h1 class="my-4 col-12"><%- pageTitle %></h1>
+					<h1 class="my-4 col-12"><%- pageTitle %></h1>
 				<% } %>
 				<%- content %>
 			</div>
 		</main>
 		<aside class="col-12 col-lg-3 offset-lg-2 mt-5 mt-lg-0">
-			<div class="mb-3">
+			<div class="mb-5">
 				<a class="ad"
 				   href="https://www.vultr.com/?ref=8506759-6G">
 					<img class="img-fluid"
@@ -57,16 +57,32 @@
 						 src="https://www.vultr.com/media/banners/banner_628x628.png">
 				</a>
 			</div>
-			<ul class="col-12">
-				<li><%- category %></li>
+			<h2 class="mb-3">
+				<% if (category === "courses") { %>
+				Courses
+				<% } else { %>
+				Related courses
+				<% } %>
+			</h2>
+			<ul class="nav flex-column mb-5">
+				<% for (post of collections[category]) { %>
+					<li>
+						<% if (page.url === post.url) { %>
+							<%- post.data.pageTitle %>
+						<% } else { %>
+							<a href="<%- post.url %>"><%- post.data.pageTitle %></a>
+						<% } %>
+					</li>
+				<% } %>
 			</ul>
 		</aside>
 	</div>
 </div>
 
-<footer class="w-100 p-3 text-center bg-primary text-white">
+<footer class="w-100 p-3 mt-5 text-center bg-primary text-white">
 	<p>&copy;2020 Christian LeVesque. All rights reserved.</p>
-	<p>This site was built using open source software. A list of top-level dependencies can be found on my <a class="text-white text-decoration-underline" href="/credits">credits page</a></p>
+	<p>This site was built using open source software. A list of top-level dependencies can be found on my <a class="text-white text-decoration-underline"
+																											  href="/credits">credits page</a></p>
 </footer>
 
 </body>
