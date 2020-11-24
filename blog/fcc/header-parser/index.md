@@ -83,7 +83,7 @@ The JSON object returned from `/api/whoami` needs to have a third field called `
 ```json
 {
     "ipaddress": "12.34.56.78",
-    "language": "English",
+    "language": "en-US",
     "software": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:82.0) Gecko/20100101 Firefox/82.0"
 }
 ```
