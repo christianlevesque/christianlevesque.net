@@ -1,6 +1,6 @@
 ---
 pageTitle: Home
-category: fcc
+category: courses
 ---
 
 # Christian LeVesque
