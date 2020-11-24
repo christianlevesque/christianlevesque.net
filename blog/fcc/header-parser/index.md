@@ -49,11 +49,11 @@ There are four requirements for the Request Header Parser microservice project:
 
 Let's go over these one at a time.
 
-> You should provide your own project, not the example URL.
+### You should provide your own project, not the example URL.
 
 FCC provides example projects for each of their projects. This requirement appears in each of their microservices projects, and it simply means that in the URL input on the project page, you use your own project URL instead of the URL to the example project.
 
-> A request to `/api/whoami` should return a JSON object with your IP address in the `ipaddress` key
+### A request to `/api/whoami` should return a JSON object with your IP address in the `ipaddress` key
 
 Any request that is sent to `/api/whoami` should return a JSON object. This requirement requires the user's IP address to be included in that JSON object in a field called `ipaddress`. So if the user's IP address is `12.34.56.78`, their response would be:
 
@@ -65,7 +65,7 @@ Any request that is sent to `/api/whoami` should return a JSON object. This requ
 
 There are several ways to determine the user's IP address, depending on how your application is hosted.
 
-> A request to `/api/whoami` should return a JSON object with your preferred language in the `language` key
+### A request to `/api/whoami` should return a JSON object with your preferred language in the `language` key
 
 The JSON object returned from `/api/whoami` needs to have a second field called `language`. There is an HTTP request header called `Accept-Language`, and the value of this header should be returned in the `language` field. If the user's `Accept-Language` header is `en-US`, their response would further be:
 
@@ -76,7 +76,7 @@ The JSON object returned from `/api/whoami` needs to have a second field called 
 }
 ```
 
-> A request to `/api/whoami` should return a JSON object with your software in the `software` key
+### A request to `/api/whoami` should return a JSON object with your software in the `software` key
 
 The JSON object returned from `/api/whoami` needs to have a third field called `software`. There is an HTTP request header called `User-Agent`, which identifies what software you're using to access a website. The value of this header should be returned in the `software` field. If the user's `User-Agent` header is `Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:82.0) Gecko/20100101 Firefox/82.0`, their response would further be:
 
