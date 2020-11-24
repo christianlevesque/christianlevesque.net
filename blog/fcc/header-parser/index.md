@@ -55,7 +55,7 @@ FCC provides example projects for each of their projects. This requirement appea
 
 ### A request to `/api/whoami` should return a JSON object with your IP address in the `ipaddress` key
 
-Any request that is sent to `/api/whoami` should return a JSON object. This requirement requires the user's IP address to be included in that JSON object in a field called `ipaddress`. So if the user's IP address is `12.34.56.78`, their response would be:
+Any request that is sent to `/api/whoami` should return a JSON object. This requirement expects the user's IP address to be included in that JSON object in a field called `ipaddress`. So if the user's IP address is `12.34.56.78`, their response would be:
 
 ```json
 {
