@@ -39,7 +39,7 @@ Some of it we can keep, but some of it we should delete. For now, delete the `We
 
 ## Project requirements
 
-The microservice should be hosted at `/api/whoami` on whatever server you host your code on. There are a few different ways to achieve this, and which way you choose will likely depend on how you host your app.
+The microservice should be hosted at `/api/whoami` on whatever server you host your code on. There are a few different ways to achieve this, and which way you choose will likely depend on how you host your app. We will be setting up [Nginx](https://www.nginx.com/) as a reverse proxy, so our app won't care where it's hosted - it will just respond to all requests sent to it, and Nginx will handle the `/api/whoami` part.
 
 There are four requirements for the Request Header Parser microservice project:
 
