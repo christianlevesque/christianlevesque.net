@@ -64,7 +64,7 @@ Any request that is sent to `/api/whoami` should return a JSON object. This requ
 }
 ```
 
-There are several ways to determine the user's IP address, depending on how your application is hosted.
+There are several ways to determine the user's IP address, depending on how your application is hosted. Since we will be using Nginx as a reverse proxy, we will instruct Nginx to set the user's IP address as the value of the `X-Forwarded-For` HTTP header, which will then be available to our application.
 
 ### A request to `/api/whoami` should return a JSON object with your preferred language in the `language` key
 
