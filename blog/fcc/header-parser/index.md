@@ -5,6 +5,7 @@ tags:
     - fcc_header_parser
     - fcc_courses
 category: fcc_header_parser
+date: 2020-10-03
 ---
 This project is small and simple, so it makes a great starting point for jumping into ASP.NET Core.
 
@@ -38,7 +39,7 @@ Some of it we can keep, but some of it we should delete. For now, delete the `We
 
 ## Project requirements
 
-The microservice should be hosted at `/api/whoami` on whatever server you host your code on. There are a few different ways to achieve this, and which way you choose will likely depend on how you host your app.
+The microservice should be hosted at `/api/whoami` on whatever server you host your code on. There are a few different ways to achieve this, and which way you choose will likely depend on how you host your app. We will be setting up [Nginx](https://www.nginx.com/) as a reverse proxy, so our app won't care where it's hosted - it will just respond to all requests sent to it, and Nginx will handle the `/api/whoami` part.
 
 There are four requirements for the Request Header Parser microservice project:
 
@@ -63,7 +64,7 @@ Any request that is sent to `/api/whoami` should return a JSON object. This requ
 }
 ```
 
-There are several ways to determine the user's IP address, depending on how your application is hosted.
+There are several ways to determine the user's IP address, depending on how your application is hosted. Since we will be using Nginx as a reverse proxy, we will instruct Nginx to set the user's IP address as the value of the `X-Forwarded-For` HTTP header, which will then be available to our application.
 
 ### A request to `/api/whoami` should return a JSON object with your preferred language in the `language` key
 
