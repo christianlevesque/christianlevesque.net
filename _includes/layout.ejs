@@ -17,111 +17,17 @@
 	<title><%= pageTitle %> | <%= metadata.title %></title>
 </head>
 <body class="d-flex flex-column w-100 mw-100 min-vh-100">
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-	<a href="/"
-	   class="navbar-brand">Christian LeVesque</a>
-	<button id="toggler"
-			class="navbar-toggler">
-		<i id="toggler-icon"
-		   class="fas fa-bars"></i>
-	</button>
-	<div id="main-menu"
-		 class="collapse navbar-collapse">
-		<ul class="navbar-nav ml-auto">
-			<% for (let link of metadata.links) { %>
-				<li class="nav-item">
-					<a class="nav-link text-right"
-					   href="<%= link.href %>"><%= link.name %></a>
-				</li>
-			<% } %>
-		</ul>
-	</div>
-</nav>
+
+<%- include('widgets/main-menu') %>
 
 <div class="w-90 container-fluid mx-auto d-flex flex-column flex-grow-1 my-5">
 	<div class="row">
-		<main class="col-12 col-lg-7">
-			<div class="row">
-				<% if (page.url !== "/") { %>
-					<h1 class="my-4 col-12"><%- pageTitle %></h1>
-				<% } %>
-				<%- content %>
-				<% if (nextLinkCategory !== "none") { %>
-					<% const courseList = collections[nextLinkCategory] %>
-					<% const currentCourseIndex = courseList.findIndex(c => c.url === page.url) %>
-					<% if (currentCourseIndex > -1) { %>
-						<div class="col-12">
-							<div class="row">
-								<% const isFirstCourse = currentCourseIndex === 0 %>
-								<% const isLastCourse = currentCourseIndex === courseList.length - 1 %>
-								<div class="col-12 col-md-6 px-3 mt-3">
-									<% if (!isFirstCourse) { %>
-										<% const previousCourse = courseList[currentCourseIndex - 1] %>
-										<a href="<%- previousCourse.url %>">
-											<article class="card w-100 h-100">
-												<section class="card-body">
-													<h4 class="card-title">Previous</h4>
-													<p class="card-text"><%- previousCourse.data.pageTitle %></p>
-												</section>
-											</article>
-										</a>
-									<% } %>
-								</div>
-								<div class="col-12 col-md-6 px-3 mt-3">
-									<% if (!isLastCourse) { %>
-										<% const nextCourse = courseList[currentCourseIndex + 1] %>
-										<a href="<%- nextCourse.url %>">
-											<article class="card w-100 h-100">
-												<section class="card-body">
-													<h4 class="card-title">Up Next</h4>
-													<p class="card-text"><%- nextCourse.data.pageTitle %></p>
-												</section>
-											</article>
-										</a>
-									<% } %>
-								</div>
-							</div>
-						</div>
-					<% } %>
-				<% } %>
-			</div>
-		</main>
-		<aside class="col-12 col-lg-3 offset-lg-2 mt-5 mt-lg-0">
-			<div class="mb-5">
-				<a class="ad"
-				   href="https://www.vultr.com/?ref=8506759-6G">
-					<img class="img-fluid"
-						 alt="Vultr Banner Ad"
-						 src="https://www.vultr.com/media/banners/banner_628x628.png">
-				</a>
-			</div>
-			<h2 class="mb-3">
-				<% if (category === "courses") { %>
-					Courses
-				<% } else { %>
-					Related courses
-				<% } %>
-			</h2>
-			<ul class="nav flex-column mb-5">
-				<% for (post of collections[category]) { %>
-					<li>
-						<% if (page.url === post.url) { %>
-							<%- post.data.pageTitle %>
-						<% } else { %>
-							<a href="<%- post.url %>"><%- post.data.pageTitle %></a>
-						<% } %>
-					</li>
-				<% } %>
-			</ul>
-		</aside>
+		<%- include('widgets/main-content') %>
+		<%- include('widgets/sidebar') %>
 	</div>
 </div>
 
-<footer class="w-100 p-3 mt-5 text-center bg-primary text-white">
-	<p>&copy;2020 Christian LeVesque. All rights reserved.</p>
-	<p>This site was built using open source software. A list of top-level dependencies can be found on my <a class="text-white text-decoration-underline"
-																											  href="/credits">credits page</a></p>
-</footer>
+<%- include('widgets/footer') %>
 
 </body>
 </html>
