@@ -6,6 +6,7 @@ tags:
     - courses
 category: html_css
 date: 2020-09-01
+blurb: An in-depth introduction to HTML and CSS for beginners
 ---
 
 Welcome to my free course on HTML and CSS! If you’re new to web development, then you’re in the right place.

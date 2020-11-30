@@ -4,8 +4,10 @@ tags:
     - wordpress
     - wordpress_hosting
     - courses
+    - backend_courses
 category: wordpress_hosting
 date: 2020-10-01
+blurb: A crash course on self-hosting WordPress sites for absolute beginners
 ---
 
 WordPress is one of the most popular solutions for small business websites, blogs, and hobby or special interest websites. It’s free to use, easy to set up, and cheap to host. But sometimes, you need to be able to host a WordPress site on the cheap without sacrificing performance.
