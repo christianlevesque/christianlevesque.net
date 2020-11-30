@@ -1,0 +1,22 @@
+---
+pageTitle: Backend Courses
+tags:
+- backend
+category: backend_courses
+date: 2020-10-01
+---
+
+<p class="col-12 my-5">
+	As you can tell by the drab design of my website, I specialize in backend technologies. I've used most of the big names at one point or another, including PHP, Node.js, C#/ASP.NET Core, and Java/Spring. Here, you can find some instructions on how to get started in various aspects of the backend.
+</p>
+
+<% for (let course of collections["backend_courses"]) { %>
+<article class="col-12 col-lg-6 card border-0">
+	<a href="<%- course.url %>">
+		<div class="card-body">
+			<h2 class="card-title"><%- course.data.pageTitle %></h2>
+			<p class="card-text"><%- course.data.blurb %></p>
+		</div>
+	</a>
+</article>
+<% } %>
