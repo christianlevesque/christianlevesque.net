@@ -16,7 +16,7 @@
     </h2>
     <ul class="nav flex-column mb-5">
         <% for (post of collections[category]) { %>
-            <li>
+            <li class="mb-1">
                 <% if (page.url === post.url) { %>
                     <%- post.data.pageTitle %>
                 <% } else { %>
