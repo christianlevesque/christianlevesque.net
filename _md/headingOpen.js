@@ -7,7 +7,7 @@ module.exports = function (tokens, idx, options, env, self) {
 	const token  = tokens[idx]
 
 	// Add Bootstrap classes
-	token.attrPush(["class", "my-4 col-12"])
+	token.attrPush(["class", "mt-3 col-12"])
 
 	// Return the render with the opening wrapper div
 	return defaultRender(tokens, idx, options, env, self)
