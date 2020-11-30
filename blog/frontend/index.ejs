@@ -1,0 +1,22 @@
+---
+pageTitle: Frontend Courses
+tags:
+	- frontend
+category: courses
+date: 2020-10-01
+---
+
+<p class="col-12 my-5">
+	I'm no designer. But I've been working with frontend technologies for over a decade and I know my way around HTML, CSS, and Javascript. I can't help you create a vision for a beautiful website, but I can help you take your own vision a reality.
+</p>
+
+<% for (let course of collections["frontend_courses"]) { %>
+	<article class="col-12 col-lg-6 card border-0">
+		<a href="<%- course.url %>">
+			<div class="card-body">
+				<h2 class="card-title"><%- course.data.pageTitle %></h2>
+				<p class="card-text"><%- course.data.blurb %></p>
+			</div>
+		</a>
+	</article>
+<% } %>
