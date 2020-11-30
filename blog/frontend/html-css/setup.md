@@ -7,7 +7,7 @@ category: html_css
 date: 2020-09-02
 ---
 
-Downloading the software
+## Downloading the software
 
 The first thing you need to do to get ready for the course is to download the software we will be using. As I said before, everything you absolutely need is on your computer already, but a developer is only as good as the tools she uses, so I recommend you start off using the right tools from the very beginning.
 
