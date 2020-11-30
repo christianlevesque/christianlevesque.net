@@ -5,6 +5,7 @@ tags:
     - wordpress_hosting
 category: wordpress_hosting
 date: 2020-10-04
+headerImage: /images/backend/wordpress-hosting/mysql-logo.png
 ---
 
 MySQL is a free and open-source database server. It’s the most popular database system in use with PHP and it’s the only database that works with WordPress (MariaDB is a fork of MySQL; they are generally interchangeable and contain most of the same source code), so we will be installing MySQL since that’s most likely what you need.

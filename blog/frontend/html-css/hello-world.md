@@ -5,6 +5,7 @@ tags:
     - html_css
 category: html_css
 date: 2020-09-03
+headerImage: none
 ---
 
 It’s a long-running tradition to write the “Hello World!” script for your first piece of code in any new language. We’ll be doing that here in just a minute.

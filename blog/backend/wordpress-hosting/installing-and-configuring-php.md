@@ -5,6 +5,7 @@ tags:
     - wordpress_hosting
 category: wordpress_hosting
 date: 2020-10-05
+headerImage: /images/backend/wordpress-hosting/php-logo.png
 ---
 
 ## Brace yourself...again

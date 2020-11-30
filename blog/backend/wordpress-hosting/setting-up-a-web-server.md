@@ -5,6 +5,7 @@ tags:
     - wordpress_hosting
 category: wordpress_hosting
 date: 2020-10-03
+headerImage: /images/backend/wordpress-hosting/nginx-logo.png
 ---
 
 Wait a minute. I thought I already had a web server!

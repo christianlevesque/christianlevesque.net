@@ -6,6 +6,7 @@ tags:
     - courses
 category: html_css
 date: 2020-09-01
+headerImage: /images/frontend/html-css/code-coder-coding-computer.jpg
 blurb: An in-depth introduction to HTML and CSS for beginners
 ---
 

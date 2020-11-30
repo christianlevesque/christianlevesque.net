@@ -1,9 +1,10 @@
 ---
 pageTitle: Frontend Courses
 tags:
-	- frontend
+- frontend
 category: courses
 date: 2020-10-01
+headerImage: none
 ---
 
 <p class="col-12 my-5">
@@ -11,12 +12,17 @@ date: 2020-10-01
 </p>
 
 <% for (let course of collections["frontend_courses"]) { %>
-	<article class="col-12 col-lg-6 card border-0">
-		<a href="<%- course.url %>">
-			<div class="card-body">
-				<h2 class="card-title"><%- course.data.pageTitle %></h2>
-				<p class="card-text"><%- course.data.blurb %></p>
-			</div>
-		</a>
-	</article>
+	<div class="col-12 col-lg-6">
+		<article class="card">
+			<a href="<%- course.url %>">
+				<img src="<%- course.data.headerImage %>"
+					 class="card-img-top"
+					 alt="Post header image"/>
+				<div class="card-body">
+					<h2 class="card-title"><%- course.data.pageTitle %></h2>
+					<p class="card-text"><%- course.data.blurb %></p>
+				</div>
+			</a>
+		</article>
+	</div>
 <% } %>

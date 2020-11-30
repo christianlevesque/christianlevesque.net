@@ -5,6 +5,7 @@ tags:
     - html_css
 category: html_css
 date: 2020-09-02
+headerImage: /images/frontend/html-css/code-coder-coding-computer.jpg
 ---
 
 ## Downloading the software

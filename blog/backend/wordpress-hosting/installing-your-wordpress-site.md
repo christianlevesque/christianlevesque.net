@@ -5,6 +5,7 @@ tags:
     - wordpress_hosting
 category: wordpress_hosting
 date: 2020-10-06
+headerImage: /images/backend/wordpress-hosting/wp-logo.png
 ---
 
 Now, everything is coming together. By the end of this lesson, your WordPress site will be live on your server.

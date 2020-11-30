@@ -5,6 +5,7 @@ tags:
     - wordpress_hosting
 category: wordpress_hosting
 date: 2020-10-02
+headerImage: /images/backend/wordpress-hosting/ethernet-cables-plugged-in-network-switch.jpg
 ---
 
 Before you can create a virtual private server (VPS), you have to have a web hosting account. I fully stand behind Vultr hosting (have you seen my site’s sidebar?), so if you still need a web host, head over to Vultr and [sign up for an account](https://www.vultr.com/?ref=8506759-6G). If you sign up for Vultr with one of the links from my website, you get $100 in free credit to try out the platform (full disclosure: I also get a small fee once you’ve been a paying member for awhile, at no additional cost to you).

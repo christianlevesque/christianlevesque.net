@@ -6,6 +6,7 @@ tags:
     - fcc_courses
 category: fcc_header_parser
 date: 2020-10-03
+headerImage: none
 ---
 This project is small and simple, so it makes a great starting point for jumping into ASP.NET Core.
 

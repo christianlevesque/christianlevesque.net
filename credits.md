@@ -1,6 +1,7 @@
 ---
 pageTitle: Works I Used
 category: courses
+headerImage: none
 ---
 # Works I used
 
