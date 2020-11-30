@@ -9,20 +9,20 @@ find ./build -name *.map -prune -o -type f -print0 | xargs -0 tar -rf blog.tar
 printf "...archive created.\n"
 
 printf "Deploying archive to server...\n"
-scp blog.tar $SERVER_CREDENTIAL:
+scp blog.tar $CL_BLOG_CREDENTIAL:
 printf "...archive deployed.\n"
 
 printf "Clearing previous build from server...\n"
-ssh $SERVER_CREDENTIAL "rm -r christianlevesque.io"
+ssh $CL_BLOG_CREDENTIAL "rm -r $CL_BLOG_DIRNAME"
 printf "...previous build cleared.\n"
 
 printf "Extracting archive on server...\n"
-ssh $SERVER_CREDENTIAL "mkdir christianlevesque.io"
-ssh $SERVER_CREDENTIAL "tar -xf blog.tar"
-ssh $SERVER_CREDENTIAL "mv build christianlevesque.io/public"
+ssh $CL_BLOG_CREDENTIAL "mkdir $CL_BLOG_DIRNAME"
+ssh $CL_BLOG_CREDENTIAL "tar -xf blog.tar"
+ssh $CL_BLOG_CREDENTIAL "mv build $CL_BLOG_DIRNAME/public"
 printf "...archive extracted.\n"
 
 printf "Cleaning up deployment...\n"
-ssh $SERVER_CREDENTIAL "rm blog.tar"
+ssh $CL_BLOG_CREDENTIAL "rm blog.tar"
 rm blog.tar
 printf "...deployment cleaned.\n"
