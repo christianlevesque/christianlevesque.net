@@ -13,3 +13,7 @@
 ol.nav {
 	list-style: decimal inside;
 }
+
+#main-menu .nav-link:hover {
+	text-decoration: underline;
+}
