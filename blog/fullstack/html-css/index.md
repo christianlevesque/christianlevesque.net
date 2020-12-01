@@ -1,7 +1,7 @@
 ---
 pageTitle: HTML & CSS
 tags:
-    - frontend_courses
+    - fullstack_courses
     - html_css
     - courses
 category: html_css

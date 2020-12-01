@@ -1,7 +1,7 @@
 ---
 pageTitle: Hello World!
 tags:
-    - frontend
+    - fullstack
     - html_css
 category: html_css
 date: 2020-09-03
