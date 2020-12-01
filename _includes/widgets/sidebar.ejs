@@ -10,6 +10,18 @@
 			Welcome to my little slice of the internet. It's mainly full of poor design and cliché stock images, but you might just learn something while you're here. By the way, <a href="https://github.com/christianlevesque/christianlevesque.io" target="_blank">this blog is open source!</a>
 		</p>
 	</article>
+	<article class="mb-5">
+		<h2 class="h6 mt-4 mb-2 text-center">Let's connect!</h2>
+		<ul class="nav justify-content-center">
+			<% for (let link of metadata.socialLinks) { %>
+				<li class="mx-1">
+					<a href="<%- link.url %>" target="_blank">
+						<i class="fab <%- link.icon %>"></i>
+					</a>
+				</li>
+			<% } %>
+		</ul>
+	</article>
     <div class="mb-5">
         <a class="ad"
            href="https://www.vultr.com/?ref=8506759-6G">

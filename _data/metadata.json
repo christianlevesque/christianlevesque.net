@@ -17,5 +17,23 @@
 			"name": "FCC",
 			"href": "/blog/fcc"
 		}
+	],
+	"socialLinks": [
+		{
+			"url": "https://github.com/christianlevesque",
+			"icon": "fa-github"
+		},
+		{
+			"url": "https://twitter.com/clevesque92",
+			"icon": "fa-twitter"
+		},
+		{
+			"url": "https://www.linkedin.com/in/christian-levesque",
+			"icon": "fa-linkedin-in"
+		},
+		{
+			"url": "https://www.pinterest.com/christian_levesque",
+			"icon": "fa-pinterest"
+		}
 	]
 }
