@@ -3,7 +3,6 @@ pageTitle: FCC Project Setup
 tags: fcc
 category: fcc_courses
 date: 2020-10-02
-headerImage: none
 ---
 
 ## dotnet
