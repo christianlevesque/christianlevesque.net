@@ -5,7 +5,7 @@ tags:
     - html_css
     - courses
 category: html_css
-date: 2020-09-01
+date: 2020-09-01T00:00:00Z
 headerImage: /images/frontend/html-css/code-coder-coding-computer.jpg
 blurb: An in-depth introduction to HTML and CSS for beginners
 ---
@@ -18,13 +18,13 @@ HTML (short for HyperText Markup Language) is a coding language used to display 
 ### What will I learn?
     
 In this course, you will build several websites to introduce you to basic and intermediate website development with HTML and CSS. This course won’t teach any Javascript – if you want an introduction to Javascript, head over to [FreeCodeCamp](https://www.freecodecamp.org) for some great resources.
-    
+
 You will learn what HTML is and how to properly structure an HTML document. You will learn how to do things like add images to a webpage, how to build web forms to collect information from users, and how to create links between webpages.
-    
+
 You will also learn how to properly create CSS files and link them to your HTML. You will learn to use CSS to create page layouts, manipulate page appearance, and even create animations to make your sites more interesting.
 
 ### What do I need to know?
-    
+
 Not much. This course starts at the very beginning of HTML development, so you don’t need to know anything about HTML or CSS to start. However, you will need to know how to use a computer. It’s important for you to understand [how to create new folders](https://www.dummies.com/computers/operating-systems/windows-10/how-to-create-a-new-folder-in-windows-10/) and [how to use a web browser](https://edu.gcfglobal.org/en/internetbasics/using-a-web-browser/1/). Other than that, you will learn everything you need to know in the course.
 
 ### What software do I need to have?
