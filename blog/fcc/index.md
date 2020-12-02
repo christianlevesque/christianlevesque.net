@@ -8,6 +8,7 @@ tags:
 category: fcc_courses
 date: 2020-10-01
 headerImage: /images/fcc/fcc.png
+blurb: Learn the basics of ASP.NET and earn a FCC certification
 ---
 [FreeCodeCamp](https://www.freecodecamp.org) is a great learning resource. When I first started taking Javascript seriously, FreeCodeCamp was the single greatest resource in my journey - but the biggest problem I have with FreeCodeCamp is that their curriculum is based almost entirely on JavaScript. They are adding more and more non-JavaScript material, but the lion's share of their coursework is JS-centric.
 
