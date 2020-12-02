@@ -5,7 +5,7 @@ tags:
     - html_css
 category: html_css
 date: 2020-09-02
-headerImage: /images/frontend/html-css/code-coder-coding-computer.jpg
+headerImage: /images/fullstack/html-css/code-coder-coding-computer.jpg
 ---
 
 ## Downloading the software
@@ -22,15 +22,15 @@ I recommend that you store all the code you write in this course in one folder s
    
 Once you’ve set up your course folder, go ahead and switch to Visual Studio Code. Open your newly-created folder by selecting `File > Open Folder` and navigating to the course folder. Click on the folder and open it. Your window will now look something like this:
 
-![Visual Studio Code window](/images/frontend/html-css/vscode-initial.png)
+![Visual Studio Code window](/images/fullstack/html-css/vscode-initial.png)
 
 Now, we’re going to create a new folder for the Introduction section of this course. You can do that within Visual Studio Code by hovering the mouse over the html-css-course folder on the left and clicking the New Folder icon that appears.
 
-![Visual Studio Code new folder icon](/images/frontend/html-css/vscode-new-folder.png)
+![Visual Studio Code new folder icon](/images/fullstack/html-css/vscode-new-folder.png)
 
 When you click the New Folder icon, an input field appears to enter the name of the folder. Type “Introduction” and press Enter to create the new folder.
 
-![Visual Studio Code new folder name](/images/frontend/html-css/vscode-new-folder-name.png)
+![Visual Studio Code new folder name](/images/fullstack/html-css/vscode-new-folder-name.png)
 
 ## That’s it!
    
