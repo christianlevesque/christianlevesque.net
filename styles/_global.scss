@@ -38,3 +38,15 @@ a.ad {
 		font-size: 50px;
 	}
 }
+
+.carousel-control-next-icon-wrapper, .carousel-control-prev-icon-wrapper {
+	height: 40px;
+	width: 40px;
+	border-width: 10px;
+}
+
+.carousel-caption {
+	&.bg-dark {
+		opacity: 80%;
+	}
+}

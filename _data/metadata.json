@@ -35,5 +35,10 @@
 			"url": "https://www.pinterest.com/christian_levesque",
 			"icon": "fa-pinterest"
 		}
+	],
+	"featuredPosts": [
+		"Introduction to FreeCodeCamp Microservices Certification in ASP.NET Core",
+		"WordPress Hosting",
+		"HTML & CSS"
 	]
 }

@@ -2,4 +2,43 @@
 pageTitle: Home
 category: courses
 ---
+<% let postIndex = 0 %>
+<header id="featuredPosts" class="carousel slide w-75 mx-auto my-5">
+	<ol class="carousel-indicators">
+		<% while (postIndex < metadata.featuredPosts.length) { %>
+			<li data-target="#featuredPosts" data-slide-to="<%- postIndex %>" <% if (postIndex === 0) { %> class="active" <% } %>></li>
+		<% postIndex++ %>
+		<% } %>
+	</ol>
+	<section class="carousel-inner">
+		<%
+			postIndex = 0
+			metadata.featuredPosts.forEach(post => {
+				const slideData = collections.all.find(el => el.data.pageTitle === post)
+		%>
+			<article class="carousel-item <% if (postIndex === 0) { %> active <% } %>">
+				<img src="<%- slideData.data.headerImage %>" alt="Post header image" class="d-block img-fluid" />
+				<section class="carousel-caption bg-dark">
+					<h2><%- slideData.data.pageTitle %></h2>
+					<p><%- slideData.data.blurb %></p>
+				</section>
+			</article>
+		<%
+			postIndex++
+			})
+		%>
+	</section>
+	<a class="carousel-control-prev" href="#featuredPosts" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon-wrapper d-flex bg-dark border-dark rounded-circle">
+			<span class="carousel-control-prev-icon m-auto bg-dark border-dark rounded-circle" aria-hidden="true"></span>
+		</span>
 
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#featuredPosts" role="button" data-slide="next">
+		<span class="carousel-control-prev-icon-wrapper d-flex bg-dark border-dark rounded-circle">
+			<span class="carousel-control-next-icon m-auto bg-dark border-dark rounded-circle" aria-hidden="true"></span>
+		</span>
+		<span class="sr-only">Next</span>
+	</a>
+</header>
