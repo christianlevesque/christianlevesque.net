@@ -17,3 +17,16 @@ ol, ol.nav {
 #main-menu .nav-link:hover {
 	text-decoration: underline;
 }
+
+// Bootstrap doesn't expose the events for the navbar toggler
+// so we need to have two icons in the button
+// one when the menu is expanded and one when it isn't
+// So here we hide one on [aria-expanded=true]
+// and hide the other when [aria-expanded=false]
+#toggler[aria-expanded=false] #toggler-icon-close {
+	display: none;
+}
+
+#toggler[aria-expanded=true] #toggler-icon-hamburger {
+	display: none;
+}
