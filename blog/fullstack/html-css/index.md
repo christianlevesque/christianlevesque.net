@@ -6,7 +6,7 @@ tags:
     - courses
 category: html_css
 date: 2020-09-01T00:00:00Z
-headerImage: /images/fullstack/html-css/code-coder-coding-computer.jpg
+headerImage: /images/fullstack/html-css/html-css.png
 blurb: An in-depth introduction to HTML and CSS for beginners
 ---
 
