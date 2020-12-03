@@ -2,7 +2,6 @@
 pageTitle: Works I Used
 category: courses
 ---
-# Works I used
 
 This site was built with several third-party tools, some of which were built by individual developers. Each of this site's top-level dependencies is listed here.
 
