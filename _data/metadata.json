@@ -40,5 +40,10 @@
 		"Introduction to FreeCodeCamp Microservices Certification in ASP.NET Core",
 		"WordPress Hosting",
 		"HTML & CSS"
+	],
+	"whatToLearnPosts": [
+		"HTML & CSS",
+		"JavaScript",
+		"Nginx"
 	]
 }
