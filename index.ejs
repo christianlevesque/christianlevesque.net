@@ -22,6 +22,7 @@ featuredPosts.forEach(post => featuredPostsData.posts.push(collections.all.find(
 
 <%
 const courseListData = {
+	heading: "What do you want to learn?",
 	courses: []
 }
 featuredCourses.forEach(course => courseListData.courses.push(collections.all.find(c => c.data.pageTitle === course)))
