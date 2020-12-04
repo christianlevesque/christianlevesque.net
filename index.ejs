@@ -3,7 +3,7 @@ pageTitle: Home
 category: courses
 ---
 <% let postIndex = 0 %>
-<header id="featuredPosts" class="carousel slide w-75 mx-auto my-5">
+<header id="featuredPosts" class="carousel slide w-100 w-lg-90 w-xl-75 mx-auto my-5">
 	<ol class="carousel-indicators">
 		<% while (postIndex < metadata.featuredPosts.length) { %>
 			<li data-target="#featuredPosts" data-slide-to="<%- postIndex %>" <% if (postIndex === 0) { %> class="active" <% } %>></li>
