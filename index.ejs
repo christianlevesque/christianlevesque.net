@@ -1,66 +1,29 @@
 ---
 pageTitle: Home
 category: courses
+featuredPosts:
+    - FreeCodeCamp API Certification in ASP.NET
+    - WordPress Hosting
+    - HTML & CSS
+featuredCourses:
+    - HTML & CSS
+    - JavaScript
+    - Nginx
 ---
-<% let postIndex = 0 %>
-<header id="featuredPosts" class="carousel slide w-100 w-lg-90 w-xl-75 mx-auto my-5">
-	<ol class="carousel-indicators">
-		<% while (postIndex < metadata.featuredPosts.length) { %>
-			<li data-target="#featuredPosts" data-slide-to="<%- postIndex %>" <% if (postIndex === 0) { %> class="active" <% } %>></li>
-		<% postIndex++ %>
-		<% } %>
-	</ol>
-	<section class="carousel-inner">
-		<%
-			postIndex = 0
-			metadata.featuredPosts.forEach(post => {
-				const slideData = collections.all.find(el => el.data.pageTitle === post)
-		%>
-			<article class="carousel-item <% if (postIndex === 0) { %> active <% } %>">
-				<img src="<%- slideData.data.headerImage %>" alt="Post header image" class="d-block img-fluid" />
-				<section class="carousel-caption bg-dark p-1">
-					<h2 class="h4"><%- slideData.data.pageTitle %></h2>
-					<p><span  class="d-none d-md-block small"><%- slideData.data.blurb %></span> <a class="stretched-link text-accent" href="<%- slideData.url %>"><span class="d-none d-md-block small">Read more</span></a></p>
-				</section>
-			</article>
-		<%
-			postIndex++
-			})
-		%>
-	</section>
-	<a class="carousel-control-prev" href="#featuredPosts" role="button" data-slide="prev">
-		<span class="carousel-control-prev-icon-wrapper d-flex bg-dark border-dark rounded-circle">
-			<span class="carousel-control-prev-icon m-auto bg-dark border-dark rounded-circle" aria-hidden="true"></span>
-		</span>
 
-		<span class="sr-only">Previous</span>
-	</a>
-	<a class="carousel-control-next" href="#featuredPosts" role="button" data-slide="next">
-		<span class="carousel-control-prev-icon-wrapper d-flex bg-dark border-dark rounded-circle">
-			<span class="carousel-control-next-icon m-auto bg-dark border-dark rounded-circle" aria-hidden="true"></span>
-		</span>
-		<span class="sr-only">Next</span>
-	</a>
-</header>
+<%
+const featuredPostsData = {
+	posts: []
+}
+featuredPosts.forEach(post => featuredPostsData.posts.push(collections.all.find(c => c.data.pageTitle === post)))
+%>
 
-<section class="w-100">
-	<h2 class="bg-primary text-white text-center py-2 mb-5">What do you want to learn?</h2>
+<%- include('_includes/widgets/featured-posts', featuredPostsData) %>
 
-	<ul class="row row-cols-1 row-cols-md-2 row-cols-xl-3 list-unstyled">
-		<%
-		metadata.whatToLearnPosts.forEach(post => {
-			const postData = collections.all.find(el => el.data.pageTitle === post)
-			%>
-			<li class="col mb-4">
-				<article class="card h-100">
-					<img class="card-img-top" src="<%- postData.data.headerImage %>" alt="Post header image">
-					<section class="card-body">
-						<h3 class="card-title"><%- postData.data.pageTitle %></h3>
-						<p><%- postData.data.blurb %></p>
-						<a href="<%- postData.url %>" class="btn btn-outline-accent">Read more</a>
-					</section>
-				</article>
-			</li>
-		<% }) %>
-	</ul>
-</section>
+<%
+const courseListData = {
+	courses: []
+}
+featuredCourses.forEach(course => courseListData.courses.push(collections.all.find(c => c.data.pageTitle === course)))
+%>
+<%- include('_includes/widgets/course-list', courseListData) %>

@@ -1,0 +1,18 @@
+<section class="w-100">
+	<h2 class="bg-primary text-white text-center py-2 mb-5">What do you want to learn?</h2>
+
+	<ul class="row row-cols-1 row-cols-md-2 row-cols-xl-3 list-unstyled">
+		<% courses.forEach(course => { %>
+			<li class="col mb-4">
+				<article class="card h-100">
+					<img class="card-img-top" src="<%- course.data.headerImage %>" alt="Post header image">
+					<section class="card-body">
+						<h3 class="card-title"><%- course.data.pageTitle %></h3>
+						<p><%- course.data.blurb %></p>
+						<a href="<%- course.url %>" class="btn btn-outline-accent">Read more</a>
+					</section>
+				</article>
+			</li>
+		<% }) %>
+	</ul>
+</section>

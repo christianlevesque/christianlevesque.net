@@ -39,15 +39,5 @@
 			"url": "https://www.pinterest.com/christian_levesque",
 			"icon": "fa-pinterest"
 		}
-	],
-	"featuredPosts": [
-		"FreeCodeCamp API Certification in ASP.NET",
-		"WordPress Hosting",
-		"HTML & CSS"
-	],
-	"whatToLearnPosts": [
-		"HTML & CSS",
-		"JavaScript",
-		"Nginx"
 	]
 }

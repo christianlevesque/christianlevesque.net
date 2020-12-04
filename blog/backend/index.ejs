@@ -10,18 +10,10 @@ date: 2020-10-01
 	As you can tell by the drab design of my website, I specialize in backend technologies. I've used most of the big names at one point or another, including PHP, Node.js, C#/ASP.NET Core, and Java/Spring. Here, you can find some instructions on how to get started in various aspects of the backend.
 </p>
 
-<% for (let course of collections["backend_courses"]) { %>
-	<div class="col-12 col-lg-6 mt-3">
-		<article class="card h-100">
-			<a href="<%- course.url %>">
-				<img src="<%- course.data.headerImage %>"
-					 class="card-img-top"
-					 alt="Post header image"/>
-				<div class="card-body">
-					<h2 class="card-title"><%- course.data.pageTitle %></h2>
-					<p class="card-text"><%- course.data.blurb %></p>
-				</div>
-			</a>
-		</article>
-	</div>
-<% } %>
+<%
+const courseListData = {
+	courses: collections["backend_courses"]
+}
+%>
+
+<%- include('../../_includes/widgets/course-list', courseListData) %>
