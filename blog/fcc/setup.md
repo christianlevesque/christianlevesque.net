@@ -7,7 +7,7 @@ date: 2020-10-02
 
 ## dotnet
 
-I'm assuming that you are familiar with C# and .NET Core. That being said, I also assume that you have the `dotnet` compiler, runtime, and CLI tool, although if you don't, you can follow Microsoft's instructions to [download dotnet](https://dotnet.microsoft.com/download) for your OS.
+I'm assuming that you are familiar with C# and .NET Core. That being said, I also assume that you have the `dotnet` compiler, runtime, and CLI tool, although if you don't, you can follow Microsoft's instructions to [download dotnet](https://dotnet.microsoft.com/download) for your OS. This course uses .NET Core v3.1.
 
 ## Text editor
 
