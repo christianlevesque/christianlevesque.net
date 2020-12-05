@@ -1,8 +1,8 @@
 import $ from "jquery"
-const fab = document.getElementById("scroll-to-top")
+const fab = $("#scroll-to-top")
 
 if (fab) {
-	fab.addEventListener("click", () => {
+	fab.click(() => {
 		$("html, body").animate({scrollTop: 0}, "slow")
 	})
 }
