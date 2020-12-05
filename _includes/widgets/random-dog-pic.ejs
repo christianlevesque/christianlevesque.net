@@ -1,0 +1,29 @@
+<div id="random-pic-image-container" class="col-12 mt-3"></div>
+
+<script>
+	const pics = {
+		"karma-athena-cute.jpg": "Karma and Athena consoling each other while the Bulldogs were down",
+		"karma-athena-eating-each-other.jpg": "Karma and Athena eating each other alive",
+		"karma-athena-relaxing.jpg": "Karma and Athena relaxing after a long day of play",
+		"karma-cute.jpg": "Karma being adorable",
+		"karma-lapdog.jpg": "Karma being a lapdog",
+		"karma-petting-destany.jpg": "Karma petting my sister-in-law",
+		"karma-staring-down.jpg": "Karma staring me down",
+		"michael-nadia-relaxing.jpg": "Michael and Nadia relaxing after a long day of play",
+		"nadia-at-attention.jpg": "Nadia sitting at attention for a treat",
+		"nadia-guard-dog.jpg": "Nadia guarding her ball"
+	}
+
+	const keys = Object.keys(pics)
+	const picIndex = Math.floor(Math.random() * keys.length)
+	const picName = keys[picIndex]
+	const picDescription = pics[picName]
+	const messageContainer = document.getElementById("random-pic-message")
+	const imageContainer = document.getElementById("random-pic-image-container")
+	messageContainer.innerText = picDescription
+	const image = document.createElement("img")
+	image.alt = picDescription
+	image.src = `/images/${picName}`
+	image.classList.add("img-fluid")
+	imageContainer.appendChild(image)
+</script>
