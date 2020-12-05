@@ -9,3 +9,5 @@ date: 2020-09-01T00:04:00Z
 headerImage: /images/fullstack/php/php-logo.png
 blurb: An introduction to PHP without database usage
 ---
+
+Content coming soon
