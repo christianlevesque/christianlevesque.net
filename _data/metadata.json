@@ -20,6 +20,10 @@
 		{
 			"name": "About",
 			"href": "/about"
+		},
+		{
+			"name": "Hire Me",
+			"href": "/hire-me"
 		}
 	],
 	"socialLinks": [
