@@ -6,6 +6,6 @@ tags:
     - courses
 category: linux
 date: 2020-09-01T00:02:00Z
-headerImage: /images/fullstack/html-css/code-coder-coding-computer.jpg
+headerImage: /images/fullstack/linux/linux-logo.png
 blurb: A crash course on Linux and Bash for web developers
 ---

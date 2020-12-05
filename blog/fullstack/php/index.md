@@ -6,6 +6,6 @@ tags:
     - courses
 category: php_no_db
 date: 2020-09-01T00:04:00Z
-headerImage: /images/fullstack/html-css/code-coder-coding-computer.jpg
+headerImage: /images/fullstack/php/php-logo.png
 blurb: An introduction to PHP without database usage
 ---
