@@ -10,6 +10,11 @@
 					 alt="Blog header image"/>
 			</div>
 		<% } %>
+		<% if (gitUrl !== "none") { %>
+			<p class="col-12 my-2 small">
+				<em>(The current state of the application code can be found on <a href="<%- gitUrl %>" target="_blank">GitHub</a>. You can verify your code if you've been following along, or if you're just joining in, you can get the current state of the code and follow along from here.)</em>
+			</p>
+		<% } %>
 		<%- content %>
 		<% if (nextLinkCategory !== "none") { %>
 			<% const courseList = collections[nextLinkCategory] %>
