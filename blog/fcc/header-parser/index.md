@@ -91,4 +91,4 @@ The JSON object returned from `/api/whoami` needs to have a third field called `
 
 All of this will be done at the same time. All our microservice needs to do is accept an incoming request, copy the values of those three headers, and inject those values into the response as a JSON object.
 
-Now that we know what we need to do, let's get started writing some code!
+Now that we know what we need to do, let's get started looking at some code!
