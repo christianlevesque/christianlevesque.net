@@ -176,7 +176,7 @@ Now that we have a better idea of what's going on here, we're going to empty mos
 
 - Delete the `Startup` constructor and the `Configuration` property, because we won't be accessing the `Configuration` in this app
 - Delete the `ConfigureServices` method, because we don't have controllers and that's the only service currently getting configured
-- Delete the call to `app.UseHttpsRedirection()`, because we don't need HTTPS redirection (when using Nginx as a reverse proxy, it's better to let Nginx handle HTTPS redirection and just use HTTP for your app)
+- Delete the call to `app.UseHttpsRedirection()`, because we don't need HTTPS redirection (when using Nginx as a reverse proxy, it's better to let Nginx handle HTTPS and just use HTTP for your app)
 - Delete the call to `app.UseRouting()`, because this app is simple enough that it doesn't need endpoint-based routing
 - Delete the call to `app.UseAuthorization()`, because we don't need authorization services in this app (authorization services are beyond the scope of this series)
 - Delete the call to `app.UseEndpoints()`, because we deleted `app.UseRouting()` and `app.UseEndpoints()` does nothing without `app.UseRouting()` (actually, if you try to run your app with `app.UseEndpoints()` and *without* `app.UseRouting()`, your app will throw an exception).
@@ -205,4 +205,38 @@ namespace header_parser
 }
 ```
 
-Now run your project in the terminal with `dotnet run` just to make sure everything works properly. You're ready to start writing code!
+## Configuring the application port
+
+Your ASP.NET application runs like a computer program, but it listens over HTTP (since it's a website, after all) so it needs to run on a specific port. By default, your application is going to run on `http://localhost:5000` and `https://localhost:5001`, but we don't need HTTPS support for our app (and if we do, we'll use Nginx to supply that) so let's set the app just to run on port 5000. To do that, add `"Urls": "http://127.0.0.1:5000"` to the `appsettings.json` configuration file. Your `appsettings.json` should now look like this:
+
+```json
+{
+	"Logging": {
+		"LogLevel": {
+			"Default": "Information",
+			"Microsoft": "Warning",
+			"Microsoft.Hosting.Lifetime": "Information"
+		}
+	},
+	"AllowedHosts": "*",
+	"Urls": "http://127.0.0.1:5000"
+}
+```
+
+## That's it!
+
+Now run your project in the terminal with `dotnet run` just to make sure everything works properly. You should see something about like this in your terminal (this will vary slightly depending on what operating system you use for development):
+
+```text
+/usr/share/dotnet/dotnet /home/christian/code/fcc/header-parser/bin/Debug/netcoreapp3.1/header-parser.dll
+info: Microsoft.Hosting.Lifetime[0]
+      Now listening on: http://127.0.0.1:5000
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/christian/code/fcc/header-parser
+```
+
+You're ready to start writing code!
