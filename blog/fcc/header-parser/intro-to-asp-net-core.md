@@ -17,7 +17,7 @@ That's a little underwhelming, but there are some important nuggets buried in th
 
 Firstly, ASP.NET gives you all the tools you need to build the website - as long as you don't have unusual needs for your website, you can build your website just with the tools that ASP.NET provides.
 
-Secondly, ASP.NET websites are just C# programs. They work a lot like a terminal program (in fact, in this series we will treat the programs we write like regular terminal programs and use `dotnet run` to execute them). If you have experience building website backends in Python or Javascript, this will feel familiar. However, if you're coming from PHP, this is going to feel weird for awhile. PHP websites are collections of script files that get executed on demand, but websites in other languages like C# are computer programs that constantly run.
+Secondly, ASP.NET websites are just C# programs. They work a lot like a terminal program (in fact, in this series we will treat the programs we write like regular terminal programs and use `dotnet run` to execute them). If you have experience building website backends in Python or Javascript, this will feel familiar. However, if you're coming from PHP, this is going to feel weird for awhile. PHP websites are collections of script files that get executed on demand, but websites in other languages like C# are computer programs that constantly run. In PHP, each time a page is requested, it has a blank slate - any in-memory data from previous requests is completely lost. But in C# and other languages where your website is a computer program, much of the in-memory data is persistent across requests.
 
 ## Scaffolded files
 
