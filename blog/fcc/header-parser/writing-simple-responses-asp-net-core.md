@@ -12,7 +12,7 @@ ASP.NET Core applications can come in a wide range of complexities. Large, monol
 
 ## The simplest ASP.NET Core app
 
-The simplest ASP.NET Core app is essentially a "Hello, World!" program - no matter what request you send the app, it responds the same way.
+The simplest ASP.NET Core app is essentially a "Hello, World!" program - no matter what request you send the app, it responds the same way. This is great for the Request Header Parser Microservice, because it only does one thing: reads request headers and sends them back as a JSON object.
 
 Go ahead and open `Startup.cs`. To get the simplest app working, you need to add two sections of code. Firstly, add a `using` statement at the top of the file: `using Microsoft.AspNetCore.Http;`. Then, below the `if (env.IsDevelopment()) {...}` block, add the following:
 
