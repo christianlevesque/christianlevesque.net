@@ -122,6 +122,26 @@ app.Run(async context =>
 
 Note: You can also directly set the `Content-Length` header with `HttpResponse.ContentLength`. However, it's less common to need to set this header manually, and we won't be doing so in this series.
 
+### Setting the response status code
+
+Another important part of the HTTP protocol is the status code. Status codes indicate, at a glance, whether a response was successful or not. If you don't set a status code on your response, it defaults to `200 OK`, which may or may not be what you want - `200 OK` indicates that the response succeeded exactly as expected.
+
+To set the response status code manually, you need to access the `HttpResponse.StatusCode` property, which is an `int`. Go ahead and manually set the status code of our response to 200:
+
+```csharp
+app.Run(async context =>
+{
+    context.Response.Headers.Add("X-Application-Purpose", "FreeCodeCamp Request Header Parser Microservice");
+    context.Response.ContentType = "text/html";
+    context.Response.StatusCode = 200;
+    await context.Response.WriteAsync("<h1>Hello, ASP.NET Core!</h1>");
+});
+```
+
+It's not super important that we can set the status code right now, but our microservice will return a `400 Bad Request` if any of the required headers are missing, so we should still know how to set the status code.
+
+Feel free to play around with different response status codes. The status code field is just an `int` so you can return any valid `int` as the status code - but keep in mind that your status code should probably align with the HTTP standard, and you should probably avoid using custom status codes because some platforms may not support them. For example, Postman will happily accept status codes up to 999 (even though the standard stops in the 500s), but a status code of 1000 or greater will cause a parse error.
+
 ## That's it!
 
 Now that we know how to write a simple response in ASP.NET Core, we are ready to move on to reading request headers. Then, once we can read headers, we will be ready to write the first microservice!
