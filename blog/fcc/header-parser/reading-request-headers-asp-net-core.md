@@ -89,7 +89,7 @@ Now that we know how to read request headers, it's a pretty trivial thing to rea
 ```csharp
 if (!context.Request.Headers.TryGetValue("User-Agent", out var software) ||
     !context.Request.Headers.TryGetValue("X-Forwarded-For", out var ipAddress) ||
-    !context.Request.Headers.TryGetValue("Preferred-Language", out var language))
+    !context.Request.Headers.TryGetValue("Accept-Language", out var language))
 {
     context.Response.StatusCode = 400;
     await context.Response.WriteAsync("<h1>Bad request</h1>");
@@ -129,7 +129,7 @@ namespace header_parser
 			{
 				if (!context.Request.Headers.TryGetValue("User-Agent", out var software) ||
 					!context.Request.Headers.TryGetValue("X-Forwarded-For", out var ipAddress) ||
-					!context.Request.Headers.TryGetValue("Preferred-Language", out var language))
+					!context.Request.Headers.TryGetValue("Accept-Language", out var language))
 				{
 					context.Response.StatusCode = 400;
 					await context.Response.WriteAsync("<h1>Bad request</h1>");
@@ -154,7 +154,7 @@ Now if you try to navigate to `http://127.0.0.1:5000` in your browser, you'll ge
 
 One of the headers we ask for is the `X-Forwarded-For` header, which is not part of the HTTP standard. `X-Forwarded-For` is most commonly used by proxies such as Nginx to identify the IP address of the user making the request, but we don't have Nginx set up to forward requests to our app (yet) so the `X-Forwarded-For` header doesn't exist on the request. As a result, the second call to `Headers.TryGetValue()` is returning `false` and our Bad Response block is triggered.
 
-To verify that our app is working correctly, we need to go into Postman and make the request from there. Create a new request of type `GET` and point it to `localhost:5000`. If you send the request as-is, you will still get a `400 Bad Request` response because several headers are missing. If you switch over to the Headers tab in Postman and expand the hidden headers, you will see that Postman generates 6 headers automatically - one of which is `User-Agent`. That means we still need to manually add `X-Forwarded-For` and `Preferred-Language`. Go ahead and add these two headers with whatever values you choose, and send the request. The response body should contain three `<p>` blocks, one for each header we checked.
+To verify that our app is working correctly, we need to go into Postman and make the request from there. Create a new request of type `GET` and point it to `localhost:5000`. If you send the request as-is, you will still get a `400 Bad Request` response because several headers are missing. If you switch over to the Headers tab in Postman and expand the hidden headers, you will see that Postman generates 6 headers automatically - one of which is `User-Agent`. That means we still need to manually add `X-Forwarded-For` and `Accept-Language`. Go ahead and add these two headers with whatever values you choose, and send the request. The response body should contain three `<p>` blocks, one for each header we checked.
 
 ## That's it!
 
