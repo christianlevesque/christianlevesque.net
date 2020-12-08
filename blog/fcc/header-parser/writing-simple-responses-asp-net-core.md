@@ -5,6 +5,7 @@ tags:
     - fcc_header_parser
 category: fcc_header_parser
 date: 2020-10-05
+headerImage: /images/fcc/writing-simple-responses.png
 gitUrl: https://github.com/christianlevesque/fcc-header-parser-microservice/tree/v0.2.0
 ---
 
