@@ -131,7 +131,7 @@ We stop Nginx first to make sure it has the latest configuration loaded, then we
 
 Building and deploying your microservice is something you will probably have to do on your own because it will depend entirely on your setup, your experience, and your preferred workflow. You might prefer SCP or FTP, for example, or you might be hosting on Ubuntu or Windows. I will walk you through the steps, but you will probably have to heavily modify those steps for your own setup. 
 
-I strongly recommend you write an automated deployment script. If you've never done anything like that before, you can find a simple example [here in my header parser repository](https://github.com/christianlevesque/fcc-header-parser-microservice/blob/master/deploy.sh). An automated deployment script will definitely make your life easier - when I was writing this section of the series, I had to re-upload my application about five times before everything worked properly, and doing that manually would have been tedious.
+I strongly recommend you write an automated deployment script. If you've never done anything like that before, you can find a simple example in my header parser repository. [This is an example for Bash](https://github.com/christianlevesque/fcc-header-parser-microservice/blob/master/deploy.sh), and [this is an example for PowerShell](https://github.com/christianlevesque/fcc-header-parser-microservice/blob/master/deploy.ps1). An automated deployment script will definitely make your life easier - when I was writing this section of the series, I had to re-upload my application about five times before everything worked properly, and doing that manually would have been tedious.
 
 ### Building your microservice
 
