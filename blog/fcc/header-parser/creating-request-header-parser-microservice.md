@@ -126,7 +126,7 @@ You may think we're ready to upload our microservice and test it, but not yet! T
 
 There are a number of ways to change the JSON created by a POCO. When we learn how to use ASP.NET controllers in a later part of the series, we will see that ASP.NET can actually convert your POCO to JSON automatically, in a standardized way. But a simple app using `app.Run()` doesn't get that benefit, so we have to use a different method.
 
-The simplest method supported by ASP.NET Core 3.1 is the `JsonPropertyNameAttribute`. Open `RequestHeaders.cs`, and at the top of the file, add `using System.Text.Json.Serialization`, then add `[JsonPropertyName("<output_name">)]` before each auto-property, replacing `<output_name>` with the name each property should take in the JSON output. Your final `RequestHeaders.cs` file should look like this:
+The simplest method supported by ASP.NET Core 3.1 is the `JsonPropertyNameAttribute`. Open `RequestHeaders.cs`, and at the top of the file, add `using System.Text.Json.Serialization`, then add `[JsonPropertyName("<output_name>")]` before each auto-property, replacing `<output_name>` with the name each property should take in the JSON output. Your final `RequestHeaders.cs` file should look like this:
 
 ```csharp
 using System.Text.Json.Serialization;
