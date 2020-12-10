@@ -6,6 +6,8 @@ tags:
     - fcc_courses
 category: fcc_header_parser
 date: 2020-10-03
+headerImage: /images/fcc/fcc-teal.png
+blurb: Complete requirements for the Request Header Parser Microservice in ASP.NET Core
 ---
 This project is small and simple, so it makes a great starting point for jumping into ASP.NET Core.
 
