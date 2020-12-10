@@ -50,3 +50,21 @@ a.ad {
 		opacity: 80%;
 	}
 }
+
+.first-on-desktop {
+	order: 2;
+}
+
+.first-on-mobile {
+	order: 1;
+}
+
+@include media-breakpoint-up("md") {
+	.first-on-desktop {
+		order: 1;
+	}
+
+	.first-on-mobile {
+		order: 2;
+	}
+}
