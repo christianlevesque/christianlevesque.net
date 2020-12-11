@@ -182,6 +182,16 @@ After you've gone through the series and you've written your own version of this
 
 You might need to make some modifications to your code to get it to work. Your Nginx logs (located at `/var/log/nginx`) and the browser console on the FreeCodeCamp page will be invaluable in figuring out why your app isn't working properly.
 
+#### Potential gotchas
+
+Here are some tricky issues that I've identified that may trip you up when you test your app. As people provide feedback, I will update this list with issues others have.
+
+##### Mixed content
+
+By default, browsers won't let you load active content like scripts or API calls over HTTP if you're on an HTTPS domain. If you observe the console while running your requests, you will get an error message. In Firefox, this message is "Blocked loading mixed active content"; in Chrome, this message is "1 Mixed Content: The page at '<website_name>' was loaded over HTTPS, but requested an insecure resource '<some_resource_over_http>'. This request has been blocked; the content must be served over HTTPS."
+
+To fix this, you need to either procure an SSL certificate for your domain or server (which may not be feasible), or disable mixed content blocking for your browser. Here are instructions for [disabling mixed content blocking in Firefox](https://support.mozilla.org/en-US/kb/mixed-content-blocking-firefox#w_unblock-mixed-content) and [disabling mixed content blocking in Chrome](https://stackoverflow.com/a/24434461).
+
 ## That's it!
 
 1 part down! You're 1/5 of the way to having the FreeCodeCamp APIs and Microservices Certification! Well done! Now, move on to the next part of the series to get to work on the next project.
