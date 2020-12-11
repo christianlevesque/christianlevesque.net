@@ -7,6 +7,8 @@ copy_new_file () {
 	# If $oldname isn't an existing file, it's new
 	# so copy it and break
 	if [ ! -f "$oldname" ]; then
+		directoryname=$(echo $1 | sed 's/^.*\/build//' | sed -E 's/[[:alnum:]_-]+\.[[:alnum:]]+$//')
+		mkdir -p "christianlevesque.io/public$directoryname"
 		cp $1 $oldname
 		return
 	fi
