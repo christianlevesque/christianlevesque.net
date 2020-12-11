@@ -12,7 +12,7 @@ blurb: Learn the basics of ASP.NET and earn a FCC certification
 ---
 [FreeCodeCamp](https://www.freecodecamp.org) is a great learning resource. When I first started taking Javascript seriously, FreeCodeCamp was the single greatest resource in my journey - but the biggest problem I have with FreeCodeCamp is that their curriculum is based almost entirely on JavaScript. They are adding more and more non-JavaScript material, but the lion's share of their coursework is JS-centric.
 
-## It's not all Javascript, though
+## This one's not Javascript, though
 
 The great thing about their [APIs and Microservices Certification](https://www.freecodecamp.org/learn/apis-and-microservices/) is that you can complete it in whatever language you choose. When submitting your project, FreeCodeCamp uses the URL you provide and tests your API using AJAX - meaning they never even see your code, only the end result of your API.
 
@@ -24,7 +24,7 @@ The APIs and Microservices Certification currently has 5 projects you need to co
 
 When you complete your own version of the project (don't just use the code we write together - use that as a starting place to come up with your own solution), you can submit a working URL to your project in the FreeCodeCamp project portal. If your solution is working properly, you will receive credit for completing that project. When you have completed all 5 projects, you can go into your dashboard and claim the certification.
 
-## Notice about plagiarism
+### Notice about plagiarism
 
 Before we get started, I want to point out real quick that it's a violation of the FreeCodeCamp policies to follow this tutorial, copy the code, and then use this code to get the certificate for yourself. The code you use to get the certificate has to be original. I will take a slightly different approach to each project in the certification so you can see different ways to solve a problem in ASP.NET Core. I recommend that you take the approach you like the best and use it to solve each of the projects for yourself.
 
