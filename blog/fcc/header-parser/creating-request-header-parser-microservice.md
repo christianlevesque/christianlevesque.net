@@ -166,7 +166,7 @@ By default, your web browser only allows you to request files from the same doma
 
 When you go to submit the microservice to FreeCodeCamp, you will be at `www.freecodecamp.org`, but your microservice will be hosted elsewhere, probably at an IP address such as `12.34.56.78`. Browsers consider that a cross-origin request, and your browser will ask the target server to verify that it's okay with receiving a cross-origin request. So your app has to add specific response headers to signal to browsers that it's okay with a cross-origin request. If you don't do this, FreeCodeCamp won't be able to test your microservice at all.
 
-To add CORS support to your application, you need to make two changes to your code. Firstly, add the following method to the `Startup` class:
+To add CORS support to your application, you need to make three changes to your code. Firstly, add `using Microsoft.Extensions.DependencyInjection` to your `using` statements. Secondly, add the following method to the `Startup` class:
 
 ```csharp
 public void ConfigureServices(IServiceCollection services)
@@ -185,7 +185,7 @@ public void ConfigureServices(IServiceCollection services)
 
 You might recognize that as the `ConfigureServices` method we deleted in the first lesson. Well, we need to add it back because CORS is a service. This code calls `services.AddCors()`, which receives a delegate as its only argument. That delegate receives a `CorsOptions` object, called `options` here. Inside the delegate body, we call `options.AddPolicy()`, which accepts two arguments: a policy name, "AllowAll" in our case (we can call this anything we like, but it's best to make it descriptive), and another delegate. The `options.AddPolicy()` delegate receives a `CorsPolicyBuilder` object, called `policy` here. Within the `options.AddPolicy()` delegate, we tell the policy to allow any domain to access our app, to allow any HTTP request method from outside sources, and to allow any request header from outside sources. You probably wouldn't add these rules to a production app - usually, you only give CORS access to the bare minimum it needs for your app to function. But for now, let's just allow everything, and in later apps we can pare this back to be more restrictive.
 
-Now that we have a CORS policy added to our app, we need to tell our app to use that policy. To do that, add this line below your `if (env.IsDevelopment()) {...}` section of the `Configure()` method:
+Now that we have a CORS policy added to our app, we need to tell our app to use that policy. So thirdly, add this line below your `if (env.IsDevelopment()) {...}` section of the `Configure()` method:
 
 ```csharp
 app.UseCors("AllowAll");
