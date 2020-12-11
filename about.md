@@ -2,6 +2,7 @@
 pageTitle: About Christian
 category: courses
 headerImage: /images/christian2.jpg
+blurb: About Christian LeVesque
 ---
 
 Hi, I'm Christian!

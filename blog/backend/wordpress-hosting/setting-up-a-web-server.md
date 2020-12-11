@@ -6,6 +6,7 @@ tags:
 category: wordpress_hosting
 date: 2020-10-03
 headerImage: /images/fullstack/nginx/nginx-logo.png
+blurb: Set up Nginx to serve requests to your WordPress website
 ---
 
 Wait a minute. I thought I already had a web server!

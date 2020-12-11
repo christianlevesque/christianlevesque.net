@@ -1,6 +1,7 @@
 ---
 pageTitle: Works I Used
 category: courses
+blurb: A list of the open source software used to build this website
 ---
 
 This site was built with several third-party tools, some of which were built by individual developers. Each of this site's top-level dependencies is listed here.

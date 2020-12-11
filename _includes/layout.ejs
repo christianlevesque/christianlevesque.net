@@ -7,6 +7,21 @@
 		  content="IE=edge"/>
 	<meta name="viewport"
 		  content="width=device-width,initial-scale=1.0"/>
+
+	<%
+ 	const seoData = {
+ 		pageTitle,
+		blurb,
+		headerImage,
+		url: page.url,
+		siteName: metadata.title,
+		twitterHandle: metadata.twitterHandle
+	}
+ 	%>
+	<%- include('seo/og', seoData) %>
+	<%- include('seo/twitter', seoData) %>
+	<%- include('seo/facebook', {facebookAppId: metadata.facebookAppId}) %>
+
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet"

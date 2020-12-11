@@ -6,6 +6,7 @@ tags:
 category: html_css
 date: 2020-09-02
 headerImage: /images/fullstack/html-css/code-coder-coding-computer.jpg
+blurb: Setting up your computer for HTML development
 ---
 
 ## Downloading the software
