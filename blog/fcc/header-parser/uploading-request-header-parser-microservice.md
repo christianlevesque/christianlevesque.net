@@ -37,6 +37,7 @@ To install the ASP.NET Core runtime, run the following commands (this only works
 ```bash
 wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
+sudo apt update
 sudo apt install -y apt-transport-https
 sudo apt install -y aspnetcore-runtime-3.1
 ```
