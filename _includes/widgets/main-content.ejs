@@ -3,6 +3,9 @@
 		<% if (page.url !== "/") { %>
 			<h1 class="mt-4 col-12"><%- pageTitle %></h1>
 		<% } %>
+		<% if (author !== "none") { %>
+			<p class="col-12 small font-italic"> by <a href="<%- authorUrl %>"><%- author %></a></p>
+		<% } %>
 		<% if (headerImage !== "none") { %>
 			<div class="col-12">
 				<img src="<%- headerImage %>"
