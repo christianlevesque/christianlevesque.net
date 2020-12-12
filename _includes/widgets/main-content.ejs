@@ -12,6 +12,13 @@
 					 class="img-fluid d-block mx-auto my-3"
 					 alt="Blog header image"/>
 			</div>
+			<%
+ 			const social = {
+ 				url: page.url,
+				title: pageTitle
+			}
+ 			%>
+			<%- include('social-share', social) %>
 		<% } %>
 		<% if (gitUrl !== "none") { %>
 			<p class="col-12 my-2 small">
