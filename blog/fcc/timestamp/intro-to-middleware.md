@@ -4,7 +4,7 @@ tags:
     - fcc
     - fcc_timestamp
 category: fcc_timestamp
-date: 2020-10-09
+date: 2020-10-10
 headerImage: /images/fcc/intro-to-middleware.png
 blurb: Learn the basics of request middleware in ASP.NET Core
 gitUrl: https://github.com/christianlevesque/fcc-timestamp-microservice/tree/v0.1.0
