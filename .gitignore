@@ -1,6 +1,8 @@
 .idea
 node_modules
 
+copyblog.sh
+deploy.sh
 build
 *.tar
 
