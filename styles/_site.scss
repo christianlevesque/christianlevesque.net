@@ -15,11 +15,21 @@
 
 .site__main-content {
 	width: 100%;
+}
 
+.site__sidebar {
+	width: 100%;
+	margin-top: map-get($spacers, 5);
 }
 
 @media (min-width: $breakpoint-lg) {
 	.site__main-content {
 		width: (7 / 12) * 100%;
+	}
+
+	.site__sidebar {
+		width: (3 / 12) * 100%;
+		margin-left: (2 / 12) * 100%;
+		margin-top: 0;
 	}
 }

@@ -1,0 +1,43 @@
+@import "variables";
+
+.about,
+.course-list-nav {
+	margin-bottom: map-get($spacers, 5);
+}
+
+.about__profile-pic {
+	border-radius: 50%;
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: map-get($spacers, 2) auto;
+}
+
+.about__profile-heading,
+.course-list-nav__heading {
+	margin: map-get($spacers, 3) 0;
+	text-align: center;
+}
+
+.about__social-media {
+	display: flex;
+	justify-content: center;
+}
+
+.about__social-media-link,
+.course-list-nav__link {
+	margin: 0 map-get($spacers, 1);
+}
+
+.about__advert {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.course-list-nav__links {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: map-get($spacers, 5);
+}
+
