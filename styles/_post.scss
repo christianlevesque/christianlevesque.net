@@ -1,0 +1,70 @@
+@import "variables";
+
+$padding-y: map-get($spacers, 5);
+$padding-x: map-get($spacers, 3);
+
+.post {
+	padding: $padding-y $padding-x;
+}
+
+.post__title {
+	margin-top: map-get($spacers, 4);
+}
+
+.post__author {
+	font-size: $font-size-sm;
+	font-style: italic;
+}
+
+.post__header-image {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: map-get($spacers, 3) auto;
+}
+
+.post__intro-message {
+	margin: map-get($spacers, 2) 0;
+	font-size: $font-size-sm;
+}
+
+.post__post-nav {
+	display: flex;
+	flex-direction: row;
+}
+
+.post__post-nav-post {
+	padding: 0 $padding-x;
+	margin-top: map-get($spacers, 3);
+}
+
+.post__previous-post {
+	order: 2;
+}
+
+.post__next-post {
+	order: 1;
+}
+
+.post__course-container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.post__course-title {
+	color: map-get($theme-colors, "primary");
+	margin-top: map-get($spacers, 3);
+}
+
+@media (min-width: $breakpoint-md) {
+	.post__post-nav-post {
+		width: 50%;
+	}
+	.post__previous-post {
+		order: 1;
+	}
+	.post__next-post {
+		order: 2;
+	}
+}

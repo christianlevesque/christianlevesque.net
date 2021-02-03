@@ -1,15 +1,15 @@
-<main class="col-12 col-lg-7">
-	<div class="row">
+<main class="site__main-content">
+	<article class="post">
 		<% if (page.url !== "/") { %>
-			<h1 class="mt-4 col-12"><%- pageTitle %></h1>
+			<h1 class=""><%- pageTitle %></h1>
 		<% } %>
 		<% if (author !== "none") { %>
-			<p class="col-12 small font-italic"> by <a href="<%- authorUrl %>"><%- author %></a></p>
+			<p class="post__author"> by <a href="<%- authorUrl %>"><%- author %></a></p>
 		<% } %>
 		<% if (headerImage !== "none") { %>
-			<div class="col-12">
+			<div class="post__header-image-container">
 				<img src="<%- headerImage %>"
-					 class="img-fluid d-block mx-auto my-3"
+					 class="post__header-image"
 					 alt="Blog header image"/>
 			</div>
 			<%
@@ -21,7 +21,7 @@
 			<%- include('social-share', social) %>
 		<% } %>
 		<% if (gitUrl !== "none") { %>
-			<p class="col-12 my-2 small">
+			<p class="post__intro-message">
 				<em>(The current state of the application code can be found on <a href="<%- gitUrl %>" target="_blank">GitHub</a>. You can verify your code if you've been following along, or if you're just joining in, you can get the current state of the code and follow along from here.)</em>
 			</p>
 		<% } %>
@@ -30,30 +30,27 @@
 			<% const courseList = collections[nextLinkCategory] %>
 			<% const currentCourseIndex = courseList.findIndex(c => c.url === page.url) %>
 			<% if (currentCourseIndex > -1) { %>
-				<div class="col-12">
-					<div class="row">
-						<% const isFirstCourse = currentCourseIndex === 0 %>
-						<% const isLastCourse = currentCourseIndex === courseList.length - 1 %>
-						<div class="col-12 col-md-6 px-3 mt-3 first-on-desktop">
-							<% if (!isFirstCourse) { %>
-								<div class="h-100 d-flex flex-column">
-									<h2 class="h4 text-primary my-3">Previous</h2>
-									<%- include('course-card', {course: courseList[currentCourseIndex - 1]}) %>
-								</div>
-
-							<% } %>
-						</div>
-						<div class="col-12 col-md-6 px-3 mt-3 first-on-mobile">
-							<% if (!isLastCourse) { %>
-								<div class="h-100 d-flex flex-column">
-									<h2 class="h4 text-primary my-3">Up next</h2>
-									<%- include('course-card', {course: courseList[currentCourseIndex + 1]}) %>
-								</div>
-							<% } %>
-						</div>
+				<nav class="post__post-nav">
+					<% const isFirstCourse = currentCourseIndex === 0 %>
+					<% const isLastCourse = currentCourseIndex === courseList.length - 1 %>
+					<div class="post__post-nav-post post__previous-post">
+						<% if (!isFirstCourse) { %>
+							<div class="post__course-container">
+								<h2 class="post__course-title">Previous</h2>
+								<%- include('course-card', {course: courseList[currentCourseIndex - 1]}) %>
+							</div>
+						<% } %>
 					</div>
-				</div>
+					<div class="post__post-nav-post post__next-post">
+						<% if (!isLastCourse) { %>
+							<div class="post__course-container">
+								<h2 class="post__course-title">Up next</h2>
+								<%- include('course-card', {course: courseList[currentCourseIndex + 1]}) %>
+							</div>
+						<% } %>
+					</div>
+				</nav>
 			<% } %>
 		<% } %>
-	</div>
+	</article>
 </main>
