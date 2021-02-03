@@ -1,0 +1,23 @@
+@import "variables";
+
+.text-decoration-underline {
+	text-decoration: underline;
+}
+
+.first-on-desktop {
+	order: 2;
+}
+
+.first-on-mobile {
+	order: 1;
+}
+
+@media (min-width: $breakpoint-md) {
+	.first-on-desktop {
+		order: 1;
+	}
+
+	.first-on-mobile {
+		order: 2;
+	}
+}
