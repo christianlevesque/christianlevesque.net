@@ -1,23 +1,2 @@
 @import "variables";
 
-@mixin sm-up {
-	@media (min-width: $breakpoint-sm) {
-		@content;
-	}
-}
-
-@mixin md-up {
-	@media (min-width: $breakpoint-md) {
-		@content;
-	}
-}
-
-@mixin lg-up {
-	@media (min-width: $breakpoint-lg) {
-		@content;
-	}
-}
-
-@mixin inset {
-	margin: (3 * $spacer) 0 (3 * $spacer) $spacer;
-}

@@ -1,3 +1,100 @@
+// Colors
+$blue: #2196F3;
+$indigo: #3F51B5;
+$purple: #9C27B0;
+$pink: #E91E63;
+$red: #F44336;
+$orange: #FF9800;
+$yellow: #FFEB3B;
+$green: #4CAF50;
+$teal: #009688;
+$cyan: #00BCD4;
+$gray-100: #FAFAFA;
+$gray-200: #F5F5F5;
+$gray-300: #EEEEEE;
+$gray-400: #E0E0E0;
+$gray-500: #BDBDBD;
+$gray-600: #757575;
+$gray-700: #616161;
+$gray-800: #424242;
+$gray-900: #212121;
+
+$theme-colors: (
+   "primary": $purple,
+   "accent": $green,
+   "success": $blue,
+   "info": $pink,
+   "warning": $orange
+);
+
+$code-color: $teal;
+
+
 // Spacing
+
 $spacer: 1rem;
 $nav-height: 75px;
+
+$spacers: (
+   0: 0,
+   1: ($spacer * 0.5),
+   2: $spacer,
+   3: ($spacer * 1.5),
+   4: ($spacer * 2.5),
+   5: ($spacer * 4)
+);
+
+$sizes: (
+   25: 25%,
+   50: 50%,
+   75: 75%,
+   90: 90%,
+   100: 100%
+);
+
+$breakpoint-sm: 575.98px;
+$breakpoint-md: 767.98px;
+$breakpoint-lg: 991.98px;
+$breakpoint-xl: 1199.98px;
+$breakpoint-xxl: 1399.98px;
+
+
+// Options
+$enable-rounded: true;
+$enable-shadows: false;
+$enable-gradients: false;
+$enable-transitions: true;
+$enable-hover-media-query: false;
+$enable-grid-classes: true;
+$enable-print-styles: true;
+
+
+// Links
+$link-color: map-get($theme-colors, "primary");
+$link-decoration: none;
+$link-hover-color: darken($link-color, 15%);
+$link-hover-decoration: underline;
+
+
+// Fonts
+$font-family-sans-serif: Roboto, 'Helvetica Neue', Arial, sans-serif;
+$font-family-monospace: "Roboto Mono", monospace;
+$font-family-base: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+$font-size-base: 1.25rem;
+$font-size-lg: 1.5rem;
+$font-size-sm: 1rem;
+$font-weight-normal: normal;
+$font-weight-bold: bold;
+$font-weight-base: $font-weight-normal;
+$line-height-base: 1.5;
+$h1-font-size: 2.5rem;
+$h2-font-size: 2rem;
+$h3-font-size: 1.75rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
+$headings-margin-bottom: ($spacer / 2);
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 700;
+$headings-line-height: 1.1;
+$headings-color: inherit;
