@@ -1,0 +1,29 @@
+@import "variables";
+
+.course-list {
+	width: 100%;
+}
+
+.course-list__list {
+	display: flex;
+	list-style: none;
+}
+
+.course-list__course {
+	margin-bottom: map-get($spacers, 4);
+	display: flex;
+	width: 100%;
+	flex-grow: 1;
+}
+
+@media (min-width: $breakpoint-md) {
+	.course-list__course {
+		width: 48%;
+	}
+}
+
+@media (min-width: $breakpoint-xl) {
+	.course-list__course {
+		width: 30%;
+	}
+}
