@@ -16,6 +16,11 @@ $padding-x: map-get($spacers, 3);
 	font-style: italic;
 }
 
+.post__social-share-heading {
+	font-size: $font-size-sm;
+	text-align: center;
+}
+
 .post__header-image {
 	width: 100%;
 	height: auto;
