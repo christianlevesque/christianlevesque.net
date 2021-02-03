@@ -1,4 +1,4 @@
-<div id="random-pic-image-container" class="col-12 mt-3"></div>
+<div id="random-pic-image-container" class=".random-pic"></div>
 
 <script>
 	const pics = {
@@ -24,6 +24,6 @@
 	const image = document.createElement("img")
 	image.alt = picDescription
 	image.src = `/images/${picName}`
-	image.classList.add("img-fluid")
+	image.classList.add("random-pic__pic")
 	imageContainer.appendChild(image)
 </script>
