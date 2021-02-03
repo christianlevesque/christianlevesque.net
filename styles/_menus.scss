@@ -1,32 +1,39 @@
 @import "variables";
 @import "mixins";
 
-.navbar-toggler {
+.navbar {
+	background-color: map-get($theme-colors, "primary");
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: $nav-height;
+}
+
+.navbar__toggler {
 	border: none;
+	margin-left: auto;
 }
 
-.navbar-brand img {
-	width: 50px;
-	height: 50px;
+.navbar__nav {
+	margin-left: auto;
 }
 
+.navbar__item {
+	padding-left: map-get($spacers, 1);
+	padding-right: map-get($spacers, 1);
+}
+
+.navbar__link {
+	text-align: right;
+	color: $white;
+}
+
+// This doesn't belong here. This is part of the sidebar course list
 ol, ol.nav {
 	list-style: decimal inside;
 }
 
 #main-menu .nav-link:hover {
 	text-decoration: underline;
-}
-
-// Bootstrap doesn't expose the events for the navbar toggler
-// so we need to have two icons in the button
-// one when the menu is expanded and one when it isn't
-// So here we hide one on [aria-expanded=true]
-// and hide the other when [aria-expanded=false]
-#toggler[aria-expanded=false] #toggler-icon-close {
-	display: none;
-}
-
-#toggler[aria-expanded=true] #toggler-icon-hamburger {
-	display: none;
 }
