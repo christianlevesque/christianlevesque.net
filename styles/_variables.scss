@@ -1,11 +1,13 @@
 // Colors
 $blue: #2196F3;
 $indigo: #3F51B5;
-$purple: #9C27B0;
+$light-purple: #CFCFFA;
+$purple: #4527A0;
 $pink: #E91E63;
 $red: #F44336;
 $orange: #FF9800;
 $yellow: #FFEB3B;
+$light-green: #C8E6C9;
 $green: #4CAF50;
 $teal: #009688;
 $cyan: #00BCD4;
@@ -22,11 +24,13 @@ $white: $gray-100;
 $black: $gray-900;
 
 $theme-colors: (
-   "primary": $purple,
-   "accent": $green,
-   "success": $blue,
-   "info": $pink,
-   "warning": $orange
+		"primary": $purple,
+		"secondary": $light-purple,
+		"accent": $green,
+		"accent-secondary": $light-green,
+		"success": $blue,
+		"info": $pink,
+		"warning": $orange
 );
 
 $code-color: $teal;
@@ -35,23 +39,24 @@ $code-color: $teal;
 // Spacing
 
 $spacer: 1rem;
-$nav-height: 75px;
+$nav-width-mobile: 75px;
+$nav-width-desktop: 250px;
 
 $spacers: (
-   0: 0,
-   1: ($spacer * 0.5),
-   2: $spacer,
-   3: ($spacer * 1.5),
-   4: ($spacer * 2.5),
-   5: ($spacer * 4)
+		0: 0,
+		1: ($spacer * 0.5),
+		2: $spacer,
+		3: ($spacer * 1.5),
+		4: ($spacer * 2.5),
+		5: ($spacer * 4)
 );
 
 $sizes: (
-   25: 25%,
-   50: 50%,
-   75: 75%,
-   90: 90%,
-   100: 100%
+		25: 25%,
+		50: 50%,
+		75: 75%,
+		90: 90%,
+		100: 100%
 );
 
 $breakpoint-sm: 575.98px;
@@ -79,9 +84,9 @@ $link-hover-decoration: underline;
 
 
 // Fonts
-$font-family-sans-serif: Roboto, 'Helvetica Neue', Arial, sans-serif;
+$font-family-sans-serif: Roboto, "Helvetica Neue", Arial, sans-serif;
 $font-family-monospace: "Roboto Mono", monospace;
-$font-family-base: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+$font-family-base: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 $font-size-base: 1.25rem;
 $font-size-lg: 1.5rem;
 $font-size-sm: 1rem;

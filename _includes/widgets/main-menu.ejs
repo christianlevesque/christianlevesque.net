@@ -1,15 +1,28 @@
-<nav class="navbar">
+<nav id="main-menu"
+     class="navbar">
 	<button id="toggler"
 			class="navbar__toggler">
 		<i id="toggler-icon-hamburger"
-		   class="fas fa-bars"></i>
+		   class="fal fa-bars"></i>
 	</button>
 
 	<ul class="navbar__nav">
 		<% for (let link of metadata.links) { %>
-			<li class="navbar__item">
-				<a class="navbar__link"
-				   href="<%= link.href %>"><%= link.name %></a>
+			<li>
+                <%
+                let linkAdditionalClass = ""
+                if (link.href === "/" && page.url === "/")
+                	linkAdditionalClass = "navbar__item--active"
+                else if (link.href !== "/" && page.url.startsWith(link.href))
+                	linkAdditionalClass = "navbar__item--active"
+                %>
+                <a class="navbar__item <%= linkAdditionalClass %>"
+                   href="<%= link.href %>">
+                    <div class="navbar__icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <%= link.name %>
+                </a>
 			</li>
 		<% } %>
 	</ul>

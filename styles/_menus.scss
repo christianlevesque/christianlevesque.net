@@ -1,32 +1,76 @@
 @import "variables";
 @import "mixins";
 
+$nav-color: $gray-600;
+
 .navbar {
-	background-color: map-get($theme-colors, "primary");
+	background-color: $white;
+	color: $nav-color;
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: $nav-height;
+	width: $nav-width-mobile;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 0;
+	overflow: hidden;
+	transition: width 300ms ease-out;
+}
+
+.navbar--open {
+	width: 250px;
 }
 
 .navbar__toggler {
 	border: none;
-	margin-left: auto;
+	background: transparent;
+	font-size: 1.7rem;
+	cursor: pointer;
+	width: $nav-width-mobile;
+	height: $nav-width-mobile;
+	flex-shrink: 0;
 }
 
 .navbar__nav {
-	margin-left: auto;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 .navbar__item {
-	padding-left: map-get($spacers, 1);
-	padding-right: map-get($spacers, 1);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	cursor: pointer;
+	text-decoration: none;
+	color: $nav-color;
+	font-size: $font-size-base;
+	line-height: $nav-width-mobile;
+	padding-right: map-get($spacers, 3);
+	border-left: 5px solid $white;
+	white-space: nowrap;
+
+	&:hover {
+		color: map-get($theme-colors, "accent");
+		border-color: map-get($theme-colors, "accent");
+		background-color: map-get($theme-colors, "accent-secondary");
+	}
 }
 
-.navbar__link {
-	text-align: right;
-	color: $white;
+.navbar__item--active {
+	color: map-get($theme-colors, "primary");
+	border-color: map-get($theme-colors, "primary");
+	background-color: map-get($theme-colors, "secondary");
+}
+
+.navbar__icon {
+	width: $nav-width-mobile;
+	height: $nav-width-mobile;
+	line-height: $nav-width-mobile;
+	text-align: center;
+	flex-shrink: 0;
+	font-size: $font-size-lg;
 }
 
 // This doesn't belong here. This is part of the sidebar course list
@@ -36,4 +80,13 @@ ol, ol.nav {
 
 #main-menu .nav-link:hover {
 	text-decoration: underline;
+}
+
+@media (min-width: $breakpoint-lg) {
+	.navbar {
+		width: $nav-width-desktop;
+	}
+	.navbar__toggler {
+		display: none;
+	}
 }
