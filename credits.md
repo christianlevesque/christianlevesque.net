@@ -13,7 +13,6 @@ Most of the visuals on this site are simple or drab. That's by design - after al
 
 - Syntax highlighting is provided by [PrismJS](https://prismjs.com).
 - The syntax highlighting theme used on my website is [Prism Material Dark](https://github.com/PrismJS/prism-themes/blob/master/themes/prism-material-dark.css), which was developed by [dutchenkoOleg](https://github.com/dutchenkoOleg).
-- The site's layout comes from [Bootstrap](https://getbootstrap.com) (which means I also use [jQuery](https://jquery.com/) and [Popper](https://popper.js.org/)). I themed Bootstrap using Sass overrides to get a customized look.
 
 ## Build
 
