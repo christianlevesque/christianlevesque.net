@@ -3,30 +3,4 @@ pageTitle: Home
 category: courses
 blurb: Christian LeVesque's homepage
 author: none
-featuredPosts:
-    - FreeCodeCamp API Certification in ASP.NET
-    - WordPress Hosting
-    - HTML & CSS
-featuredCourses:
-    - HTML & CSS
-    - JavaScript
-    - Nginx
 ---
-
-<%
-const featuredPostsData = {
-	posts: []
-}
-featuredPosts.forEach(post => featuredPostsData.posts.push(collections.all.find(c => c.data.pageTitle === post)))
-%>
-
-<%- include('_includes/widgets/featured-posts', featuredPostsData) %>
-
-<%
-const courseListData = {
-	heading: "What do you want to learn?",
-	courses: []
-}
-featuredCourses.forEach(course => courseListData.courses.push(collections.all.find(c => c.data.pageTitle === course)))
-%>
-<%- include('_includes/widgets/course-list', courseListData) %>
