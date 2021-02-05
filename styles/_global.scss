@@ -4,9 +4,11 @@ html {
 	box-sizing: border-box;
 	overflow-x: hidden;
 	overflow-y: scroll;
-	font-family: $font-family-sans-serif;
+	font-weight: $font-weight-base;
+	font-family: $font-family-base;
+	font-size: $font-size-base;
 	color: $black;
-	line-height: 1.5rem;
+	line-height: $line-height-base;
 }
 
 *, *:before, *:after {
@@ -19,6 +21,7 @@ html, body {
 	min-height: 100vh;
 	margin: 0;
 	padding: 0;
+	word-break: $word-break;
 }
 
 body {
@@ -26,7 +29,29 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	line-height: 2rem;
+	color: $headings-color;
+	font-weight: $headings-font-weight;
+	font-family: $headings-font-family;
+	line-height: $headings-line-height;
+	margin-bottom: $headings-margin-bottom;
+}
+h1 {
+	font-size: $h1-font-size;
+}
+h2 {
+	font-size: $h2-font-size;
+}
+h3 {
+	font-size: $h3-font-size;
+}
+h4 {
+	font-size: $h4-font-size;
+}
+h5 {
+	font-size: $h5-font-size;
+}
+h6 {
+	font-size: $h6-font-size;
 }
 
 img {

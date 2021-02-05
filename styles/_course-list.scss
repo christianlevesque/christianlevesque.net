@@ -2,28 +2,38 @@
 
 .course-list {
 	width: 100%;
+	margin-top: map-get($spacers, 4);
+}
+
+.course-list__title {
+	margin: 0 0 $spacer 0;
 }
 
 .course-list__list {
-	display: flex;
+	display: grid;
+	grid-template-columns: 100%;
+	justify-content: stretch;
+	align-content: stretch;
+	grid-gap: $spacer;
 	list-style: none;
+	padding-left: 0;
+	margin: 0;
 }
 
 .course-list__course {
-	margin-bottom: map-get($spacers, 4);
+	grid-column-start: span 1;
 	display: flex;
 	width: 100%;
-	flex-grow: 1;
 }
 
 @media (min-width: $breakpoint-md) {
-	.course-list__course {
-		width: 48%;
+	.course-list__list {
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
 @media (min-width: $breakpoint-xl) {
-	.course-list__course {
-		width: 30%;
+	.course-list__list {
+		grid-template-columns: repeat(3, 1fr);
 	}
 }

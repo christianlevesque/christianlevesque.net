@@ -1,5 +1,6 @@
 <section class="course-list">
-	<%- include('block-heading', {heading}) %>
+	<% const additionalClasses = "course-list__title" %>
+	<%- include('block-heading', {heading, additionalClasses}) %>
 
 	<ul class="course-list__list">
 		<% courses.forEach(course => { %>
