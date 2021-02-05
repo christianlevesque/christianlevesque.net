@@ -30,7 +30,7 @@
 				Related content
 			<% } %>
 		</h2>
-		<<%- category === "courses" ? "ul" : "ol" %> class=".course-list-nav__links">
+		<<%- category === "courses" ? "ul" : "ol" %> class="course-list-nav__links">
 		<% for (post of collections[category]) { %>
 			<li class="course-list-nav__link">
 				<% if (page.url === post.url) { %>

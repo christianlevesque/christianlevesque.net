@@ -32,3 +32,12 @@ h1, h2, h3, h4, h5, h6 {
 img {
 	max-width: 100%;
 }
+
+a, a:visited {
+	color: map-get($theme-colors, "primary");
+	text-decoration: none;
+
+	&:hover {
+		color: map-get($theme-colors, "accent");
+	}
+}

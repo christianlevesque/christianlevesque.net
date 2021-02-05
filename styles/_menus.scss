@@ -5,7 +5,6 @@ $nav-color: $gray-600;
 
 .navbar {
 	background-color: $white;
-	color: $nav-color;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -40,7 +39,8 @@ $nav-color: $gray-600;
 	margin: 0;
 }
 
-.navbar__item {
+.navbar__item,
+.navbar__item:visited {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -60,7 +60,8 @@ $nav-color: $gray-600;
 	}
 }
 
-.navbar__item--active {
+.navbar__item--active,
+.navbar__item--active:visited {
 	color: map-get($theme-colors, "primary");
 	border-color: map-get($theme-colors, "primary");
 	background-color: map-get($theme-colors, "secondary");

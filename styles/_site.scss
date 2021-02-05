@@ -25,6 +25,14 @@
 
 .site__footer {
 	width: 100%;
+
+	a {
+		color: map-get($theme-colors, "secondary");
+
+		&:hover {
+			color: map-get($theme-colors, "accent-secondary");
+		}
+	}
 }
 
 .site__block-heading {
