@@ -7,7 +7,7 @@ module.exports = function (tokens, idx, options, env, self) {
 	const token  = tokens[idx]
 
 	// Add Bootstrap classes
-	token.attrPush(["class", "mb-3"])
+	token.attrPush(["class", "post__list-item"])
 
 	return defaultRender(tokens, idx, options, env, self)
 }

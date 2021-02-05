@@ -59,6 +59,27 @@ $padding-x: map-get($spacers, 3);
 	margin-top: map-get($spacers, 3);
 }
 
+.post__list {
+	margin: map-get($spacers, 4) map-get($spacers, 3);
+	padding-left: 0;
+}
+
+.post__list--unordered {
+	list-style-type: "-  ";
+
+	.post__list-item::marker {
+		padding-right: 5px;
+	}
+}
+
+.post__list--ordered {
+	list-style-position: inside;
+}
+
+.post__list-item {
+	margin-bottom: map-get($spacers, 3);
+}
+
 @media (min-width: $breakpoint-md) {
 	.post__post-nav {
 		display: flex;
