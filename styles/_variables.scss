@@ -1,7 +1,7 @@
 // Colors
 $blue: #2196F3;
 $dark-blue: #0D47A1;
-$light-blue: #BBDEFB;
+$light-blue: #E3F2FD;
 $indigo: #3F51B5;
 $light-purple: #CFCFFA;
 $purple: #4527A0;
@@ -36,7 +36,8 @@ $theme-colors: (
 		"warning": $orange
 );
 
-$code-color: $teal;
+$code-color: $dark-blue;
+$code-background-color: $light-blue;
 
 
 // Spacing

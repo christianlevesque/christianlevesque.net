@@ -55,7 +55,9 @@ img {
 }
 
 code {
-	color: map-get($theme-colors, "info");
+	color: $code-color;
+	background-color: $code-background-color;
+	padding: 0 map-get($spacers, 1) / 2;
 }
 
 a, a:visited {
