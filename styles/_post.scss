@@ -31,13 +31,10 @@ $padding-x: map-get($spacers, 3);
 }
 
 .post__post-nav {
-	display: flex;
-	flex-direction: column;
-}
-
-.post__post-nav-post {
-	padding: 0 $padding-x;
+	display: grid;
+	grid-template-columns: 100%;
 	margin-top: map-get($spacers, 3);
+	grid-gap: $spacer;
 }
 
 .post__previous-post {
@@ -96,12 +93,7 @@ $padding-x: map-get($spacers, 3);
 
 @media (min-width: $breakpoint-md) {
 	.post__post-nav {
-		display: flex;
-		flex-direction: row;
-	}
-	.post__post-nav-post {
-		width: 40%;
-		flex-grow: 1;
+		grid-template-columns: repeat(2, 1fr);
 	}
 	.post__previous-post {
 		order: 1;
