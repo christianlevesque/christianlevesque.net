@@ -6,6 +6,7 @@ html {
 	overflow-y: scroll;
 	font-family: $font-family-sans-serif;
 	color: $black;
+	line-height: 1.5rem;
 }
 
 *, *:before, *:after {
@@ -22,6 +23,10 @@ html, body {
 
 body {
 	padding-left: $nav-width-mobile;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 2rem;
 }
 
 img {

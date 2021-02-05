@@ -1,9 +1,0 @@
-@import "variables";
-
-.app__block-heading {
-	background-color: map-get($theme-colors, "primary");
-	color: $white;
-	text-align: center;
-	margin-top: map-get($spacers, 5);
-	margin-bottom: map-get($spacers, 3);
-}

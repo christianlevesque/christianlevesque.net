@@ -4,7 +4,7 @@ $padding-y: map-get($spacers, 5);
 $padding-x: map-get($spacers, 3);
 
 .post {
-	padding: $padding-y $padding-x;
+	padding: $gutter;
 }
 
 .post__title {

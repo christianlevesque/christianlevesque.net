@@ -1,10 +1,13 @@
 @import "prism";
 @import "global";
 @import "menus";
-@import "headings";
 @import "buttons-links";
 @import "site";
 @import "post";
 @import "footer";
 @import "course-list";
 @import "random-pic";
+@import "journey";
+
+// Should come last so its utilities override other styles
+@import "utilities";
