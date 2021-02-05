@@ -1,1 +1,5 @@
 @import "variables";
+
+@mixin drop-shadow {
+	box-shadow: 0 3px 5px 2px $gray-450;
+}

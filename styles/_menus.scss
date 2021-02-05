@@ -16,6 +16,8 @@ $nav-color: $gray-600;
 	flex-shrink: 0;
 	overflow: hidden;
 	transition: width 300ms ease-out;
+
+	@include drop-shadow;
 }
 
 .navbar--open {
