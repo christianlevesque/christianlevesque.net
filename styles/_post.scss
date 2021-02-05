@@ -93,7 +93,7 @@ $padding-x: map-get($spacers, 3);
 }
 
 .post__list-item {
-	margin-bottom: map-get($spacers, 3);
+	margin-bottom: map-get($spacers, 1);
 }
 
 @media (min-width: $breakpoint-md) {
