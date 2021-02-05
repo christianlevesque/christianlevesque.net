@@ -3,10 +3,6 @@
 $padding-y: map-get($spacers, 5);
 $padding-x: map-get($spacers, 3);
 
-.post {
-	padding: $gutter;
-}
-
 .post__title {
 	margin-top: map-get($spacers, 4);
 }
@@ -71,5 +67,11 @@ $padding-x: map-get($spacers, 3);
 	}
 	.post__next-post {
 		order: 2;
+	}
+}
+
+@media (min-width: $breakpoint-lg) {
+	.post {
+		padding: $gutter;
 	}
 }

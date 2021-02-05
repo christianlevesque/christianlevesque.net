@@ -3,7 +3,7 @@
 
 .journey {
 	background-color: $white;
-	padding: $gutter;
+	padding: $gutter / 2;
 	box-shadow: 0 3px 5px 2px $gray-450;
 	grid-column-start: span 1;
 }
@@ -39,6 +39,12 @@
 	font-size: 1.5rem;
 	word-wrap: normal;
 	color: $gray-600;
+}
+
+@media (min-width: $breakpoint-lg) {
+	.journey {
+		padding: $gutter;
+	}
 }
 
 @media (min-width: $breakpoint-xxl) {

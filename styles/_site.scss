@@ -21,7 +21,6 @@
 .site__sidebar {
 	width: 100%;
 	margin-top: map-get($spacers, 5);
-	padding: $gutter;
 }
 
 .site__footer {
@@ -55,5 +54,6 @@
 		width: 20%;
 		margin-top: 0;
 		flex-grow: 1;
+		padding: $gutter;
 	}
 }
