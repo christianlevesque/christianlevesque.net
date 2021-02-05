@@ -7,7 +7,7 @@ module.exports = function (tokens, idx, options, env, self) {
 	const token  = tokens[idx]
 
 	// Add Bootstrap classes
-	token.attrPush(["class", "img-fluid mx-auto d-block my-3"])
+	token.attrPush(["class", "post__image"])
 
 	// Return with div wrapper
 	// return "<div class='col-12 my-3'>" + defaultRender(tokens, idx, options, env, self) + "</div>"
