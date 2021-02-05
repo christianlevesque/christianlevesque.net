@@ -10,6 +10,7 @@ $padding-x: map-get($spacers, 3);
 .post__author {
 	font-size: $font-size-sm;
 	font-style: italic;
+	padding-left: map-get($spacers, 3);
 }
 
 .post__social-share-heading {
