@@ -34,7 +34,7 @@
 	font-weight: 400;
 	margin-top: 0;
 	margin-bottom: map-get($spacers, 1);
-	color: map-get($theme-colors, "secondary");
+	color: map-get($theme-colors, "primary-light");
 }
 .journey__heading--sub {
 	font-size: 1.5rem;

@@ -1,5 +1,7 @@
 // Colors
 $blue: #2196F3;
+$dark-blue: #0D47A1;
+$light-blue: #BBDEFB;
 $indigo: #3F51B5;
 $light-purple: #CFCFFA;
 $purple: #4527A0;
@@ -26,9 +28,9 @@ $black: $gray-900;
 
 $theme-colors: (
 		"primary": $purple,
-		"secondary": $light-purple,
-		"accent": $green,
-		"accent-secondary": $light-green,
+		"primary-light": $light-purple,
+		"secondary": $green,
+		"secondary-light": $light-green,
 		"success": $blue,
 		"info": $pink,
 		"warning": $orange

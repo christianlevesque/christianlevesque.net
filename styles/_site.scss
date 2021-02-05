@@ -29,10 +29,10 @@
 	width: 100%;
 
 	a {
-		color: map-get($theme-colors, "secondary");
+		color: map-get($theme-colors, "primary-light");
 
 		&:hover {
-			color: map-get($theme-colors, "accent-secondary");
+			color: map-get($theme-colors, "secondary-light");
 		}
 	}
 }

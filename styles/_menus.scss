@@ -56,9 +56,9 @@ $nav-color: $gray-600;
 	white-space: nowrap;
 
 	&:hover {
-		color: map-get($theme-colors, "accent");
-		border-color: map-get($theme-colors, "accent");
-		background-color: map-get($theme-colors, "accent-secondary");
+		color: map-get($theme-colors, "secondary");
+		border-color: map-get($theme-colors, "secondary");
+		background-color: map-get($theme-colors, "secondary-light");
 	}
 }
 
@@ -66,10 +66,10 @@ $nav-color: $gray-600;
 .navbar__item--active:visited {
 	color: map-get($theme-colors, "primary");
 	border-color: map-get($theme-colors, "primary");
-	background-color: map-get($theme-colors, "secondary");
+	background-color: map-get($theme-colors, "primary-light");
 
 	&:hover {
-		color: map-get($theme-colors, "secondary");
+		color: map-get($theme-colors, "primary-light");
 		border-color: map-get($theme-colors, "primary");
 		background-color: map-get($theme-colors, "primary");
 	}

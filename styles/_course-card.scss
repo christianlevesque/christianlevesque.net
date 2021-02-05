@@ -35,7 +35,7 @@
 
 .course-card__action,
 .course-card__action:visited {
-	$card-color: map-get($theme-colors, "accent");
+	$card-color: map-get($theme-colors, "secondary");
 
 	border: $border $card-color;
 	border-radius: $border-radius;

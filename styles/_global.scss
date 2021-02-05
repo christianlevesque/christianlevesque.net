@@ -54,11 +54,15 @@ img {
 	max-width: 100%;
 }
 
+code {
+	color: map-get($theme-colors, "info");
+}
+
 a, a:visited {
 	color: map-get($theme-colors, "primary");
 	text-decoration: none;
 
 	&:hover {
-		color: map-get($theme-colors, "accent");
+		color: map-get($theme-colors, "secondary");
 	}
 }
