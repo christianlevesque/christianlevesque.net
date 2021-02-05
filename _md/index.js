@@ -5,7 +5,6 @@ md.renderer.rules.blockquote_close = require("./blockquoteClose")
 md.renderer.rules.heading_open     = require("./headingOpen")
 md.renderer.rules.image            = require("./image")
 md.renderer.rules.link_open        = require("./linkOpen")
-md.renderer.rules.paragraph_open   = require("./paragraphOpen")
 
 // Lists
 md.renderer.rules.list_item_open     = require("./listItem")
