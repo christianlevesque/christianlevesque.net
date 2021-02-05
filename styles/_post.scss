@@ -59,6 +59,16 @@ $padding-x: map-get($spacers, 3);
 	margin-top: map-get($spacers, 3);
 }
 
+.post__heading {
+	margin-top: map-get($spacers, 3);
+}
+
+.post__heading--2 {
+	border-bottom: $border $black;
+	margin-top: map-get($spacers, 4);
+	padding-bottom: map-get($spacers, 1);
+}
+
 .post__list {
 	margin: map-get($spacers, 4) map-get($spacers, 3);
 	padding-left: 0;

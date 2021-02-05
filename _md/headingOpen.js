@@ -5,7 +5,7 @@ const defaultRender = md.renderer.rules.heading_open || defaultRenderer
 module.exports = function (tokens, idx, options, env, self) {
 	// Get the token
 	const token  = tokens[idx]
-	const classes = token.tag === "h2" ? "mt-3 col-12 border-bottom pb-1 border-dark" : "mt-3 col-12"
+	const classes = `post__heading post__heading--${token.tag.substr(1)}`
 
 	// Add Bootstrap classes
 	token.attrPush(["class", classes])
