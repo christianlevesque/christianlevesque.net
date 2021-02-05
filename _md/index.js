@@ -1,7 +1,5 @@
 const {md} = require("./util")
 
-md.renderer.rules.blockquote_open  = require("./blockquoteOpen")
-md.renderer.rules.blockquote_close = require("./blockquoteClose")
 md.renderer.rules.heading_open     = require("./headingOpen")
 md.renderer.rules.image            = require("./image")
 md.renderer.rules.link_open        = require("./linkOpen")

@@ -6,9 +6,9 @@ module.exports = function (tokens, idx, options, env, self) {
 	// Get the token
 	const token  = tokens[idx]
 
-	// Add Bootstrap classes
+	// Add classes
 	token.attrPush(["class", "post__list post__list--ordered"])
 
-	// Return with opening div wrapper
+	// Return the render
 	return defaultRender(tokens, idx, options, env, self)
 }
