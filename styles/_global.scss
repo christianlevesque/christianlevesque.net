@@ -24,10 +24,6 @@ html, body {
 	word-break: $word-break;
 }
 
-body {
-	padding-left: $nav-width-mobile;
-}
-
 h1, h2, h3, h4, h5, h6 {
 	color: $headings-color;
 	font-weight: $headings-font-weight;

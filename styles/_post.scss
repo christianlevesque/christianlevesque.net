@@ -31,7 +31,7 @@ $padding-x: map-get($spacers, 3);
 
 .post__post-nav {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 .post__post-nav-post {
@@ -59,6 +59,10 @@ $padding-x: map-get($spacers, 3);
 }
 
 @media (min-width: $breakpoint-md) {
+	.post__post-nav {
+		display: flex;
+		flex-direction: column;
+	}
 	.post__post-nav-post {
 		width: 50%;
 	}

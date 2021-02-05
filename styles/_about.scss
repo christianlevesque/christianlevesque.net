@@ -9,6 +9,7 @@
 	border-radius: 50%;
 	display: block;
 	width: 100%;
+	max-width: 300px;
 	height: auto;
 	margin: map-get($spacers, 2) auto;
 }

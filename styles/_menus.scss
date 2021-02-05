@@ -5,22 +5,24 @@ $nav-color: $gray-600;
 
 .navbar {
 	background-color: $white;
+	z-index: $zindex-fixed;
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: $nav-width-mobile;
-	height: 100%;
+	width: 100%;
+	height: $nav-width-mobile;
 	display: flex;
 	flex-direction: column;
 	flex-shrink: 0;
 	overflow: hidden;
-	transition: width 300ms ease-out;
+	transition: width 300ms ease-out, height 300ms ease-out;
 
 	@include drop-shadow;
 }
 
 .navbar--open {
-	width: 250px;
+	width: $nav-width-desktop;
+	height: 100%;
 }
 
 .navbar__toggler {
@@ -90,6 +92,16 @@ ol, ol.nav {
 
 #main-menu .nav-link:hover {
 	text-decoration: underline;
+}
+
+@media (min-width: $breakpoint-md) {
+	.navbar {
+		width: $nav-width-mobile;
+		height: 100%;
+	}
+	.navbar--open {
+		width: $nav-width-desktop;
+	}
 }
 
 @media (min-width: $breakpoint-lg) {

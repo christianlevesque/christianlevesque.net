@@ -32,7 +32,7 @@
 	}
 }
 
-@media (min-width: $breakpoint-xl) {
+@media (min-width: $breakpoint-xxl) {
 	.course-list__list {
 		grid-template-columns: repeat(3, 1fr);
 	}
