@@ -71,8 +71,18 @@ $padding-x: map-get($spacers, 3);
 	padding-bottom: map-get($spacers, 1);
 }
 
+.post__figure {
+	margin-left: 0;
+	margin-right: 0;
+}
+
 .post__image {
 	margin: map-get($spacers, 3) 0;
+}
+
+.post__figure-caption {
+	margin-bottom: map-get($spacers, 3);
+	text-align: center;
 }
 
 .post__list {
