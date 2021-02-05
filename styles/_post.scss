@@ -61,10 +61,11 @@ $padding-x: map-get($spacers, 3);
 @media (min-width: $breakpoint-md) {
 	.post__post-nav {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 	}
 	.post__post-nav-post {
-		width: 50%;
+		width: 40%;
+		flex-grow: 1;
 	}
 	.post__previous-post {
 		order: 1;
