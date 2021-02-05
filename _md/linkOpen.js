@@ -12,6 +12,10 @@ module.exports = function (tokens, idx, options, env, self) {
 	// so we want those to open in a new tab
 	if (href.match(/^http/) !== null) {
 		token.attrPush(["target", "_blank"])
+
+		// If the link is to Vultr, we want to let
+		const rel = href.includes("vultr") ? "noopener sponsored" : "noopener"
+		token.attrPush(["rel", rel])
 	}
 
 	return defaultRender(tokens, idx, options, env, self)
