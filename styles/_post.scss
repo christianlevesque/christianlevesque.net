@@ -3,6 +3,11 @@
 $padding-y: map-get($spacers, 5);
 $padding-x: map-get($spacers, 3);
 
+.post__footer {
+	padding-top: $padding-y;
+	border-bottom: $border $gray-600;
+}
+
 .post__title {
 	margin-top: map-get($spacers, 4);
 }
