@@ -94,7 +94,7 @@ ol, ol.nav {
 	text-decoration: underline;
 }
 
-@media (min-width: $breakpoint-md) {
+@media (min-width: $breakpoint-sm) {
 	.navbar {
 		width: $nav-width-mobile;
 		height: 100%;
