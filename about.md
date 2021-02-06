@@ -10,9 +10,9 @@ Hi, I'm Christian!
 
 ## What I do
 
-I'm a software developer from Illinois. I currently work on the website and recruiting software for [Locum Life LTD](https://www.locumlife.org), a locum tenens agency out of Burlington, IA. I spend most of my time working on .NET Core projects, but I also do full-stack work with VueJS and Razor frontends.
+I'm a software developer from Illinois. I currently work on the website and recruiting software for [Locum Life LTD](https://www.locumlife.org), a locum tenens agency out of Burlington, IA. I spend most of my time working on .NET Core projects, but I also do full-stack work with VueJS, React, and Razor frontends.
 
-I don't do any design work because I'm not the artsy creative type - I'm good with logic and systems, and I can implement existing designs well. When I have a project that needs to look halfway decent, I usually use a customized Bootstrap build for the styling. I have experience modifying Bootstrap using Sass overrides (for example, on this blog I added responsive height and width utilities to the Bootstrap build, as you can see in the blog's [source code](https://github.com/christianlevesque/christianlevesque.io/blob/master/styles/_bootstrap-additional.scss)).
+I don't do any design work because I'm not the artsy creative type - I'm good with logic and systems, and I can implement existing designs well. When I have a project that needs to look halfway decent, I usually Frankenstein something together off of Pinterest, or just use a customized Bootstrap build. I have experience modifying Bootstrap using Sass overrides, which is what I did for the original versions of this blog and the Locum Life LTD website.
 
 ## Open source contributions
 

@@ -9,7 +9,7 @@ This site was built with several third-party tools, some of which were built by 
 
 ## Widgets and themes
 
-Most of the visuals on this site are simple or drab. That's by design - after all, I'm a backend developer, not a designer! But some of the work actually looks pretty good, and most of it isn't mine.
+Most of the visuals on this site are simple. That's by design - after all, I'm a backend developer, not a designer! But some of the work actually looks pretty good, and most of it isn't mine.
 
 - Syntax highlighting is provided by [PrismJS](https://prismjs.com).
 - The syntax highlighting theme used on my website is [Prism Material Dark](https://github.com/PrismJS/prism-themes/blob/master/themes/prism-material-dark.css), which was developed by [dutchenkoOleg](https://github.com/dutchenkoOleg).
