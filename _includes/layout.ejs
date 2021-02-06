@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"
-	  class="w-100 mw-100 min-vh-100">
+<html lang="en">
 <head>
 	<meta charset="UTF-8"/>
 	<meta http-equiv="X-UA-Compatible"
@@ -29,10 +28,8 @@
 		  href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap"
 		  rel="stylesheet">
-	<link rel="stylesheet"
-		  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-		  integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-		  crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async
 			src="https://www.googletagmanager.com/gtag/js?id=G-FHKV01TBVC"></script>
@@ -47,23 +44,16 @@
 	<%- include('webpack') %>
 	<title><%= pageTitle %> | <%= metadata.title %></title>
 </head>
-<body class="d-flex flex-column w-100 mw-100 min-vh-100">
+<body class="site">
 
 <%- include('widgets/main-menu') %>
 
-<div class="w-90 container-fluid mx-auto d-flex flex-column flex-grow-1 my-5">
-	<div class="row">
-		<%- include('widgets/main-content') %>
-		<%- include('widgets/sidebar') %>
-	</div>
+<div class="site__container">
+	<%- include('widgets/main-content') %>
+	<%- include('widgets/sidebar') %>
 </div>
 
 <%- include('widgets/footer') %>
-
-<button id="scroll-to-top"
-		class="action-button d-block position-fixed border-0 text-accent bg-transparent">
-	<i class="fas fa-chevron-circle-up"></i>
-</button>
 
 </body>
 </html>

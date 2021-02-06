@@ -9,7 +9,7 @@ blurb: Set up your computer for the FCC certification course
 
 ## dotnet
 
-I'm assuming that you are familiar with C# and .NET Core. That being said, I also assume that you have the `dotnet` compiler, runtime, and CLI tool, although if you don't, you can follow Microsoft's instructions to [download dotnet](https://dotnet.microsoft.com/download) for your OS. This course uses .NET Core v3.1.
+I'm assuming that you're familiar with C# and .NET Core. That being said, I also assume that you have the `dotnet` compiler, runtime, and CLI tool, although if you don't, you can follow Microsoft's instructions to [download dotnet](https://dotnet.microsoft.com/download) for your OS. This course uses .NET Core v3.1.
 
 ## Text editor
 
@@ -17,13 +17,13 @@ As a C# developer, you probably already have a text editor or IDE of choice. If 
 
 ## API testing software
 
-You can't interact with APIs the way you can interact with regular web pages (well, most of the time - some simple requests will still work). You generally need a special client to manually test your APIs and make sure they work properly. [Postman](https://www.postman.com/) is probably the most popular solution, and it's dead easy to use too. It's free to download and use, but you do have to create an account first.
+You can't interact with APIs the way you can interact with regular web pages (well, most of the time - some simple requests will still work). You generally need a special client to manually test your APIs and make sure they work properly. [Postman](https://www.postman.com/) is probably the most popular solution, and it's dead easy to use too. It's free to download and use.
 
 ## Web server
 
 You will need a server that is connected to the internet. There are a few different ways to get this, but one of the easiest (and cheapest) ways is to use a [Vultr VPS instance](https://www.vultr.com/?ref=8506759-6G) (full disclosure: that's an affiliate link).
 
-If your internet modem accepts inbound connections, you can also set up a virtual machine on your home network and add port forwarding rules to your router to host the web application from your home for free. I don't recommend this option because it opens your home network to requests from the outside world, but if you're careful you can make it work.
+If your internet modem accepts inbound connections, you can also set up a virtual machine on your home network and add port forwarding rules to your router to host the web application from your home for free. I don't recommend this option because it opens your home network to requests from the outside world, but if you're careful you can make it work. I won't explain how to do that here because if you don't already know how to do it, you probably won't be able to do it without compromising your home network.
 
 In either case, I recommend you install a standard server OS like [Ubuntu](https://ubuntu.com/) (if you install a Linux flavor, be sure to install the server edition and not the desktop edition).
 
@@ -38,4 +38,4 @@ Your server will also need the [ASP.NET Core runtime](https://docs.microsoft.com
 
 ### Relational database
 
-For the final project in the certification, you will need a relational database service such as [PostgreSQL](https://www.postgresql.org) or [MySQL](https://www.mysql.com/). ASP.NET applications can be built with NoSQL solutions like MongoDB, but our app will be using the ASP.NET standard Entity Framework, which is a SQL-based ORM. I recommend MySQL for most users, but if you have experience in another relational database then use that. These instructions will assume you're using MySQL so you may have to make changes if you go with a different database.
+For the final project in the certification, you'll need a relational database service such as [PostgreSQL](https://www.postgresql.org) or [MySQL](https://www.mysql.com/). ASP.NET applications can be built with NoSQL solutions like MongoDB, but our app will be using the ASP.NET standard Entity Framework, which is a SQL-based ORM. I recommend MySQL for most users, but if you have experience in another relational database then use that. These instructions will assume you're using MySQL so you may have to make changes if you go with a different database.

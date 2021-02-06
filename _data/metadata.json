@@ -3,27 +3,28 @@
 	"links": [
 		{
 			"name": "Home",
-			"href": "/"
-		},
-		{
-			"name": "Full Stack",
-			"href": "/blog/fullstack"
+			"href": "/",
+			"icon": "fas fa-home"
 		},
 		{
 			"name": "Backend",
-			"href": "/blog/backend"
+			"href": "/blog/backend",
+			"icon": "fas fa-server"
 		},
 		{
 			"name": "FCC",
-			"href": "/blog/fcc"
+			"href": "/blog/fcc",
+			"icon": "fab fa-free-code-camp"
 		},
 		{
 			"name": "About",
-			"href": "/about"
+			"href": "/about",
+			"icon": "fas fa-info-circle"
 		},
 		{
 			"name": "Hire Me",
-			"href": "/hire-me"
+			"href": "/hire-me",
+			"icon": "fas fa-briefcase"
 		}
 	],
 	"socialLinks": [

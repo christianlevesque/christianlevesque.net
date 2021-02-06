@@ -1,20 +1,20 @@
-<aside class="col-12 col-lg-3 offset-lg-2 mt-5 mt-lg-0">
-	<article class="mb-5">
-		<header>
-			<img class="rounded-circle d-block img-fluid mx-auto mt-2"
+<aside class="site__sidebar">
+	<article class="about">
+		<header class="about__profile">
+			<img class="about__profile-pic"
 				 src="/images/christian.jpeg"
 				 alt="Christian LeVesque"/>
-			<h2 class="mt-4 mb-3 text-center">Hi, I'm Christian!</h2>
+			<h2 class="about__profile-heading">Hi, I'm Christian!</h2>
 		</header>
-		<p>
-			Welcome to my little slice of the internet. It's mainly full of poor design and cliché stock images, but you might just learn something while you're here. By the way, <a href="https://github.com/christianlevesque/christianlevesque.io" target="_blank">this blog is open source!</a>
+		<p class="about__summary">
+			Welcome to my little slice of the internet. It's mainly full of inane rambling and cliché stock images, but you might just learn something while you're here. By the way, <a href="https://github.com/christianlevesque/christianlevesque.io" target="_blank">this blog is open source!</a>
 		</p>
 	</article>
-	<article class="mb-5">
-		<h2 class="h4 mt-4 mb-2 text-center">Let's connect!</h2>
-		<ul class="nav justify-content-center">
+	<article class="about">
+		<h2 class="about__profile-heading">Let's connect!</h2>
+		<ul class="about__social-media">
 			<% for (let link of metadata.socialLinks) { %>
-				<li class="mx-1">
+				<li class="about__social-media-link">
 					<a href="<%- link.url %>" target="_blank">
 						<i class="fab <%- link.icon %>"></i>
 					</a>
@@ -22,30 +22,24 @@
 			<% } %>
 		</ul>
 	</article>
-    <div class="mb-5">
-        <a class="ad"
-           href="https://www.vultr.com/?ref=8506759-6G">
-            <img class="img-fluid"
-                 alt="Vultr Banner Ad"
-                 src="https://www.vultr.com/media/banners/banner_628x628.png">
-        </a>
-    </div>
-    <h2 class="mb-3">
-        <% if (category === "courses") { %>
-            Courses
-        <% } else { %>
-            Related content
-        <% } %>
-    </h2>
-    <<%- category === "courses" ? "ul" : "ol" %> class="nav flex-column mb-5">
-        <% for (post of collections[category]) { %>
-            <li class="mb-1">
-                <% if (page.url === post.url) { %>
-                    <%- post.data.pageTitle %>
-                <% } else { %>
-                    <a href="<%- post.url %>"><%- post.data.pageTitle %></a>
-                <% } %>
-            </li>
-        <% } %>
-    </<%- category === "courses" ? "ul" : "ol" %>>
+	<nav class="course-list-nav">
+		<h2 class="about__profile-heading">
+			<% if (category === "courses") { %>
+				Courses
+			<% } else { %>
+				Related content
+			<% } %>
+		</h2>
+		<<%- category === "courses" ? "ul" : "ol" %> class="course-list-nav__links">
+		<% for (post of collections[category]) { %>
+			<li class="course-list-nav__link">
+				<% if (page.url === post.url) { %>
+					<%- post.data.pageTitle %>
+				<% } else { %>
+					<a href="<%- post.url %>"><%- post.data.pageTitle %></a>
+				<% } %>
+			</li>
+		<% } %>
+	</<%- category === "courses" ? "ul" : "ol" %>>
+	</nav>
 </aside>

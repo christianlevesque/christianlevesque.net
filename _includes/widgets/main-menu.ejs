@@ -1,21 +1,29 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+<nav id="main-menu"
+     class="navbar">
 	<button id="toggler"
-			class="navbar-toggler ml-auto"
-	type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+			class="navbar__toggler">
 		<i id="toggler-icon-hamburger"
-		   class="fas fa-bars"></i>
-		<i id="toggler-icon-close"
-		   class="fas fa-times"></i>
+		   class="fal fa-bars"></i>
 	</button>
-	<div id="main-menu"
-		 class="collapse navbar-collapse">
-		<ul class="navbar-nav ml-auto">
-			<% for (let link of metadata.links) { %>
-				<li class="nav-item px-1">
-					<a class="nav-link text-right text-white"
-					   href="<%= link.href %>"><%= link.name %></a>
-				</li>
-			<% } %>
-		</ul>
-	</div>
+
+	<ul class="navbar__nav">
+		<% for (let link of metadata.links) { %>
+			<li>
+                <%
+                let linkAdditionalClass = ""
+                if (link.href === "/" && page.url === "/")
+                	linkAdditionalClass = "navbar__item--active"
+                else if (link.href !== "/" && page.url.startsWith(link.href))
+                	linkAdditionalClass = "navbar__item--active"
+                %>
+                <a class="navbar__item <%= linkAdditionalClass %>"
+                   href="<%= link.href %>">
+                    <div class="navbar__icon">
+                        <i class="<%= link.icon %>"></i>
+                    </div>
+                    <%= link.name %>
+                </a>
+			</li>
+		<% } %>
+	</ul>
 </nav>

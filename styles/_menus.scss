@@ -1,15 +1,91 @@
 @import "variables";
 @import "mixins";
 
-.navbar-toggler {
+$nav-color: $gray-600;
+
+.navbar {
+	background-color: $white;
+	z-index: $zindex-fixed;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: $nav-width-mobile;
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 0;
+	overflow: hidden;
+	transition: width 300ms ease-out, height 300ms ease-out;
+
+	@include drop-shadow;
+}
+
+.navbar--open {
+	width: $nav-width-desktop;
+	height: 100%;
+}
+
+.navbar__toggler {
 	border: none;
+	background: transparent;
+	font-size: 1.7rem;
+	cursor: pointer;
+	width: $nav-width-mobile;
+	height: $nav-width-mobile;
+	flex-shrink: 0;
 }
 
-.navbar-brand img {
-	width: 50px;
-	height: 50px;
+.navbar__nav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
+.navbar__item,
+.navbar__item:visited {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	cursor: pointer;
+	text-decoration: none;
+	color: $nav-color;
+	font-size: $font-size-base;
+	line-height: $nav-width-mobile;
+	padding-right: map-get($spacers, 3);
+	border-left: 5px solid $white;
+	white-space: nowrap;
+
+	&:hover {
+		color: map-get($theme-colors, "secondary");
+		border-color: map-get($theme-colors, "secondary");
+		background-color: map-get($theme-colors, "secondary-light");
+	}
+}
+
+.navbar__item--active,
+.navbar__item--active:visited {
+	color: map-get($theme-colors, "primary");
+	border-color: map-get($theme-colors, "primary");
+	background-color: map-get($theme-colors, "primary-light");
+
+	&:hover {
+		color: map-get($theme-colors, "primary-light");
+		border-color: map-get($theme-colors, "primary");
+		background-color: map-get($theme-colors, "primary");
+	}
+}
+
+.navbar__icon {
+	width: $nav-width-mobile;
+	height: $nav-width-mobile;
+	line-height: $nav-width-mobile;
+	text-align: center;
+	flex-shrink: 0;
+	font-size: $font-size-lg;
+	padding-right: 10px;
+}
+
+// This doesn't belong here. This is part of the sidebar course list
 ol, ol.nav {
 	list-style: decimal inside;
 }
@@ -18,15 +94,21 @@ ol, ol.nav {
 	text-decoration: underline;
 }
 
-// Bootstrap doesn't expose the events for the navbar toggler
-// so we need to have two icons in the button
-// one when the menu is expanded and one when it isn't
-// So here we hide one on [aria-expanded=true]
-// and hide the other when [aria-expanded=false]
-#toggler[aria-expanded=false] #toggler-icon-close {
-	display: none;
+@media (min-width: $breakpoint-sm) {
+	.navbar {
+		width: $nav-width-mobile;
+		height: 100%;
+	}
+	.navbar--open {
+		width: $nav-width-desktop;
+	}
 }
 
-#toggler[aria-expanded=true] #toggler-icon-hamburger {
-	display: none;
+@media (min-width: $breakpoint-lg) {
+	.navbar {
+		width: $nav-width-desktop;
+	}
+	.navbar__toggler {
+		display: none;
+	}
 }

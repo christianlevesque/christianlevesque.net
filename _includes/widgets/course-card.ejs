@@ -1,10 +1,10 @@
-<article class="card flex-grow-1">
-	<img class="card-img-top" src="<%- course.data.headerImage %>" alt="Post header image">
-	<section class="card-body d-flex flex-column justify-content-between">
-		<div>
-			<h3 class="card-title"><%- course.data.pageTitle %></h3>
-			<p><%- course.data.blurb %></p>
+<article class="course-card">
+	<img class="course-card__img" src="<%- course.data.headerImage %>" alt="Post header image">
+	<section class="course-card__body">
+		<div class="course-card__text-wrapper">
+			<h3 class="course-card__title"><%- course.data.pageTitle %></h3>
+			<p class="course-card__description"><%- course.data.blurb %></p>
 		</div>
-		<a href="<%- course.url %>" class="stretched-link btn btn-outline-accent">Read more</a>
+		<a href="<%- course.url %>" class="course-card__action">Read more</a>
 	</section>
 </article>

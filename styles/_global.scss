@@ -1,70 +1,70 @@
-@import "bootstrap-overrides";
-@import "~bootstrap/scss/_mixins.scss";
+@import "variables";
+
+html {
+	box-sizing: border-box;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	font-weight: $font-weight-base;
+	font-family: $font-family-base;
+	font-size: $font-size-base;
+	color: $black;
+	line-height: $line-height-base;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
 
 html, body {
-	overflow-x: hidden;
-}
-pre[class*="language-"] {
-	margin: ($spacer * 2.5) 15px;
 	width: 100%;
+	max-width: 100%;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	word-break: $word-break;
 }
 
-a.ad {
+h1, h2, h3, h4, h5, h6 {
+	color: $headings-color;
+	font-weight: $headings-font-weight;
+	font-family: $headings-font-family;
+	line-height: $headings-line-height;
+	margin-bottom: $headings-margin-bottom;
+}
+h1 {
+	font-size: $h1-font-size;
+}
+h2 {
+	font-size: $h2-font-size;
+}
+h3 {
+	font-size: $h3-font-size;
+}
+h4 {
+	font-size: $h4-font-size;
+}
+h5 {
+	font-size: $h5-font-size;
+}
+h6 {
+	font-size: $h6-font-size;
+}
+
+img {
+	max-width: 100%;
+}
+
+code {
+	color: $code-color;
+	background-color: $code-background-color;
+	padding: 0 map-get($spacers, 1) / 2;
+}
+
+a, a:visited {
+	color: map-get($theme-colors, "primary");
 	text-decoration: none;
-}
 
-.text-decoration-underline {
-	text-decoration: underline;
-}
-
-.blockquote[class*="border"] {
-	border-width: 4px !important;
-}
-
-.action-button {
-	bottom: 40px;
-	right: 40px;
-	height: 75px;
-	width: 75px;
-	font-size: 75px;
-}
-
-@include media-breakpoint-up("lg") {
-	.action-button {
-		bottom: 80px;
-		right: 80px;
-		height: 50px;
-		width: 50px;
-		font-size: 50px;
-	}
-}
-
-.carousel-control-next-icon-wrapper, .carousel-control-prev-icon-wrapper {
-	height: 40px;
-	width: 40px;
-	border-width: 10px;
-}
-
-.carousel-caption {
-	&.bg-dark {
-		opacity: 80%;
-	}
-}
-
-.first-on-desktop {
-	order: 2;
-}
-
-.first-on-mobile {
-	order: 1;
-}
-
-@include media-breakpoint-up("md") {
-	.first-on-desktop {
-		order: 1;
-	}
-
-	.first-on-mobile {
-		order: 2;
+	&:hover {
+		color: map-get($theme-colors, "secondary");
 	}
 }

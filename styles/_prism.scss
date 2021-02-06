@@ -1,3 +1,10 @@
+@import "variables";
+
+pre[class*="language-"] {
+	margin: ($spacer * 2.5) 15px;
+	width: 100%;
+}
+
 /*
 Material Dark theme for Prism developed by [dutchenkoOleg](https://github.com/dutchenkoOleg)
 */

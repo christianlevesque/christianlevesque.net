@@ -1,9 +1,10 @@
-<section class="w-100">
-	<%- include('block-heading', {heading}) %>
+<section class="course-list">
+	<% const additionalClasses = "course-list__title" %>
+	<%- include('block-heading', {heading, additionalClasses}) %>
 
-	<ul class="row row-cols-1 row-cols-md-2 row-cols-xl-3 list-unstyled">
+	<ul class="course-list__list">
 		<% courses.forEach(course => { %>
-			<li class="col mb-4 d-flex">
+			<li class="course-list__course">
 				<%- include('course-card', {course} ) %>
 			</li>
 		<% }) %>

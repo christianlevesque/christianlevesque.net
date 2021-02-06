@@ -1,6 +1,14 @@
-@import "bootstrap-overrides";
-@import "~bootstrap/scss/bootstrap";
-@import "bootstrap-additional";
 @import "prism";
 @import "global";
 @import "menus";
+@import "site";
+@import "post";
+@import "footer";
+@import "about";
+@import "course-list";
+@import "course-card";
+@import "random-pic";
+@import "journey";
+
+// Should come last so its utilities override other styles
+@import "utilities";
