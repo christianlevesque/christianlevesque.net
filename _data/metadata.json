@@ -7,6 +7,11 @@
 			"icon": "fas fa-home"
 		},
 		{
+			"name": "Programming",
+			"href": "/blog/programming",
+			"icon": "fas fa-code"
+		},
+		{
 			"name": "Backend",
 			"href": "/blog/backend",
 			"icon": "fas fa-server"

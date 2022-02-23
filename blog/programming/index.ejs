@@ -1,0 +1,30 @@
+---
+pageTitle: Programming Courses
+tags:
+    - programming
+category: courses
+date: 2021-05-24
+blurb: Programming is, as Severus Snape once said of potions, a subtle science and an exact art.
+author: none
+---
+
+<p>
+    Programming is, as Severus Snape once said of potions, a subtle science and an exact art.
+</p>
+
+<p>
+    More so, in fact, than potionmaking. See, programming is a highly logical activity, but unlike potionmaking, it actually takes some creativity to come up with simple and elegant solutions to problems.
+</p>
+
+<p>
+    But before you can start programming the next million-dollar app, you have to start at the very beginning. In programming, the traditional beginning place is the Hello, World! app. In each of the courses below, you will start learning the basics of each programming language by building the Hello, World! application, followed by a basic introduction to the language features and standard library. After that, you will build several guided projects to learn more about the programming language and more advanced techniques like unit testing.
+</p>
+
+<%
+const courseListData = {
+    heading: "Courses",
+    courses: collections["programming_courses"]
+}
+%>
+
+<%- include('../../_includes/widgets/course-list', courseListData) %>
