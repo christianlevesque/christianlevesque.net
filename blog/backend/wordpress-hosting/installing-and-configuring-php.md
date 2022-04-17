@@ -1,14 +1,3 @@
----
-pageTitle: Installing and configuring PHP
-tags:
-    - wordpress
-    - wordpress_hosting
-category: wordpress_hosting
-date: 2020-10-05
-headerImage: /images/backend/wordpress-hosting/php-logo.png
-blurb: Installing PHP and configuring it to serve your site
----
-
 ## Brace yourself...again
 
 If you’re still mentally worn out from the last lesson, you will probably want to take a break. This lesson is going to be just as complicated, so you will want to go in with a clear head.

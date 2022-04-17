@@ -1,14 +1,3 @@
----
-pageTitle: Installing and configuring MySQL
-tags:
-    - wordpress
-    - wordpress_hosting
-category: wordpress_hosting
-date: 2020-10-04
-headerImage: /images/backend/wordpress-hosting/mysql-logo.png
-blurb: Getting MySQL installed and linked to your WordPress installation
----
-
 MySQL is a free and open-source database server. It’s the most popular database system in use with PHP and it’s the only database that works with WordPress (MariaDB is a fork of MySQL; they are generally interchangeable and contain most of the same source code), so we will be installing MySQL since that’s most likely what you need.
 
 It’s important to note that MySQL isn’t a database itself – it is a database server, which means that MySQL is a kind of container for databases. You create databases within MySQL, and those databases can be accessed by other services on your server.

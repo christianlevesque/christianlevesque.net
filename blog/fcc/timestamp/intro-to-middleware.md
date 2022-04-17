@@ -1,15 +1,3 @@
----
-pageTitle: Introduction to Middleware in ASP.NET Core
-tags:
-    - fcc
-    - fcc_timestamp
-category: fcc_timestamp
-date: 2020-10-10
-headerImage: /images/fcc/intro-to-middleware.png
-blurb: Learn the basics of request middleware in ASP.NET Core
-gitUrl: https://github.com/christianlevesque/fcc-timestamp-microservice/tree/v0.1.0
----
-
 Because the Timestamp Microservice involves responding to two different request URLs, I think it's a great opportunity to learn about middleware.
 
 ## What is middleware?

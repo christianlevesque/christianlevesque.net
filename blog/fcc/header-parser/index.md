@@ -1,14 +1,3 @@
----
-pageTitle: Request Header Parser Microservice
-tags:
-    - fcc
-    - fcc_header_parser
-    - fcc_courses
-category: fcc_header_parser
-date: 2020-10-03
-headerImage: /images/fcc/fcc-teal.png
-blurb: Complete the FreeCodeCamp Request Header Parser Microservice in ASP.NET Core
----
 This project is small and simple, so it makes a great starting point for jumping into ASP.NET Core.
 
 Basically, this microservice will read headers from incoming requests and return some of those values as JSON. Returning results as JSON is a common task when writing APIs and microservices, and reading request headers is too.

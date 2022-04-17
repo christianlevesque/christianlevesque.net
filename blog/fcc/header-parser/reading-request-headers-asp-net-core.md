@@ -1,15 +1,3 @@
----
-pageTitle: Reading Request Headers in ASP.NET Core
-tags:
-    - fcc
-    - fcc_header_parser
-category: fcc_header_parser
-date: 2020-10-06
-headerImage: /images/fcc/reading-request-headers.png
-blurb: Learn how to read request headers in ASP.NET Core
-gitUrl: https://github.com/christianlevesque/fcc-header-parser-microservice/tree/v0.3.1
----
-
 Last lesson, we spent most of our time writing response headers. However, this lesson we're going to be *reading* the *request* headers.
 
 The Request Header Parser Microservice requires us to read the request headers from a request and write them into the response as JSON, so in order to do that, we need to be able to read those headers. I mentioned in the previous lesson that the `HttpContext` object has a reference to the `HttpRequest` object, and that's where we'll be going to read the headers.

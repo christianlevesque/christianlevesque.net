@@ -1,15 +1,3 @@
----
-pageTitle: Introduction to CORS in ASP.NET Core
-tags:
-    - fcc
-    - fcc_timestamp
-category: fcc_timestamp
-date: 2020-10-11
-headerImage: /images/fcc/intro-to-cors.png
-blurb: Learn more about what CORS is and how to handle CORS in ASP.NET Core
-gitUrl: https://github.com/christianlevesque/fcc-timestamp-microservice/tree/v0.2.0
----
-
 ## Cleaning up our code
 
 First things first, let's clear out most of the application code and start with a blank slate. Go ahead and delete everything we added last lesson, leaving just the `if (env.IsDevelopment()) {...}` part. (If your IDE complains that `using Microsoft.AspNetCore.Http` is not being used, don't worry about it - we'll be using it again when we start building the app out in the next post.)

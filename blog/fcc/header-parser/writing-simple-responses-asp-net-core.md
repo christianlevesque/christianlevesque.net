@@ -1,15 +1,3 @@
----
-pageTitle: Writing Simple Responses in ASP.NET Core
-tags:
-    - fcc
-    - fcc_header_parser
-category: fcc_header_parser
-date: 2020-10-05
-headerImage: /images/fcc/writing-simple-responses.png
-blurb: Learn how to write responses, request headers, and HTTP status codes in a basic ASP.NET Core app
-gitUrl: https://github.com/christianlevesque/fcc-header-parser-microservice/tree/v0.2.0
----
-
 ASP.NET Core applications can come in a wide range of complexities. Large, monolithic applications can have hundreds of files and dozens of individual projects - but on the other end, a simple microservice (like the Request Header Parser Microservice) can take up just `Program.cs` and `Startup.cs`. As microservice architecture grows in popularity, it's becoming more and more important to understand how to write small programs that do one thing well. While you probably won't write any production apps that are *quite* this small, you may well write some pretty small apps.
 
 ## The simplest ASP.NET Core app

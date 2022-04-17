@@ -1,15 +1,3 @@
----
-pageTitle: HTML & CSS
-tags:
-    - fullstack_courses
-    - html_css
-    - courses
-category: html_css
-date: 2020-09-01T00:00:00Z
-headerImage: /images/fullstack/html-css/html-css.png
-blurb: An in-depth introduction to HTML and CSS for beginners
----
-
 Welcome to my free course on HTML and CSS! If you’re new to web development, then you’re in the right place.
 
 HTML (short for HyperText Markup Language) is a coding language used to display content on websites. CSS (short for Cascading Style Sheets) is a coding language used to format HTML and make it look good.
