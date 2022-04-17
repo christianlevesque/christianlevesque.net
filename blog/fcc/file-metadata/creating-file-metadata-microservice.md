@@ -1,15 +1,3 @@
----
-pageTitle: Creating the File Metadata Microservice
-tags:
-    - fcc
-    - fcc_file_metadata
-category: fcc_file_metadata
-date: 2020-10-17
-headerImage: /images/fcc/creating-file-metadata-microservice.png
-blurb: Write a simple ASP.NET Core application that satisfies the requirements for the FreeCodeCamp File Metadata Microservice
-gitUrl: https://github.com/christianlevesque/fcc-file-metadata-microservice/tree/v0.1.0
----
-
 ## Planning our microservice
 
 This app is going to be the smallest yet, in terms of original code. Since we're using Controllers, the routing work will be done for us and we can focus on writing our microservice (that's what frameworks are all about, right?)

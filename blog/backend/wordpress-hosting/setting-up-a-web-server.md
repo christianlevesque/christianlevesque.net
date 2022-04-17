@@ -1,14 +1,3 @@
----
-pageTitle: Setting up a web server
-tags:
-    - wordpress
-    - wordpress_hosting
-category: wordpress_hosting
-date: 2020-10-03
-headerImage: /images/fullstack/nginx/nginx-logo.png
-blurb: Set up Nginx to serve requests to your WordPress website
----
-
 Wait a minute. I thought I already had a web server!
 
 Well…you do. This is really the tech community’s fault for allowing this ambiguity in the first place. Your VPS is, technically, a web server. Its purpose is to serve websites, after all. However, each web server has a separate program running, also called a web server. The web server program is there to actually serve files based on incoming requests. Your web server has a web server running on it. Very meta.

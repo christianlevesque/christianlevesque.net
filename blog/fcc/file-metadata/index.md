@@ -1,15 +1,3 @@
----
-pageTitle: File Metadata Microservice
-tags:
-- fcc
-- fcc_file_metadata
-- fcc_courses
-category: fcc_file_metadata
-date: 2020-10-13
-headerImage: /images/fcc/fcc-orange.png
-blurb: Complete the FreeCodeCamp File Metadata Microservice in ASP.NET Core
----
-
 In this project, we're going to take a much different direction - we'll start using Controllers for the first time!
 
 This microservice is actually really simple, so it makes a great first project for Controllers. All that happens is FreeCodeCamp uploads a file to your microservice, and your microservice sends back information about the file, like its name and size.

@@ -1,15 +1,3 @@
----
-pageTitle: Writing Controllers in ASP.NET Core
-tags:
-    - fcc
-    - fcc_file_metadata
-category: fcc_file_metadata
-date: 2020-10-15
-headerImage: /images/fcc/creating-file-metadata-microservice.png
-blurb: Learn how to create controllers in ASP.NET Core
-gitUrl: https://github.com/christianlevesque/fcc-file-metadata-microservice/tree/v0.1.1
----
-
 Before we can actually write a controller, we need to add controller support into our application. Clone my starter project from [GitHub](https://github.com/christianlevesque/fcc-file-metadata-microservice/tree/v0.1.1), open `Startup.cs`, and then add the following code to the `ConfigureServices()` method after the `AddCors()` call:
 
 ```csharp

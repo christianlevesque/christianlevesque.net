@@ -1,15 +1,3 @@
----
-pageTitle: Uploading the Request Header Parser Microservice
-tags:
-    - fcc
-    - fcc_header_parser
-category: fcc_header_parser
-date: 2020-10-08
-headerImage: /images/fcc/uploading-request-header-parser-microservice.png
-blurb: Upload your Request Header Parser Microservice to a live server and complete the first FreeCodeCamp Microservices project
-gitUrl: https://github.com/christianlevesque/fcc-header-parser-microservice/tree/v0.5.0
----
-
 Now, most of the hard work is done. But a little bit of work still needs to be completed!
 
 ## Setting up your web server
