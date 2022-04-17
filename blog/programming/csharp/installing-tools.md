@@ -1,13 +1,3 @@
----
-pageTitle: Installing the tools you'll need
-tags:
-    - csharp
-category: csharp
-date: 2021-05-25
-headerImage: /images/backend/wordpress-hosting/wp-logo.png
-blurb: Getting your machine ready for C# development
----
-
 In order to write software on your computer, you'll need several tools. We'll go over the most important tools you'll need here.
 
 ## Software Development Kit (SDK)
