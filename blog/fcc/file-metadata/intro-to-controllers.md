@@ -1,15 +1,3 @@
----
-pageTitle: Introduction to Controllers in ASP.NET Core
-tags:
-    - fcc
-    - fcc_file_metadata
-category: fcc_file_metadata
-date: 2020-10-14
-headerImage: /images/fcc/creating-file-metadata-microservice.png
-blurb: Learn the basics of Controllers in ASP.NET Core
-gitUrl: https://github.com/christianlevesque/fcc-file-metadata-microservice/tree/v0.1.1
----
-
 I've mentioned Controllers several times. But what exactly *are* controllers, anyway?
 
 ## Controllers in ASP.NET Core

@@ -1,15 +1,3 @@
----
-pageTitle: FreeCodeCamp API Certification in ASP.NET
-tags:
-    - courses
-    - fcc
-    - fcc_preliminary
-    - aspnetcore
-category: fcc_courses
-date: 2020-10-01
-headerImage: /images/fcc/fcc.png
-blurb: Learn the basics of ASP.NET and earn a FCC certification
----
 [FreeCodeCamp](https://www.freecodecamp.org) is a great learning resource. When I first started taking Javascript seriously, FreeCodeCamp was the single greatest resource in my journey - but the biggest problem I have with FreeCodeCamp is that their curriculum is based almost entirely on JavaScript. They are adding more and more non-JavaScript material, but the lion's share of their coursework is JS-centric.
 
 The great thing about their [APIs and Microservices Certification](https://www.freecodecamp.org/learn/apis-and-microservices/) is that you can complete it in whatever language you choose. When submitting your project, FreeCodeCamp uses the URL you provide and tests your API using AJAX - meaning they never even see your code, only the end result of your API.

@@ -1,12 +1,3 @@
----
-pageTitle: FCC Project Setup
-tags: fcc
-category: fcc_courses
-date: 2020-10-02
-headerImage: /images/fcc/fcc-green.png
-blurb: Set up your computer for the FCC certification course
----
-
 ## dotnet
 
 I'm assuming that you're familiar with C# and .NET Core. That being said, I also assume that you have the `dotnet` compiler, runtime, and CLI tool, although if you don't, you can follow Microsoft's instructions to [download dotnet](https://dotnet.microsoft.com/download) for your OS. This course uses .NET Core v3.1.

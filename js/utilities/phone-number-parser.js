@@ -29,7 +29,6 @@ if (phoneNumberParser) {
 		e.preventDefault()
 		const input = document.getElementById("phone-number-input")
 		const output = document.getElementById("phone-number-parser-output")
-		const val = parsePhone(input.value)
-		output.innerText = val
+		output.innerText = parsePhone(input.value)
 	})
 }

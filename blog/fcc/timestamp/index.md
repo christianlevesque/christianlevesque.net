@@ -1,15 +1,3 @@
----
-pageTitle: Timestamp Microservice
-tags:
-    - fcc
-    - fcc_timestamp
-    - fcc_courses
-category: fcc_timestamp
-date: 2020-10-09
-headerImage: /images/fcc/fcc-pink.png
-blurb: Complete the FreeCodeCamp Timestamp Microservice in ASP.NET Core
----
-
 This project is a little more involved than the last one, but it's still pretty simple on the ASP.NET Core front.
 
 This microservice involves reading the URL string and making decisions based on what you find in it. As before, the result of your microservice should return JSON - and we will be using the same technique as we did in the last course to generate that JSON.

@@ -1,14 +1,3 @@
----
-pageTitle: Getting set up
-tags:
-    - fullstack
-    - html_css
-category: html_css
-date: 2020-09-02
-headerImage: /images/fullstack/html-css/code-coder-coding-computer.jpg
-blurb: Setting up your computer for HTML development
----
-
 ## Downloading the software
 
 The first thing you need to do to get ready for the course is to download the software we will be using. As I said before, everything you absolutely need is on your computer already, but a developer is only as good as the tools she uses, so I recommend you start off using the right tools from the very beginning.
