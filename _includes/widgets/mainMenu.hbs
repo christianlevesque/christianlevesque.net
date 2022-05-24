@@ -1,0 +1,22 @@
+<nav id="main-menu"
+     class="navbar">
+	<button id="toggler"
+			class="navbar__toggler">
+		<i id="toggler-icon-hamburger"
+		   class="fal fa-bars"></i>
+	</button>
+
+	<ul class="navbar__nav">
+        {{#each links}}
+			<li>
+				<a class="navbar__item {{ mainMenuActiveClass this.href ../uri }}"
+				   href="{{ this.href }}">
+					<div class="navbar__icon">
+						<i class="{{ this.icon }}"></i>
+					</div>
+					{{ this.name }}
+				</a>
+			</li>
+        {{/each}}
+	</ul>
+</nav>

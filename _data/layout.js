@@ -1,1 +1,1 @@
-module.exports = "layout.ejs"
+module.exports = "layout.hbs"

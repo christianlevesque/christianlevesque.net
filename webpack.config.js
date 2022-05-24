@@ -30,7 +30,7 @@ module.exports = {
 	plugins: [
 		new HtmlWebpackPlugin({
 			template: "webpack.html",
-			filename: "../_includes/webpack.ejs",
+			filename: "../_includes/webpack.hbs",
 			inject: false
 		}),
 		new CopyWebpackPlugin({

@@ -13,33 +13,33 @@
 	<article class="about">
 		<h2 class="about__profile-heading">Let's connect!</h2>
 		<ul class="about__social-media">
-			<% for (let link of metadata.socialLinks) { %>
+			{{#each metadata.socialLinks }}
 				<li class="about__social-media-link">
-					<a href="<%- link.url %>" target="_blank">
-						<i class="fab <%- link.icon %>"></i>
+					<a href="{{ this.url }}" target="_blank">
+						<i class="fab {{ this.icon }}"></i>
 					</a>
 				</li>
-			<% } %>
+			{{/each}}
 		</ul>
 	</article>
 	<nav class="course-list-nav">
 		<h2 class="about__profile-heading">
-			<% if (category === "courses") { %>
+			{{#if (eq category "courses")}}
 				Courses
-			<% } else { %>
+			{{else}}
 				Related content
-			<% } %>
+			{{/if}}
 		</h2>
-		<<%- category === "courses" ? "ul" : "ol" %> class="course-list-nav__links">
-		<% for (post of collections[category]) { %>
-			<li class="course-list-nav__link">
-				<% if (page.url === post.url) { %>
-					<%- post.data.pageTitle %>
-				<% } else { %>
-					<a href="<%- post.url %>"><%- post.data.pageTitle %></a>
-				<% } %>
-			</li>
-		<% } %>
-	</<%- category === "courses" ? "ul" : "ol" %>>
+		<{{#if (eq category "courses")}}ul{{else}}ol{{/if}} class="course-list-nav__links">
+			{{#each (lookup collections category) }}
+				<li class="course-list-nav__link">
+					{{#if (eq ../page.url this.url)}}
+						{{ this.data.pageTitle }}
+					{{else}}
+						<a href="{{ this.url }}">{{ this.data.pageTitle }}</a>
+					{{/if}}
+				</li>
+			{{/each}}
+		</{{#if (eq category "courses")}}ul{{else}}ol{{/if}}>
 	</nav>
 </aside>
