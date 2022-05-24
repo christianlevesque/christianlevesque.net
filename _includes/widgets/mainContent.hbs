@@ -1,0 +1,61 @@
+<main class="site__main-content">
+	<article class="post">
+		<div class="post__content-wrapper">
+			{{#if (neq page.url "/")}}
+				<h1 class="">{{ pageTitle }}</h1>
+			{{/if}}
+			{{#if (neq author "none")}}
+				<p class="post__author"> by <a href="{{authorUrl}}">{{author}}</a></p>
+			{{/if}}
+			{{#if (neq headerImage "none") }}
+				<div class="post__header-image-container">
+					<img src="{{ headerImage }}"
+						 class="post__header-image"
+						 alt="Blog header image"/>
+				</div>
+
+				{{#if (neq author "none")}}
+					{{> widgets/socialShare uri=page.url }}
+				{{/if}}
+			{{/if}}
+
+			{{#if (neq gitUrl "none")}}
+				<p class="post__intro-message">
+					<em>(The current state of the application code can be found on <a href="{{ gitUrl }}" target="_blank">GitHub</a>. You can verify your code if you've been following along, or if you're just joining in, you can get the current state of the code and follow along from here.)</em>
+				</p>
+			{{/if}}
+
+			{{{ content }}}
+
+			{{#if (neq author "none")}}
+				<footer class="post__footer">
+					<p class="post__author">by <a href="{{ authorUrl }}">{{ author }}</a></p>
+				</footer>
+			{{/if}}
+		</div>
+
+		{{#if (neq nextLinkCategory "none")}}
+			{{#if (courseIsInCategory collections nextLinkCategory page.url)}}
+				<nav class="post__post-nav">
+					<div class="post__post-nav-post post__previous-post">
+						{{#if (isNotFirstCourseInCategory collections nextLinkCategory page.url)}}
+							<div class="post__course-container">
+								<h2 class="post__course-title">Previous</h2>
+								{{> widgets/courseCard (findPreviousCourse collections nextLinkCategory page.url) }}
+							</div>
+						{{/if}}
+					</div>
+
+					<div class="post__post-nav-post post__next-post">
+						{{#if (isNotLastCourseInCategory collections nextLinkCategory page.url)}}
+							<div class="post__course-container">
+								<h2 class="post__course-title">Up next</h2>
+								{{> widgets/courseCard (findNextCourse collections nextLinkCategory page.url) }}
+							</div>
+						{{/if}}
+					</div>
+				</nav>
+			{{/if}}
+		{{/if}}
+	</article>
+</main>

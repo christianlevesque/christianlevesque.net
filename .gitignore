@@ -6,4 +6,4 @@ deploy.sh
 build
 *.tar
 
-_includes/webpack.ejs
+_includes/webpack.hbs
