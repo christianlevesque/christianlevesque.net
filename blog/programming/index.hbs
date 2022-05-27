@@ -10,11 +10,4 @@
     But before you can start programming the next million-dollar app, you have to start at the very beginning. In programming, the traditional beginning place is the Hello, World! app. In each of the courses below, you will start learning the basics of each programming language by building the Hello, World! application, followed by a basic introduction to the language features and standard library. After that, you will build several guided projects to learn more about the programming language and more advanced techniques like unit testing.
 </p>
 
-<%
-const courseListData = {
-    heading: "Courses",
-    courses: collections["programming_courses"]
-}
-%>
-
-<%- include('../../_includes/widgets/course-list', courseListData) %>
+{{> widgets/courseList heading="Courses" courses=collections.programming_courses }}
