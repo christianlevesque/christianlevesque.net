@@ -7,22 +7,11 @@
 	<meta name="viewport"
 		  content="width=device-width,initial-scale=1.0"/>
 	<meta name="description"
-		  content="<%- blurb %>"/>
+		  content="{{{ blurb }}}"/>
 
-	<%
-	const seoData = {
-		pageTitle,
-		blurb,
-		headerImage,
-		url: page.url,
-		siteName: metadata.title,
-		twitterHandle: metadata.twitterHandle,
-		author
-	}
-	%>
-	<%- include('seo/og', seoData) %>
-	<%- include('seo/twitter', seoData) %>
-	<%- include('seo/facebook', {facebookAppId: metadata.facebookAppId}) %>
+	{{> seo/og pageTitle=pageTitle blurb=blurb headerImage=headerImage uri=page.url siteName=metadata.title author=author }}
+	{{> seo/twitter twitterHandle=metadata.twitterHandle }}
+	{{> seo/facebook facebookAppId=metadata.facebookAppId }}
 
 	<link rel="preconnect"
 		  href="https://fonts.gstatic.com">
@@ -41,19 +30,19 @@
 		gtag('js', new Date());
 		gtag('config', 'G-FHKV01TBVC');
 	</script>
-	<%- include('webpack') %>
-	<title><%= pageTitle %> | <%= metadata.title %></title>
+	{{> webpack }}
+	<title>{{ pageTitle }} | {{ metadata.title }}</title>
 </head>
 <body class="site">
 
-<%- include('widgets/main-menu') %>
+{{> widgets/mainMenu uri=page.url links=metadata.links }}
 
 <div class="site__container">
-	<%- include('widgets/main-content') %>
-	<%- include('widgets/sidebar') %>
+	{{> widgets/mainContent this }}
+	{{> widgets/sidebar this }}
 </div>
 
-<%- include('widgets/footer') %>
+{{> widgets/footer }}
 
 </body>
 </html>

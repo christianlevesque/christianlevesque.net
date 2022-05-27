@@ -37,11 +37,4 @@
 	Finally, you'll complete a guided capstone project. This project will walk you through the entire process of building a website, from the initial design to deploying the final product. The website you build will be something you can actually use, too - a portfolio for your work! Your capstone will include a dynamic portfolio for showing off your other projects and a contact form that potential clients can use to contact you for work.
 </p>
 
-<%
-const courseListData = {
-	heading: "Courses",
-	courses: collections["fullstack_courses"]
-}
-%>
-
-<%- include('../../_includes/widgets/course-list', courseListData) %>
+{{> widgets/courseList heading="Courses" courses=collections.fullstack_courses }}
