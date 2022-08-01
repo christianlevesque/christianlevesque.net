@@ -23,7 +23,7 @@ module.exports = {
 		main: "./js/index.js"
 	},
 	output: {
-		filename: "js/[name].[hash].js",
+		filename: "js/[name].js?v=[hash]",
 		path: join(__dirname, "build"),
 		publicPath: "/"
 	},
@@ -45,7 +45,7 @@ module.exports = {
 			]
 		}),
 		new MiniCssExtractPlugin({
-			filename: "css/[name].[hash].css",
+			filename: "css/[name].css?v=[hash]",
 			ignoreOrder: false
 		})
 	],
