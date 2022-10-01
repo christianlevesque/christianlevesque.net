@@ -1,7 +1,7 @@
 module.exports = {
 	pageTitle: "Deconstructing my Christian faith",
 	tags: [
-		"faith",
+		"faith_courses",
 		"deconstruction"
 	],
 	category: "deconstruction",
