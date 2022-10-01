@@ -7,6 +7,11 @@
 			"icon": "fas fa-home"
 		},
 		{
+			"name": "Faith",
+			"href": "/blog/faith",
+			"icon": "fas fa-cross"
+		},
+		{
 			"name": "Backend",
 			"href": "/blog/backend",
 			"icon": "fas fa-server"
@@ -20,11 +25,6 @@
 			"name": "About",
 			"href": "/about",
 			"icon": "fas fa-info-circle"
-		},
-		{
-			"name": "Hire Me",
-			"href": "/hire-me",
-			"icon": "fas fa-briefcase"
 		}
 	],
 	"socialLinks": [

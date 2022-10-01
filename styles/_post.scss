@@ -120,6 +120,6 @@ $padding-x: map-get($spacers, 3);
 
 @media (min-width: $breakpoint-lg) {
 	.post {
-		padding: $gutter;
+		padding: $gutter (4 * $gutter);
 	}
 }
