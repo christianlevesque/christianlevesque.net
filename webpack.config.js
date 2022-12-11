@@ -1,7 +1,6 @@
 const {join} = require("path")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
-const CopyWebpackPlugin = require("copy-webpack-plugin")
 
 const babelOptions = {
 	presets: [
@@ -32,17 +31,6 @@ module.exports = {
 			template: "webpack.html",
 			filename: "../_includes/webpack.hbs",
 			inject: false
-		}),
-		new CopyWebpackPlugin({
-			patterns: [
-				{
-					from: "images/**/*",
-					to: "",
-					globOptions: {
-						ignore: ["**/*.xcf"]
-					}
-				}
-			]
 		}),
 		new MiniCssExtractPlugin({
 			filename: "css/[name].css?v=[hash]",

@@ -14,9 +14,12 @@
 	{{> seo/facebook facebookAppId=metadata.facebookAppId }}
 
 	<link rel="preconnect"
-		  href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap"
-		  rel="stylesheet">
+		  href="https://fonts.googleapis.com"/>
+	<link rel="preconnect"
+		  href="https://fonts.gstatic.com" crossorigin/>
+	<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap"
+		  rel="stylesheet"/>
+
 	<link rel="stylesheet" type="text/css" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -35,14 +38,7 @@
 </head>
 <body class="site">
 
-{{> widgets/mainMenu uri=page.url links=metadata.links }}
-
-<div class="site__container">
-	{{> widgets/mainContent this }}
-	{{> widgets/sidebar this }}
-</div>
-
-{{> widgets/footer }}
+{{{ content }}}
 
 </body>
 </html>

@@ -8,23 +8,18 @@
 		},
 		{
 			"name": "Backend",
-			"href": "/blog/backend",
+			"href": "/backend",
 			"icon": "fas fa-server"
 		},
 		{
 			"name": "FCC",
-			"href": "/blog/fcc",
+			"href": "/fcc",
 			"icon": "fab fa-free-code-camp"
 		},
 		{
 			"name": "About",
 			"href": "/about",
 			"icon": "fas fa-info-circle"
-		},
-		{
-			"name": "Hire Me",
-			"href": "/hire-me",
-			"icon": "fas fa-briefcase"
 		}
 	],
 	"socialLinks": [
@@ -47,5 +42,5 @@
 	],
 	"twitterHandle": "clevesque92",
 	"facebookAppId": "708387383149354",
-	"siteUrl": "https://www.christianlevesque.net"
+	"siteUrl": "https://levesque.dev"
 }
