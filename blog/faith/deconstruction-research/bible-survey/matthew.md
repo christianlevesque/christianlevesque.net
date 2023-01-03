@@ -31,7 +31,7 @@ Doesn't really support any particular view. Seems to support the annihilationist
 
 vs.
 
-> <sup>1</sup>Beware of practicing your righteousness before other people in order to be seen by them, for then you will have no reward from your Father who is in heaven. <sup>2</sup>Thus, when you give to the needy, sound no trumpet before you, as the hypocrites do in the synagogues and in the streets, that they may be praised by others. Truly, I say to you, they have received their reward. <sup>3</sup>But when you give to the needy, do not let your left hand know what your right hand is doing, <sup>4</sup>so that your giving may be in secret. And your Father who sees in secret will reward you.
+> ^1^Beware of practicing your righteousness before other people in order to be seen by them, for then you will have no reward from your Father who is in heaven. ^2^Thus, when you give to the needy, sound no trumpet before you, as the hypocrites do in the synagogues and in the streets, that they may be praised by others. Truly, I say to you, they have received their reward. ^3^But when you give to the needy, do not let your left hand know what your right hand is doing, ^4^so that your giving may be in secret. And your Father who sees in secret will reward you.
 
 How do you reconcile these verses? It almost seems like a contradiction, but it could just be a matter of intent. In 5:16, the intent is to glorify God. In 6:1-4, the intent is to glorify the self.
 
@@ -41,7 +41,7 @@ Moving on from 6:1-4, it seems like duality is the theme of Matt. 6. v1-18 addre
 
 ### 7:13-14
 
-> <sup>13</sup>Enter by the narrow gate. For the gate is wide and the way is easy that leads to destruction, and those who enter by it are many. <sup>14</sup>For the gate is narrow and the way is hard that leads to life, and those who find it are few.
+> ^13^Enter by the narrow gate. For the gate is wide and the way is easy that leads to destruction, and those who enter by it are many. ^14^For the gate is narrow and the way is hard that leads to life, and those who find it are few.
 
 The word for "destruction" here is *ἀπώλεια* (apoleia, G684). According to Strong's dictionary, this word is associated with the idea of loss or ruin. Does this mean eternal damnation? Are there non-biblical sources from around 2,000 years ago that agree *ἀπώλεια* means destruction?
 
@@ -55,13 +55,13 @@ Like 3:10 and 3:12, 7:19 is mildly annihilationist. The subtext is that a tree t
 
 ### 7:21-23
 
-> <sup>21</sup>Not everyone who says to me, "Lord, Lord," will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven. <sup>22</sup>On that day many will say to me, "Lord, Lord, did we not prophesy in your name, and cast out demons in your name, and do many mighty works in your name?" <sup>23</sup> And then I will declare to them, "I never knew you; depart from me, you workers of lawlessness."
+> ^21^Not everyone who says to me, "Lord, Lord," will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven. ^22^On that day many will say to me, "Lord, Lord, did we not prophesy in your name, and cast out demons in your name, and do many mighty works in your name?" ^23^ And then I will declare to them, "I never knew you; depart from me, you workers of lawlessness."
 
 How does one who does "mighty works" in Jesus' name *not* enter the Kingdom? Is this about false teachers? or perhaps those who do works in vain to be praised by men (see 6:1-4 above)?
 
 ### 8:2-4
 
-> <sup>2</sup>And behold, a leper came to him and knelt before him, saying, "Lord, if you will, you can make me clean." <sup>3</sup>And Jesus stretched out his hand and touched him, saying, "I will; be clean." And immediately his leprosy was cleaned. <sup>4</sup>And Jesus said to him, "See that you say nothing to anyone, but go, show yourself to the priest and offer the gift that Moses commanded, for a proof to them."
+> ^2^And behold, a leper came to him and knelt before him, saying, "Lord, if you will, you can make me clean." ^3^And Jesus stretched out his hand and touched him, saying, "I will; be clean." And immediately his leprosy was cleaned. ^4^And Jesus said to him, "See that you say nothing to anyone, but go, show yourself to the priest and offer the gift that Moses commanded, for a proof to them."
 
 Why does Jesus command the leper to keep his healing secret?
 
@@ -73,7 +73,7 @@ If Jesus is God the Son, did God "give such authority to men"? This verse makes 
 
 ### 9:30-31 (same as 8:2-4)
 
-> <sup>30</sup>And their eyes were opened. And Jesus sternly warned them, "See that no one knows about it." <sup>31</sup>But they went away and spread his fame through all that district.
+> ^30^And their eyes were opened. And Jesus sternly warned them, "See that no one knows about it." ^31^But they went away and spread his fame through all that district.
 
 Why make them keep their healing a secret? Especially when he had to know they would tell everyone, because everyone knew they were blind. What are they supposed to do, pretend to still be blind?
 
@@ -85,7 +85,7 @@ This seems pretty firmly annihilationist, but I have my doubts because of the la
 
 ### 11:2-3
 
-> <sup>2</sup>Now, when John heard in prison about the deeds of the Christ, he sent word by his disciples. <sup>3</sup>and said to him, "Are you the one who is to come, or shall we look for another?"
+> ^2^Now, when John heard in prison about the deeds of the Christ, he sent word by his disciples. ^3^and said to him, "Are you the one who is to come, or shall we look for another?"
 
 Why doesn't John know Jesus is the Messiah? They're literally cousins, and Jesus even met John to be baptized in Chapter 3. He seemed to know who Jesus was at the time. Is this a moment of despair, as I learned growing up Baptist? Make it make sense!
 
@@ -97,7 +97,7 @@ How does heaven "suffer violence"? How is heaven "taken by force"? Who is doing 
 
 ### 12:15-16
 
-> <sup>15</sup>Jesus, aware of [the Pharisees' conspiracy to destroy him], withdrew from there. And many followed him, and he healed them all <sup>16</sup>and ordered them not to make him known.
+> ^15^Jesus, aware of [the Pharisees' conspiracy to destroy him], withdrew from there. And many followed him, and he healed them all ^16^and ordered them not to make him known.
 
 Once more, why the orders of silence? Verses 17-21 quote Isaiah, but nothing in the Isaiah passage quoted explains Jesus' demand for anonymity.
 
@@ -107,7 +107,7 @@ Jesus alludes to the end of the age in several parables. But none of these parab
 
 ### 15:22-28
 
-> <sup>22</sup>And behold, a Canaanite woman from that region came out and was crying, "Have mercy on me, O Lord, Son of David; my daughter is severely oppressed by a demon." <sup>23</sup>But he did not answer her a word. And his disciples came and begged him, saying, "Send her away, for she is crying out after us." <sup>24</sup>He answered, I was sent only to the lost sheep of the house of Israel." <sup>25</sup>But she came and knelt before him, saying, "Lord, help me." <sup>26</sup>And he answered, "It is not right to take the children's bread and throw it to the dogs." <sup>27</sup>She said, "Yes, Lord, yet even the dogs eat the crumbs that fall from their masters' table." <sup>28</sup>Then Jesus answered her, "O woman, great is your faith! Be it done for you as you desire." And her daughter was healed instantly.
+> ^22^And behold, a Canaanite woman from that region came out and was crying, "Have mercy on me, O Lord, Son of David; my daughter is severely oppressed by a demon." ^23^But he did not answer her a word. And his disciples came and begged him, saying, "Send her away, for she is crying out after us." ^24^He answered, I was sent only to the lost sheep of the house of Israel." ^25^But she came and knelt before him, saying, "Lord, help me." ^26^And he answered, "It is not right to take the children's bread and throw it to the dogs." ^27^She said, "Yes, Lord, yet even the dogs eat the crumbs that fall from their masters' table." ^28^Then Jesus answered her, "O woman, great is your faith! Be it done for you as you desire." And her daughter was healed instantly.
 
 People who have deconstructed sometimes come away with a harsh and critical view of the Bible, even if they don't leave the faith. I've seen several people claim Jesus is calling the woman a dog, and I even saw one man on Twitter claim that Jesus called the woman a bitch. Obviously, this is not what Jesus did. As for the first claim, Jesus used a metaphor that the woman may have found offensive, but that doesn't mean Jesus is calling her a dog. I won't dignify the second charge with a response, because it's utterly ludicrous.
 
@@ -115,7 +115,7 @@ More to the point, though, why won't Jesus heal her daughter to begin with? and 
 
 ### 16:1-4
 
-> <sup>1</sup>And the Pharisees and Sadducees came, and to test him they asked him to show them a sign from heaven. <sup>4</sup>"....An evil and adulterous generation seeks for a sign, but no sign will be given to it except the sign of Jonah."...
+> ^1^And the Pharisees and Sadducees came, and to test him they asked him to show them a sign from heaven. ^4^"....An evil and adulterous generation seeks for a sign, but no sign will be given to it except the sign of Jonah."...
 
 What is this "sign of Jonah"?
 
@@ -139,7 +139,7 @@ All of these people are dead. What does "coming in his kingdom" mean? Is this an
 
 ### 18:8-9
 
-> <sup>8</sup>And if your hand or foot causes you to sin, cut it off and throw it away. It is better for you to enter life crippled or lame than with two hands or two feet be thrown into eternal fire. <sup>9</sup>And if your eye causes you to sin, tear it out and throw it away. It is better for you to enter life with one eye than with two eyes be thrown into the hell of fire.
+> ^8^And if your hand or foot causes you to sin, cut it off and throw it away. It is better for you to enter life crippled or lame than with two hands or two feet be thrown into eternal fire. ^9^And if your eye causes you to sin, tear it out and throw it away. It is better for you to enter life with one eye than with two eyes be thrown into the hell of fire.
 
 In verse 8, Jesus says "eternal fire". This word "eternal" is the Greek word *αἰώνιος* (aionios, G166). According to the universalist perspective, this word is almost never translated as "eternal" outside of the Bible. Rather, it implies a duration of time that can be inferred from context. Greek has a word for "eternal", so why allude to eternity when you could just say it?
 
@@ -159,7 +159,7 @@ Is this universalist? Jesus' sory implies that the debt can be paid and the serv
 
 ### 19:7-8
 
-> <sup>7</sup>They said to him, "Why then did Moses command [a man] to give a certificate of divorce and send [his wife] away?" <sup>8</sup>He said to them, "Because of your hardness of heart Moses allowed you to divorce your wives, but from the beginning it was not so."
+> ^7^They said to him, "Why then did Moses command [a man] to give a certificate of divorce and send [his wife] away?" ^8^He said to them, "Because of your hardness of heart Moses allowed you to divorce your wives, but from the beginning it was not so."
 
 Was the law written by Moses, or by God? Jesus seems to imply here that Moses wrote the law, and that Moses allowed divorce against God's intention.
 
@@ -173,7 +173,7 @@ This verse is interesting because of its use of *αἰώνιος* (aionios, G16
 
 ### 19:23-24
 
-> <sup>23</sup>And Jesus said to his disciples, "Truly, I say to you, only with difficulty will a rich person enter the kingdom of heaven. <sup>24</sup>Again I tell you, it is easier for a camel to go through the eye of a needle than for a rich person to enter the kingdom of God."
+> ^23^And Jesus said to his disciples, "Truly, I say to you, only with difficulty will a rich person enter the kingdom of heaven. ^24^Again I tell you, it is easier for a camel to go through the eye of a needle than for a rich person to enter the kingdom of God."
 
 Can a rich man go to heaven or not? Is this hyperbole in the difficulty aspect, or hyperbole in the possibility aspect?
 
@@ -205,7 +205,7 @@ Again, there are countless examples of this *not* being true. Why is this unqual
 
 ### 22:12-13
 
-> <sup>12</sup>And he said to him, "Friend, how did you get in here (the wedding feast) without a wedding garment?" <sup>13</sup>Then the king said to the attendants, "Bind him hand and foot and cast him into the outer darkness. In that place there will be weeping and gnashing of teeth."
+> ^12^And he said to him, "Friend, how did you get in here (the wedding feast) without a wedding garment?" ^13^Then the king said to the attendants, "Bind him hand and foot and cast him into the outer darkness. In that place there will be weeping and gnashing of teeth."
 
 What does it mean to enter the wedding feast without a garment? What does this allude to?
 
@@ -229,7 +229,7 @@ I say this because the nephilim exist (assuming you take the Bible literally). I
 
 ### 23:8-10
 
-> <sup>8</sup>But you are not to be called rabbi, for you have one teacher, and you are all brothers. <sup>9</sup>And call no man your father on earth, for you have one Father, who is in heaven. <sup>10</sup>Neither be called instructors, for you have one instructor, the Christ.
+> ^8^But you are not to be called rabbi, for you have one teacher, and you are all brothers. ^9^And call no man your father on earth, for you have one Father, who is in heaven. ^10^Neither be called instructors, for you have one instructor, the Christ.
 
 How much of this is literal? I can't help but see parallels between this passage and the modern churches. We call our church leaders "pastor", "father", "elder", etc. Will Jesus condemn this?
 
@@ -257,7 +257,7 @@ Is this meant to be prophetic for the modern day? Or is this meant literally for
 
 ### 24:50-51
 
-> <sup>50</sup>...the master of that servant will come on a day when he does not expect him and at an hour he does not know <sup>51</sup>and will cut him in pieces and put him with the hypocrites. In that place there will be weeping and gnashing of teeth.
+> ^50^...the master of that servant will come on a day when he does not expect him and at an hour he does not know ^51^and will cut him in pieces and put him with the hypocrites. In that place there will be weeping and gnashing of teeth.
 
 Firstly, as always, this is a parable. But it is also indeterminate. The wicked servant here is cut in pieces, but then sent to a place that seems to be populated by living people to be punished. This doesn't seem annihilationist, but it doesn't explicitly fit eternal conscious torment either.
 
