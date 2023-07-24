@@ -1,5 +1,5 @@
 module.exports = {
-	pageTitle: "God and hell, part 2: The Bible's views on hell",
+	pageTitle: "God and hell: The Bible's views on hell",
 	tags: [
 		"deconstruction"
 	],

@@ -1,5 +1,5 @@
 module.exports = {
-	pageTitle: "God and hell, part 3: The Bible's views on punishment",
+	pageTitle: "God and hell: The Bible's views on punishment",
 	tags: [
 		"deconstruction"
 	],
