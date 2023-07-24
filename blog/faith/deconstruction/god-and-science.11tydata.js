@@ -5,6 +5,6 @@ module.exports = {
 	],
 	category: "deconstruction",
 	date: new Date("2023-03-01"),
-	headerImage: "/images/faith/praying-inside.jpg",
+	headerImage: "/images/faith/andromeda.jpg",
 	blurb: "Scientists and believers have been at odds for centuries. Is science the antithesis of a spiritual life?"
 }

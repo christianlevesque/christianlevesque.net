@@ -5,6 +5,6 @@ module.exports = {
 	],
 	category: "deconstruction",
 	date: new Date("2023-07-02"),
-	headerImage: "/images/faith/praying-inside.jpg",
+	headerImage: "/images/faith/flames.jpg",
 	blurb: "What does the Bible have to say about hell and the lake of fire?"
 }
