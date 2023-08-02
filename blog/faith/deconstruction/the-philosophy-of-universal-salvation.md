@@ -6,8 +6,8 @@ Remember, the Bible isn't the word of God! We can step outside the Bible and rea
 
 When I determined that the Bible isn't God's literal word, I had trouble understanding why I should trust it at all. But in the last year, I had an opportunity to ask a brief question to Dr. Aaron Higashi, professor of theology at Grand Canyon University, and he really helped me reason about why I should believe the Bible, even if it's not God's perfect word:
 
-> Me: "If the Bible isn't perfect, why can we trust it? What makes it more trustworthy than any other religious text?"
-> Dr. Higashi: "Everything we trust is imperfect. Perfection is never a requirement for trust. You trust the Bible for much the same reason you trust other things, because it is a reliable partner. Reliable partner for what? For facilitating your relationship with God and with a community that nurtures that relationship."
+> Me: "If the Bible isn't perfect, why can we trust it? What makes it more trustworthy than any other religious text?"  
+Dr. Higashi: "Everything we trust is imperfect. Perfection is never a requirement for trust. You trust the Bible for much the same reason you trust other things, because it is a reliable partner. Reliable partner for what? For facilitating your relationship with God and with a community that nurtures that relationship."
 
 That really helped me put things in perspective. I'd never heard it explained like that before because, like "religious atheists", most non-progressive Christians happily accept that if the Bible is not perfect, it can't be true. On the other hand, most progressive Christians reject the Bible as scripture outright in favor of a feelings-based approach to theology that rejects objective truth. There's very little middle ground on the Christian side of the culture war for people who believe that theology is objective and knowable, but who also reject the Bible as God's literal word.
 
@@ -15,39 +15,41 @@ In short, I believe that theology is philosophical. The Bible is indispensable i
 
 ## The philosophy of universal salvation
 
+### The attributes of God
+
 Envision God in your mind. What are his qualities? A conservative Christian might suggest that his qualities are that he is omniscient, omnipotent, and all-loving. (Of course, the omniscience of God is limited to the knowable: God doesn't know the sum of (3 + blue) because the expression is meaningless; nor is God capable of upending the rules of logic, for example to create a number that is both greater than itself and less than itself at the same time. God's omniscience and omnipotence are limited, but only in the sense of logical limitations that cannot be meaningfully broken.)
 
 From the Bible, we know things about God that others have asserted. For example, God is not willing that any should perish (John 3:16-17, 2 Peter 3:9). For sake of our argument, "perish" means "enter the Second Death"; whether that consists of eternal conscious torment or spiritual annihilation is up to the proclivities of the reader. God also does whatever he pleases (Psalm 135:6) and fulfills all his purposes (Job 42:2). God is all-powerful (Job 42:2, Jeremiah 32:17,27) and all-knowing (Romans 11:33, Psalm 147:5, Job 37:16).
 
 These are qualities of God that we can all agree on if we take the Bible at its word (even if we don't take the Bible as *God's* word). It's clearly spelled out right there in the text. The doctrine of eternal conscious torment is incompatible with at least some of these qualities of God, qualities which we know are true from the Bible! In order for God to send people to hell forever, at least one of these suppositions must be false.
 
-### Possibility 1: God isn't all-powerful
+#### Possibility 1: God isn't all-powerful
 
 If God is not willing that any should perish, does whatever he pleases, and is all-knowing, then the only way sinners can go to hell forever is if God isn't all-powerful.
 
 God doesn't want anyone to perish. He also does whatever he pleases, so if he doesn't want anyone to perish (in other words, he isn't pleased to let anyone perish), then he would try to save everyone. Because God is all-knowing, he knows exactly what pressure points to apply to each person in order to get them to be saved. The only thing God lacks in this scenario is the ability to act. No major Christian denomination teaches this.
 
-### Possibility 2: God wants people to perish
+#### Possibility 2: God wants people to perish
 
 If God does whatever he pleases, fulfills all his purposes, is all-powerful and all-knowing, then the only way sinners can go to hell forever is if God wants them to.
 
 God is all-powerful and all-knowing, so he can do anything and knows everything. He knows who is going to perish, knows what would convince them to repent, and has the ability to convince them to do so. He also fulfills all his purposes and does whatever he pleases. Therefore, the only logical conclusion is that God *wants* some people to perish. This is the foundation of Calvinism or "reformed theology".
 
-### Possibility 3: God isn't all-knowing
+#### Possibility 3: God isn't all-knowing
 
 If God is not willing that any should perish, does whatever he pleases, fulfills all his purposes, and is all-powerful, then the only way sinners can go to hell forever is if God isn't all-knowing.
 
 God doesn't want anyone to perish, so because he does whatever he pleases and fulfills all his purposes, he will save everyone. He is all-powerful, so he has the power to do so. Therefore, the only logical conclusion is that God doesn't know all who will perish, or doesn't know how to convince them to repent. No major Christian denomination teaches this.
 
-### Possibility 4: God doesn't fulfill all his purposes
+#### Possibility 4: God doesn't fulfill all his purposes
 
 If God is not willing that any should perish, does whatever he pleases, is all-powerful and all-knowing, then the only way sinners can go to hell forever is if God doesn't fulfill all his purposes.
 
 God doesn't want anyone to perish, so because he does whatever he pleases, he *tries* to save everyone. He is all-powerful and all-knowing, so he can devise a pretty comprehensive plan for salvation. But he doesn't accomplish all his purposes, so people still have the ability to stand against God and snatch away what he wants. This is the foundation for the "free will" argument for eternal hell. Most major Christian denominations teach this, whether they realize it or not.
 
-### Possibility 5: God  doesn't want people to perish, fulfills all his purposes, is all-powerful and all-knowing
+#### Possibility 5: God  doesn't want people to perish, fulfills all his purposes, is all-powerful and all-knowing
 
-If God doesn't want people to perish, does whatever he pleases, fulfills all his purposes, is all-knowing, and is all powerful, then the only logical conclusion is that God will save everyone. The Bible declares these five qualities about God, so by logical extension, God *must* save everyone.
+If God doesn't want people to perish, does whatever he pleases, fulfills all his purposes, is all-knowing, and is all powerful, then the only logical conclusion is that God will save everyone. The Bible declares these five qualities about God, so by logical extension, either one of these properties is wrong, or God *must* save everyone.
 
 God doesn't want people to perish.
 
@@ -60,6 +62,18 @@ God is all-powerful. He doesn't want people to perish, he does what he wants, an
 God is all-knowing. He doesn't want people to perish, he does what he wants, he fulfills his purpose of not letting anyone perish, and he has the power to not let anyone perish, and he has the knowledge to prevent anyone from perishing.
 
 Free will usurps God's ability to fulfill his purposes, but the Bible says God *does* fulfill his purposes. Reformed Christians believe that God freely chooses to send most of humanity to hell, but the Bible says God *is not* willing that *any* should perish. Only believers in universal salvation accept that God has the ability and the desire to fulfill all the things he promised.
+
+### Proportionality of punishment
+
+Imagine a 20-year-old man, Mark, who has lived a life without sin, except for a single transgression: At the age of 18, he stole a trinket from a store. Tragically, Mark dies in a car accident. In this hypothetical situation, Mark has exactly one blemish against his spiritual record. What, do you suppose, should be the punishment for Mark's crime?
+
+Eternal conscious torment teaches that Mark should burn in hell for eternity. But why? In what way is that a just punishment for theft?
+
+A believer in eternal conscious torment might object that such a hypothetical is entirely impossible. Mark has most likely committed at least one sin every day for the last 20 years. Even accounting for the more compassionate evangelical doctrine of the "age of accountability" (a concept that appears nowhere in the New Testament), Mark is guilty of thousands upon thousands of sins! But I ask again, what should be the punishment for Mark's crime?
+
+See, in order for a punishment to be just, it needs to be proportionate. Now, in our more realistic example, Mark has committed a lot of sins in his life. But what would a proportionate punishment be? No matter how sinful Mark is, the wrong he has done, either to himself or to God, is still *finite*. Only a *finite* punishment is just when the wrong committed was *finite*. Eternal hell is, by definition, an infinite punishment. Even the Old Testament law requires punishments not to exceed the severity of the crime. Exodus 21:24, which Christians often interpret as endorsing vengeance, is actually a functional limitation demanding that the punishment fit the crime.
+
+Now, imagine Hitler. Probably one of the most wicked men ever to live. Does *he* deserve eternal punishment for his sins? Again, no. While the total amount of harm done by Hitler is vastly greater than the harm done by Mark, it is not *infinitely* more than the harm done by Mark. Make no mistake, under a universalist interpretation of scripture, Hitler will be punished far more severely than Mark, but even the evil of Hitler cannot keep him away from God forever. This is not meant to reduce the severity of Hitler's crimes, but rather, to magnify the depths of God's grace.
 
 ## My philosophy of the Second Death
 
@@ -81,7 +95,7 @@ It may be that the Second Death is where everyone expropriates their sins, but J
 
 It may also be that Jesus' sacrifice keeps the lost from being utterly destroyed, but they still have to "pay their way" back to God with their time in the Lake of Fire.
 
-A complicating factor is the parable of the unforgiving servant (Matthew 18:23-35). In it, Jesus describes a man who begs his master to forgive him a large debt. The master has mercy on him, then forgives his debt and releases him. However, the servant then tracks down one of his fellow servants who owes him a small debt and assaults him, and threw him into prison until the debt is repaid. The master heard about it and then threw the original servant into jail "until he should pay back all he owed". Critically, verse 35 says, "This is how my heavenly Father will treat each of you unless you forgive your brother or sister from your heart." This strongly implies that our sins have a "price" which the Second Death extracts from us, and the subtextual implication here is that this price *can* be repaid. Maybe universal salvation is bunk, and God just did us a solid by giving us a get-out-of-jail-early card? This doesn't invalidate the philosophy being universal salvation though, because in this interpretation of scripture, God is still not letting any human be lost for all eternity either through his needless capitulation to their "free will", or else via his random whim. The philosophy of universal salvation holds true, even if Jesus' sacrifice is not strictly necessary for the lost to eventually enter Heaven. I don't think I believe this though - it's just an exercise. "Sometimes, a [parable] is just a [parable]."
+A complicating factor is the parable of the unforgiving servant (Matthew 18:23-35). In it, Jesus describes a man who begs his master to forgive him a large debt. The master has mercy on him, then forgives his debt and releases him. However, the servant then tracks down one of his fellow servants who owes him a small debt and assaults him, and threw him into prison until the debt is repaid. The master heard about it and then threw the original servant into jail "until he should pay back all he owed". Critically, verse 35 says, "This is how my heavenly Father will treat each of you unless you forgive your brother or sister from your heart." This strongly implies that our sins have a "price" which the Second Death extracts from us, and the subtextual implication here is that this price *can* be repaid. Maybe universal salvation is bunk, and God just did us a solid by giving us a get-out-of-jail-early card? This doesn't invalidate the philosophy behind universal salvation though, because in this interpretation of scripture, God is still not letting any human be lost for all eternity either through his needless capitulation to their "free will", or else via his random whim. The philosophy of universal salvation holds true, even if Jesus' sacrifice is not strictly necessary for the lost to eventually enter Heaven. I don't think I believe this though - it's just an exercise. "Sometimes, a [parable] is just a [parable]."
 
 ## My philosophy of the Bible
 

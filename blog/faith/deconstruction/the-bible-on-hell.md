@@ -184,7 +184,7 @@ The word *βάσανος* is important to our conversation because it has two 
 
 The Lake of Fire isn't a place of eternal torment. Rather, it's a refiner's crucible.
 
-The pond or pool (*λίμνη*) is full of fire, along with brimstone (*θεῖον*), a known purifier of precious metals also for used ritual cleansing. During their torment (*βασανίζω*), they are tested for purity with a touchstone (*βάσανος*). This purification may take a long time (*εἰς τοὺς αἰῶνας τῶν αἰώνων*), but it is necessary to fulfill all scripture, such as Romans 11:32, which states: "For God has consigned all men to disobedience, that he may have mercy upon all." Even while God demands justice, he shows mercy on all.
+The pond or pool (*λίμνη*) is full of fire, along with brimstone (*θεῖον*), a known purifier of precious metals also used for ritual cleansing. During their torment (*βασανίζω*), they are tested for purity with a touchstone (*βάσανος*). This purification may take a long time (*εἰς τοὺς αἰῶνας τῶν αἰώνων*), but it is necessary to fulfill all scripture, such as Romans 11:32, which states: "For God has consigned all men to disobedience, that he may have mercy upon all." Even while God demands justice, he shows mercy on all.
 
 ## Conclusion
 
