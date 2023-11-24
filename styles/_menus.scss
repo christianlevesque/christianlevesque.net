@@ -52,7 +52,7 @@ $nav-color: $gray-600;
 	font-size: $font-size-base;
 	line-height: $nav-width-mobile;
 	padding-right: map-get($spacers, 3);
-	border-left: 5px solid $white;
+	border-left: $active-border-indicator $white;
 	white-space: nowrap;
 
 	&:hover {

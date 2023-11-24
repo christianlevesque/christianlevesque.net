@@ -1,5 +1,7 @@
 @import "variables";
 
+$primary-color: map-get($theme-colors, 'primary');
+
 html {
 	box-sizing: border-box;
 	overflow-x: hidden;
@@ -60,8 +62,25 @@ code {
 	padding: 0 map-get($spacers, 1) / 2;
 }
 
+blockquote {
+	margin: 0;
+	background-color: $white;
+	border-left: $active-border-indicator $primary-color;
+	padding: map-get($spacers, 3);
+	position: relative;
+
+	p {
+		&:first-of-type {
+			margin-top: 0;
+		}
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+}
+
 a, a:visited {
-	color: map-get($theme-colors, "primary");
+	color: $primary-color;
 	text-decoration: none;
 
 	&:hover {
